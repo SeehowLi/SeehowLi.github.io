@@ -17,6 +17,17 @@
       --shadow: 0 16px 38px rgba(16, 26, 46, 0.08);
     }
 
+    body[data-theme="dark"] {
+      --bg: #0d1627;
+      --ink: #e6edf8;
+      --muted: #a3b1c7;
+      --card: #121f33;
+      --line: #2a3a52;
+      --accent: #60c6dc;
+      --accent-2: #ffad6d;
+      --shadow: 0 16px 38px rgba(0, 0, 0, 0.35);
+    }
+
     * { box-sizing: border-box; }
 
     body {
@@ -49,11 +60,31 @@
       gap: 8px;
     }
 
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
     .nav a {
       text-decoration: none;
       color: var(--accent);
       font-weight: 700;
       font-size: 14px;
+    }
+
+    .theme-toggle {
+      border: 1px solid var(--line);
+      background: color-mix(in srgb, var(--card) 92%, transparent);
+      color: var(--ink);
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 6px 10px;
+      cursor: pointer;
+      white-space: nowrap;
     }
 
     .hero,
@@ -170,6 +201,12 @@
       color: #9c4d1f;
     }
 
+    body[data-theme="dark"] .hint {
+      background: #2f251c;
+      border-color: #7f6248;
+      color: #ffc38b;
+    }
+
     .list-wrap {
       border: 1px solid var(--line);
       border-radius: 12px;
@@ -263,7 +300,10 @@
   <main class="wrap">
     <div class="nav">
       <a href="/">← Back to Homepage</a>
-      <a href="https://github.com/SeehowLi" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <div class="nav-right">
+        <button id="themeToggle" class="theme-toggle" type="button">🌙 Dark</button>
+        <a href="https://github.com/SeehowLi" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
     </div>
 
     <section class="hero">
@@ -350,6 +390,7 @@
   <script>
     const CACHE_URL = "./data/conference_cache.json";
     const BJ_OFFSET_MINUTES = 8 * 60;
+    const THEME_KEY = "shihao-theme";
 
     const state = {
       cache: null,
@@ -359,6 +400,7 @@
     };
 
     const els = {
+      themeToggle: document.getElementById("themeToggle"),
       sub: document.getElementById("sub"),
       rank: document.getElementById("rank"),
       year: document.getElementById("year"),
@@ -376,6 +418,13 @@
       s: document.getElementById("s"),
       source: document.getElementById("source")
     };
+
+    function applyTheme(theme) {
+      const next = theme === "dark" ? "dark" : "light";
+      document.body.setAttribute("data-theme", next);
+      els.themeToggle.textContent = next === "dark" ? "☀️ Light" : "🌙 Dark";
+      localStorage.setItem(THEME_KEY, next);
+    }
 
     function parseTimezone(tzText) {
       if (!tzText || tzText === "UTC") return 0;
@@ -657,9 +706,14 @@
     });
 
     els.start.addEventListener("click", startCountdown);
+    els.themeToggle.addEventListener("click", () => {
+      const current = document.body.getAttribute("data-theme") || "light";
+      applyTheme(current === "dark" ? "light" : "dark");
+    });
 
     (async function init() {
       try {
+        applyTheme(localStorage.getItem(THEME_KEY) || "light");
         await loadData();
         setInterval(tick, 1000);
         tick();

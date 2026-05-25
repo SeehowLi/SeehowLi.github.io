@@ -17,6 +17,17 @@
       --shadow: 0 18px 42px rgba(35, 40, 51, 0.09);
     }
 
+    body[data-theme="dark"] {
+      --bg: #0f1724;
+      --ink: #e6edf7;
+      --muted: #a5b0c4;
+      --card: #131f31;
+      --line: #25334a;
+      --accent: #69c6d9;
+      --accent-2: #ffb27a;
+      --shadow: 0 18px 42px rgba(0, 0, 0, 0.35);
+    }
+
     * { box-sizing: border-box; }
 
     body {
@@ -39,7 +50,7 @@
       position: sticky;
       top: 10px;
       z-index: 20;
-      background: rgba(255, 251, 244, 0.88);
+      background: color-mix(in srgb, var(--card) 88%, transparent);
       border: 1px solid var(--line);
       border-radius: 16px;
       backdrop-filter: blur(10px);
@@ -75,6 +86,30 @@
     .menu a:hover {
       color: var(--accent);
       border-color: rgba(29, 90, 102, 0.35);
+    }
+
+    .top-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .theme-toggle {
+      border: 1px solid var(--line);
+      background: color-mix(in srgb, var(--card) 92%, transparent);
+      color: var(--ink);
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 6px 10px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .theme-toggle:hover {
+      border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
     }
 
     .hero {
@@ -147,6 +182,11 @@
       background: #fff9ef;
     }
 
+    body[data-theme="dark"] .tool-box {
+      background: #17263b;
+      border-color: #38506f;
+    }
+
     .btn {
       display: inline-block;
       text-decoration: none;
@@ -173,6 +213,7 @@
       .topbar { position: static; }
       .hero, .card { padding: 18px; }
       h2 { font-size: 21px; }
+      .top-controls { justify-content: flex-start; }
     }
   </style>
 </head>
@@ -180,12 +221,15 @@
   <main class="wrap">
     <nav class="topbar">
       <a class="brand" href="#top">Shihao Li</a>
-      <div class="menu">
-        <a href="#bio">Biography</a>
-        <a href="#publications">Publications</a>
-        <a href="#awards">Awards</a>
-        <a href="#education">Education</a>
-        <a href="#tools">Tools</a>
+      <div class="top-controls">
+        <div class="menu">
+          <a href="#bio">Biography</a>
+          <a href="#publications">Publications</a>
+          <a href="#awards">Awards</a>
+          <a href="#education">Education</a>
+          <a href="#tools">Tools</a>
+        </div>
+        <button id="themeToggle" class="theme-toggle" type="button">🌙 Dark</button>
       </div>
     </nav>
 
@@ -254,5 +298,23 @@
       </div>
     </section>
   </main>
+  <script>
+    const THEME_KEY = "shihao-theme";
+    const themeToggle = document.getElementById("themeToggle");
+
+    function applyTheme(theme) {
+      const next = theme === "dark" ? "dark" : "light";
+      document.body.setAttribute("data-theme", next);
+      themeToggle.textContent = next === "dark" ? "☀️ Light" : "🌙 Dark";
+      localStorage.setItem(THEME_KEY, next);
+    }
+
+    themeToggle.addEventListener("click", () => {
+      const current = document.body.getAttribute("data-theme") || "light";
+      applyTheme(current === "dark" ? "light" : "dark");
+    });
+
+    applyTheme(localStorage.getItem(THEME_KEY) || "light");
+  </script>
 </body>
 </html>
