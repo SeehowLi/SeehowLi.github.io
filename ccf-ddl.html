@@ -903,6 +903,9 @@
       const initialRows = filteredRows();
       renderList(initialRows);
       restoreSelection(initialRows);
+      if (!state.selected && initialRows.length > 0) {
+        selectConference(initialRows[0]);
+      }
 
       const fetchedAt = state.cache.fetched_at || "unknown";
       els.source.innerHTML = `
