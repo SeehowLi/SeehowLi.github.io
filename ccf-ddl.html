@@ -14,6 +14,21 @@
       --line: #d8e1ee;
       --accent: #0c6a80;
       --accent-2: #f97316;
+      --panel-soft: #f8fbff;
+      --field-bg: #ffffff;
+      --label: #263245;
+      --list-head-bg: #f6f9ff;
+      --list-head-text: #44506a;
+      --row-border: #ecf1f8;
+      --item-hover: #f7fbff;
+      --item-active: #eaf6fa;
+      --name-color: #243146;
+      --status-bg: #0c6a80;
+      --status-past: #9ca3af;
+      --hint-bg: #fff8f2;
+      --hint-border: #f0c7a8;
+      --hint-text: #9c4d1f;
+      --btn-text: #ffffff;
       --shadow: 0 16px 38px rgba(16, 26, 46, 0.08);
     }
 
@@ -25,6 +40,21 @@
       --line: #2a3a52;
       --accent: #60c6dc;
       --accent-2: #ffad6d;
+      --panel-soft: #18263a;
+      --field-bg: #18263a;
+      --label: #d6e3f7;
+      --list-head-bg: #1a2a3f;
+      --list-head-text: #b7c6dd;
+      --row-border: #2f415b;
+      --item-hover: #1e2f46;
+      --item-active: #223b57;
+      --name-color: #e7eef9;
+      --status-bg: #52bdd5;
+      --status-past: #7f8da3;
+      --hint-bg: #2f251c;
+      --hint-border: #7f6248;
+      --hint-text: #ffc38b;
+      --btn-text: #092231;
       --shadow: 0 16px 38px rgba(0, 0, 0, 0.35);
     }
 
@@ -33,7 +63,7 @@
     body {
       margin: 0;
       color: var(--ink);
-      font-family: "Trebuchet MS", "Verdana", "PingFang SC", "Microsoft YaHei", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
       background:
         radial-gradient(circle at 90% 0%, rgba(12, 106, 128, 0.14), transparent 36%),
         radial-gradient(circle at 0% 100%, rgba(249, 115, 22, 0.14), transparent 30%),
@@ -52,7 +82,7 @@
       align-items: center;
       margin-bottom: 10px;
       padding: 10px 14px;
-      background: rgba(255, 255, 255, 0.9);
+      background: color-mix(in srgb, var(--card) 88%, transparent);
       border: 1px solid var(--line);
       border-radius: 14px;
       box-shadow: var(--shadow);
@@ -122,7 +152,7 @@
       font-weight: 700;
       margin-bottom: 6px;
       font-size: 12px;
-      color: #263245;
+      color: var(--label);
     }
 
     select,
@@ -135,7 +165,7 @@
       font-size: 13px;
       padding: 8px 9px;
       color: var(--ink);
-      background: #fff;
+      background: var(--field-bg);
     }
 
     .row { margin-bottom: 10px; }
@@ -143,7 +173,7 @@
     button {
       cursor: pointer;
       background: linear-gradient(130deg, var(--accent), #147892);
-      color: #fff;
+      color: var(--btn-text);
       font-weight: 700;
       border: none;
     }
@@ -166,7 +196,7 @@
       border-radius: 10px;
       text-align: center;
       padding: 10px 6px;
-      background: #fbfdff;
+      background: var(--panel-soft);
     }
 
     .num {
@@ -195,23 +225,17 @@
       margin-top: 8px;
       padding: 9px;
       border-radius: 9px;
-      background: #fff8f2;
-      border: 1px dashed #f0c7a8;
+      background: var(--hint-bg);
+      border: 1px dashed var(--hint-border);
       font-size: 12px;
-      color: #9c4d1f;
-    }
-
-    body[data-theme="dark"] .hint {
-      background: #2f251c;
-      border-color: #7f6248;
-      color: #ffc38b;
+      color: var(--hint-text);
     }
 
     .list-wrap {
       border: 1px solid var(--line);
       border-radius: 12px;
       overflow: hidden;
-      background: #fff;
+      background: var(--field-bg);
       max-height: 520px;
       overflow-y: auto;
     }
@@ -229,24 +253,24 @@
     .list-head {
       position: sticky;
       top: 0;
-      background: #f6f9ff;
-      color: #44506a;
+      background: var(--list-head-bg);
+      color: var(--list-head-text);
       font-weight: 700;
       border-bottom: 1px solid var(--line);
       z-index: 1;
     }
 
     .item {
-      border-bottom: 1px solid #ecf1f8;
+      border-bottom: 1px solid var(--row-border);
       cursor: pointer;
     }
 
-    .item:hover { background: #f7fbff; }
-    .item.active { background: #eaf6fa; }
+    .item:hover { background: var(--item-hover); }
+    .item.active { background: var(--item-active); }
 
     .name {
       font-weight: 700;
-      color: #243146;
+      color: var(--name-color);
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -266,12 +290,12 @@
       font-size: 11px;
       padding: 2px 6px;
       font-weight: 700;
-      color: #fff;
-      background: #0c6a80;
+      color: var(--btn-text);
+      background: var(--status-bg);
     }
 
     .status.past {
-      background: #9ca3af;
+      background: var(--status-past);
     }
 
     .source {
