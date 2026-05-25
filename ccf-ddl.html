@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -182,27 +182,27 @@
 
     <section class="hero">
       <h1>CCF-DDL</h1>
-      <p>专注目标会议，实时倒计时赶稿。可选预设会议，也可手动输入截止时间。</p>
+      <p>Focus on target conferences with a real-time paper-writing countdown. Use presets or enter your own deadline.</p>
     </section>
 
     <section class="card grid">
       <div>
-        <label for="conf">目标会议</label>
+        <label for="conf">Target Conference</label>
         <select id="conf">
-          <option value="custom">自定义会议</option>
-          <option value="CCS 2026|2026-05-31T23:59:59+08:00">CCS 2026 (示例)</option>
-          <option value="USENIX Security 2026|2026-06-20T23:59:59+08:00">USENIX Security 2026 (示例)</option>
-          <option value="NDSS 2027|2026-08-01T23:59:59+08:00">NDSS 2027 (示例)</option>
+          <option value="custom">Custom Conference</option>
+          <option value="CCS 2026|2026-05-31T23:59:59+08:00">CCS 2026 (Example)</option>
+          <option value="USENIX Security 2026|2026-06-20T23:59:59+08:00">USENIX Security 2026 (Example)</option>
+          <option value="NDSS 2027|2026-08-01T23:59:59+08:00">NDSS 2027 (Example)</option>
         </select>
 
-        <label for="title" style="margin-top:10px;">会议名称</label>
-        <input id="title" type="text" value="My Target Conference" placeholder="例如: S&P 2027">
+        <label for="title" style="margin-top:10px;">Conference Name</label>
+        <input id="title" type="text" value="My Target Conference" placeholder="e.g. S&P 2027">
 
-        <label for="ddl" style="margin-top:10px;">截止时间 (北京时间)</label>
+        <label for="ddl" style="margin-top:10px;">Deadline (Beijing Time)</label>
         <input id="ddl" type="datetime-local">
 
-        <button id="start">开始倒计时</button>
-        <div class="hint">提示: 预设会议时间仅为演示，请按官方 CFP 更新时间。</div>
+        <button id="start">Start Countdown</button>
+        <div class="hint">Note: Preset dates are examples. Please follow official CFP updates.</div>
       </div>
 
       <div>
@@ -213,16 +213,16 @@
           <div class="cell"><div id="m" class="num">--</div><div class="tag">Minutes</div></div>
           <div class="cell"><div id="s" class="num">--</div><div class="tag">Seconds</div></div>
         </div>
-        <p id="meta" class="meta">请选择会议并设置截止时间。</p>
+        <p id="meta" class="meta">Please select a conference and set a deadline.</p>
       </div>
     </section>
 
     <section class="card">
-      <h2>融合说明</h2>
-      <p class="meta">这个页面吸收了你本地 CCF-DDL 的核心用途: 关注会议、设置目标、持续倒计时。</p>
+      <h2>Integration Notes</h2>
+      <p class="meta">This page keeps the core use case of your local CCF-DDL tools: conference targeting, deadline setup, and continuous countdown.</p>
       <ul class="src-list">
-        <li>本地脚本来源: <code>ccf_deadlines_app.py</code></li>
-        <li>本地脚本来源: <code>ccf_deadlines_web.py</code></li>
+        <li>Source script: <code>ccf_deadlines_app.py</code></li>
+        <li>Source script: <code>ccf_deadlines_web.py</code></li>
       </ul>
     </section>
   </main>
@@ -288,7 +288,7 @@
       mEl.textContent = data.m;
       sEl.textContent = data.s;
       if (data.done) {
-        metaEl.textContent = `${titleInput.value} 已截止，进入冲刺收尾阶段。`;
+        metaEl.textContent = `${titleInput.value} is past deadline. Move to final polishing mode.`;
       }
     }
 
@@ -296,13 +296,13 @@
       const name = titleInput.value.trim() || "My Target Conference";
       const iso = toIsoWithSeconds(ddlInput.value);
       if (!iso) {
-        metaEl.textContent = "请先设置截止时间。";
+        metaEl.textContent = "Please set a deadline first.";
         return;
       }
 
       nameEl.textContent = name;
       targetTime = new Date(iso).getTime();
-      metaEl.textContent = `Deadline: ${new Date(iso).toLocaleString("zh-CN", { hour12: false })}`;
+      metaEl.textContent = `Deadline: ${new Date(iso).toLocaleString("en-GB", { hour12: false })}`;
       localStorage.setItem("ccfddl_name", name);
       localStorage.setItem("ccfddl_deadline", ddlInput.value);
       tick();
