@@ -1,0 +1,333 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCF-DDL | Seehow Li</title>
+  <meta name="description" content="CCF-DDL: focus conference deadlines and countdown for paper writing.">
+  <style>
+    :root {
+      --bg: #f5f8fc;
+      --ink: #1e2735;
+      --muted: #5d687a;
+      --card: #ffffff;
+      --line: #d8e1ee;
+      --accent: #0c6a80;
+      --accent-2: #f97316;
+      --shadow: 0 16px 38px rgba(16, 26, 46, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Trebuchet MS", "Verdana", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 90% 0%, rgba(12, 106, 128, 0.14), transparent 36%),
+        radial-gradient(circle at 0% 100%, rgba(249, 115, 22, 0.14), transparent 30%),
+        linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+      line-height: 1.65;
+    }
+
+    .wrap {
+      width: min(900px, calc(100vw - 30px));
+      margin: 22px auto 48px;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding: 10px 14px;
+      background: rgba(255, 255, 255, 0.88);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .hero,
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      padding: 20px;
+      margin-bottom: 12px;
+    }
+
+    h1, h2, p { margin: 0; }
+
+    h1 {
+      font-size: clamp(30px, 5vw, 46px);
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+
+    .hero p {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 12px;
+    }
+
+    label {
+      display: block;
+      font-weight: 700;
+      margin-bottom: 6px;
+      font-size: 13px;
+    }
+
+    select,
+    input,
+    button {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      font: inherit;
+      font-size: 14px;
+      padding: 9px 10px;
+      color: var(--ink);
+      background: #fff;
+    }
+
+    button {
+      cursor: pointer;
+      background: linear-gradient(130deg, var(--accent), #147892);
+      color: #fff;
+      font-weight: 700;
+      border: none;
+      margin-top: 10px;
+    }
+
+    .count-grid {
+      margin-top: 14px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .cell {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      text-align: center;
+      padding: 10px 6px;
+      background: #fbfdff;
+    }
+
+    .num {
+      font-size: clamp(26px, 4vw, 40px);
+      line-height: 1;
+      font-weight: 800;
+      color: var(--accent);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .tag {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .meta {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .hint {
+      margin-top: 8px;
+      padding: 10px;
+      border-radius: 10px;
+      background: #fff8f2;
+      border: 1px dashed #f0c7a8;
+      font-size: 13px;
+      color: #9c4d1f;
+    }
+
+    .src-list {
+      margin: 8px 0 0;
+      padding-left: 20px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+      .count-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="nav">
+      <a href="/">← Back to Homepage</a>
+      <a href="https://github.com/SeehowLi" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+
+    <section class="hero">
+      <h1>CCF-DDL</h1>
+      <p>专注目标会议，实时倒计时赶稿。可选预设会议，也可手动输入截止时间。</p>
+    </section>
+
+    <section class="card grid">
+      <div>
+        <label for="conf">目标会议</label>
+        <select id="conf">
+          <option value="custom">自定义会议</option>
+          <option value="CCS 2026|2026-05-31T23:59:59+08:00">CCS 2026 (示例)</option>
+          <option value="USENIX Security 2026|2026-06-20T23:59:59+08:00">USENIX Security 2026 (示例)</option>
+          <option value="NDSS 2027|2026-08-01T23:59:59+08:00">NDSS 2027 (示例)</option>
+        </select>
+
+        <label for="title" style="margin-top:10px;">会议名称</label>
+        <input id="title" type="text" value="My Target Conference" placeholder="例如: S&P 2027">
+
+        <label for="ddl" style="margin-top:10px;">截止时间 (北京时间)</label>
+        <input id="ddl" type="datetime-local">
+
+        <button id="start">开始倒计时</button>
+        <div class="hint">提示: 预设会议时间仅为演示，请按官方 CFP 更新时间。</div>
+      </div>
+
+      <div>
+        <h2 id="conf-name">My Target Conference</h2>
+        <div class="count-grid">
+          <div class="cell"><div id="d" class="num">--</div><div class="tag">Days</div></div>
+          <div class="cell"><div id="h" class="num">--</div><div class="tag">Hours</div></div>
+          <div class="cell"><div id="m" class="num">--</div><div class="tag">Minutes</div></div>
+          <div class="cell"><div id="s" class="num">--</div><div class="tag">Seconds</div></div>
+        </div>
+        <p id="meta" class="meta">请选择会议并设置截止时间。</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>融合说明</h2>
+      <p class="meta">这个页面吸收了你本地 CCF-DDL 的核心用途: 关注会议、设置目标、持续倒计时。</p>
+      <ul class="src-list">
+        <li>本地脚本来源: <code>ccf_deadlines_app.py</code></li>
+        <li>本地脚本来源: <code>ccf_deadlines_web.py</code></li>
+      </ul>
+    </section>
+  </main>
+
+  <script>
+    const conf = document.getElementById("conf");
+    const titleInput = document.getElementById("title");
+    const ddlInput = document.getElementById("ddl");
+    const nameEl = document.getElementById("conf-name");
+    const metaEl = document.getElementById("meta");
+    const dEl = document.getElementById("d");
+    const hEl = document.getElementById("h");
+    const mEl = document.getElementById("m");
+    const sEl = document.getElementById("s");
+
+    let targetTime = null;
+
+    function toIsoWithSeconds(localValue) {
+      if (!localValue) return "";
+      return `${localValue}:00+08:00`;
+    }
+
+    function applyPreset() {
+      if (conf.value === "custom") {
+        return;
+      }
+      const [name, iso] = conf.value.split("|");
+      titleInput.value = name;
+      const dt = new Date(iso);
+      const y = dt.getFullYear();
+      const mo = String(dt.getMonth() + 1).padStart(2, "0");
+      const da = String(dt.getDate()).padStart(2, "0");
+      const hh = String(dt.getHours()).padStart(2, "0");
+      const mm = String(dt.getMinutes()).padStart(2, "0");
+      ddlInput.value = `${y}-${mo}-${da}T${hh}:${mm}`;
+    }
+
+    function formatDiff(ms) {
+      if (ms <= 0) {
+        return { d: "00", h: "00", m: "00", s: "00", done: true };
+      }
+      const sec = Math.floor(ms / 1000);
+      const d = Math.floor(sec / 86400);
+      const h = Math.floor((sec % 86400) / 3600);
+      const m = Math.floor((sec % 3600) / 60);
+      const s = sec % 60;
+      return {
+        d: String(d).padStart(2, "0"),
+        h: String(h).padStart(2, "0"),
+        m: String(m).padStart(2, "0"),
+        s: String(s).padStart(2, "0"),
+        done: false
+      };
+    }
+
+    function tick() {
+      if (!targetTime) return;
+      const now = Date.now();
+      const diff = targetTime - now;
+      const data = formatDiff(diff);
+      dEl.textContent = data.d;
+      hEl.textContent = data.h;
+      mEl.textContent = data.m;
+      sEl.textContent = data.s;
+      if (data.done) {
+        metaEl.textContent = `${titleInput.value} 已截止，进入冲刺收尾阶段。`;
+      }
+    }
+
+    function start() {
+      const name = titleInput.value.trim() || "My Target Conference";
+      const iso = toIsoWithSeconds(ddlInput.value);
+      if (!iso) {
+        metaEl.textContent = "请先设置截止时间。";
+        return;
+      }
+
+      nameEl.textContent = name;
+      targetTime = new Date(iso).getTime();
+      metaEl.textContent = `Deadline: ${new Date(iso).toLocaleString("zh-CN", { hour12: false })}`;
+      localStorage.setItem("ccfddl_name", name);
+      localStorage.setItem("ccfddl_deadline", ddlInput.value);
+      tick();
+    }
+
+    conf.addEventListener("change", applyPreset);
+    document.getElementById("start").addEventListener("click", start);
+
+    (function init() {
+      const savedName = localStorage.getItem("ccfddl_name");
+      const savedDdl = localStorage.getItem("ccfddl_deadline");
+      if (savedName) titleInput.value = savedName;
+      if (savedDdl) ddlInput.value = savedDdl;
+      if (!savedDdl) {
+        const now = new Date(Date.now() + 7 * 24 * 3600 * 1000);
+        const y = now.getFullYear();
+        const mo = String(now.getMonth() + 1).padStart(2, "0");
+        const da = String(now.getDate()).padStart(2, "0");
+        const hh = String(now.getHours()).padStart(2, "0");
+        const mm = String(now.getMinutes()).padStart(2, "0");
+        ddlInput.value = `${y}-${mo}-${da}T${hh}:${mm}`;
+      }
+      start();
+      setInterval(tick, 1000);
+    })();
+  </script>
+</body>
+</html>

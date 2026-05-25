@@ -1,83 +1,252 @@
 ﻿<!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SeehowLi | Personal Site</title>
-  <meta name="description" content="SeehowLi 的个人主页：简介、项目与联系方式" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seehow Li | Academic Homepage</title>
+  <meta name="description" content="Seehow Li at NUDT: homomorphic encryption CKKS, privacy-preserving LLM inference, publications and awards.">
   <style>
     :root {
-      --bg: #f7f8f5;
-      --card: #ffffff;
-      --text: #1b1d1f;
-      --sub: #5e646b;
-      --accent: #0f766e;
-      --line: #e7e9ec;
+      --bg: #f3efe6;
+      --ink: #232833;
+      --muted: #5c6475;
+      --card: #fffcf6;
+      --line: #ddd5c8;
+      --accent: #1d5a66;
+      --accent-2: #c76034;
+      --shadow: 0 18px 42px rgba(35, 40, 51, 0.09);
     }
+
     * { box-sizing: border-box; }
+
     body {
       margin: 0;
-      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
-      color: var(--text);
-      background: radial-gradient(circle at 10% 0%, #e9f7f3 0%, var(--bg) 45%);
-      line-height: 1.7;
+      color: var(--ink);
+      font-family: "Georgia", "Times New Roman", "Noto Serif SC", serif;
+      background:
+        radial-gradient(circle at 8% 0%, rgba(29, 90, 102, 0.13), transparent 36%),
+        radial-gradient(circle at 92% 12%, rgba(199, 96, 52, 0.13), transparent 34%),
+        linear-gradient(180deg, #f8f3ea 0%, var(--bg) 100%);
+      line-height: 1.75;
     }
-    .wrap { max-width: 900px; margin: 0 auto; padding: 40px 20px 60px; }
-    .card {
+
+    .wrap {
+      width: min(980px, calc(100vw - 32px));
+      margin: 20px auto 54px;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 10px;
+      z-index: 20;
+      background: rgba(255, 251, 244, 0.88);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+      padding: 10px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand {
+      font-size: 19px;
+      letter-spacing: 0.01em;
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .menu {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .menu a {
+      font-size: 13px;
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .menu a:hover {
+      color: var(--accent);
+      border-color: rgba(29, 90, 102, 0.35);
+    }
+
+    .hero {
+      margin-top: 18px;
       background: var(--card);
       border: 1px solid var(--line);
-      border-radius: 18px;
+      border-radius: 24px;
+      box-shadow: var(--shadow);
       padding: 28px;
-      margin-bottom: 18px;
-      box-shadow: 0 8px 24px rgba(0,0,0,.04);
     }
-    h1, h2 { margin: 0 0 10px; }
-    h1 { font-size: 34px; }
-    h2 { font-size: 22px; }
-    p { margin: 0 0 10px; color: var(--sub); }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .tag {
+
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(34px, 6vw, 56px);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+    }
+
+    .hero p {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .chips { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 8px; }
+
+    .chip {
       display: inline-block;
-      padding: 4px 10px;
       border-radius: 999px;
-      background: #e7f5f2;
-      color: #0b5e58;
-      font-size: 13px;
-      margin-right: 8px;
-      margin-top: 6px;
+      border: 1px solid var(--line);
+      background: #fff;
+      font-size: 12px;
+      color: #394153;
+      padding: 4px 10px;
     }
-    ul { padding-left: 18px; margin: 8px 0 0; }
+
+    .card {
+      margin-top: 16px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 24px;
+      color: #222935;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li { margin-bottom: 6px; }
+
+    .muted { color: var(--muted); }
+
+    .tool-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      border: 1px dashed #cdbca6;
+      border-radius: 14px;
+      padding: 12px 14px;
+      background: #fff9ef;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      background: linear-gradient(130deg, var(--accent), #2d6f7d);
+      border-radius: 11px;
+      padding: 9px 14px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .btn:hover { filter: brightness(1.06); }
+
+    .links a {
+      color: var(--accent-2);
+      text-decoration: none;
+      margin-right: 14px;
+      font-size: 14px;
+    }
+
+    .links a:hover { text-decoration: underline; }
+
+    @media (max-width: 740px) {
+      .topbar { position: static; }
+      .hero, .card { padding: 18px; }
+      h2 { font-size: 21px; }
+    }
   </style>
 </head>
 <body>
   <main class="wrap">
-    <section class="card">
-      <h1>Hi, I'm SeehowLi</h1>
-      <p>欢迎来到我的个人网站。这里会展示我的学习、项目和联系方式。</p>
-      <span class="tag">Research</span>
-      <span class="tag">Coding</span>
-      <span class="tag">Notes</span>
+    <nav class="topbar">
+      <a class="brand" href="#top">Seehow Li</a>
+      <div class="menu">
+        <a href="#bio">Biography</a>
+        <a href="#publications">Publications</a>
+        <a href="#awards">Awards</a>
+        <a href="#education">Education</a>
+        <a href="#tools">Tools</a>
+      </div>
+    </nav>
+
+    <section id="top" class="hero">
+      <h1>Seehow Li</h1>
+      <p>Ph.D. Candidate (Year 3), National University of Defense Technology (NUDT)</p>
+      <div class="chips">
+        <span class="chip">Homomorphic Encryption</span>
+        <span class="chip">CKKS</span>
+        <span class="chip">Privacy-Preserving LLM Inference</span>
+      </div>
     </section>
 
-    <section class="card">
-      <h2>关于我</h2>
-      <p>你可以在这里补充学校/方向/兴趣，例如：计算机相关研究、Web 开发、AI 应用等。</p>
+    <section id="bio" class="card">
+      <h2>Biography</h2>
+      <p class="muted">
+        我目前是国防科技大学博士三年级学生，研究方向为同态加密 CKKS 算法及基于该技术的隐私推理大模型研究。
+      </p>
     </section>
 
-    <section class="card">
-      <h2>项目</h2>
+    <section id="publications" class="card">
+      <h2>Publications</h2>
       <ul>
-        <li><a href="https://github.com/SeehowLi" target="_blank">GitHub 主页</a></li>
-        <li>项目 A（这里填简介和链接）</li>
-        <li>项目 B（这里填简介和链接）</li>
+        <li><strong>SNIP:</strong> Secure Non-Interactive <em>k</em>-NN Made Practical</li>
+        <li><strong>THEMIS:</strong> Efficient Privacy-Preserving Transformer Inference with Homomorphic Encryption</li>
       </ul>
     </section>
 
+    <section id="awards" class="card">
+      <h2>Awards</h2>
+      <ul>
+        <li>第二届“隐语杯”高校数据挑战赛 - 赛道三全国第二名</li>
+        <li>第十九届研究生电子设计竞赛全国总决赛一等奖 - 华为专项赛道第三名</li>
+        <li>第二十届、第二十一届“华为杯”数学建模竞赛全国一等奖</li>
+      </ul>
+    </section>
+
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <p class="muted">
+        本科毕业于国防科技大学，研究方向为导航卫星定位。
+      </p>
+    </section>
+
+    <section id="tools" class="card">
+      <h2>Tools</h2>
+      <div class="tool-box">
+        <div>
+          <strong>CCF-DDL</strong>
+          <p class="muted">聚焦目标会议并进行倒计时赶稿，可快速切换会议与截止时间。</p>
+        </div>
+        <a class="btn" href="/ccf-ddl.html">Open CCF-DDL Tool</a>
+      </div>
+    </section>
+
     <section class="card">
-      <h2>联系方式</h2>
-      <p>Email：youremail@example.com</p>
-      <p>GitHub：<a href="https://github.com/SeehowLi" target="_blank">@SeehowLi</a></p>
+      <h2>Links</h2>
+      <div class="links">
+        <a href="https://github.com/SeehowLi" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://seehowli.tech" target="_blank" rel="noopener noreferrer">Website</a>
+      </div>
     </section>
   </main>
 </body>
