@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CCF-DDL | Shihao Li</title>
-  <meta name="description" content="CCF-DDL: focus conference deadlines and countdown for paper writing.">
+  <meta name="description" content="CCF-DDL with category filters and live countdown based on conference cache data.">
   <style>
     :root {
       --bg: #f5f8fc;
@@ -31,20 +31,22 @@
     }
 
     .wrap {
-      width: min(900px, calc(100vw - 30px));
-      margin: 22px auto 48px;
+      width: min(1080px, calc(100vw - 24px));
+      margin: 14px auto 30px;
     }
 
     .nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
       padding: 10px 14px;
-      background: rgba(255, 255, 255, 0.88);
+      background: rgba(255, 255, 255, 0.9);
       border: 1px solid var(--line);
       border-radius: 14px;
       box-shadow: var(--shadow);
+      flex-wrap: wrap;
+      gap: 8px;
     }
 
     .nav a {
@@ -58,37 +60,38 @@
     .card {
       background: var(--card);
       border: 1px solid var(--line);
-      border-radius: 18px;
+      border-radius: 16px;
       box-shadow: var(--shadow);
-      padding: 20px;
-      margin-bottom: 12px;
+      padding: 16px;
+      margin-bottom: 10px;
     }
 
     h1, h2, p { margin: 0; }
 
     h1 {
-      font-size: clamp(30px, 5vw, 46px);
+      font-size: clamp(28px, 5vw, 42px);
       letter-spacing: -0.03em;
       line-height: 1;
     }
 
     .hero p {
-      margin-top: 10px;
+      margin-top: 8px;
       color: var(--muted);
-      font-size: 15px;
+      font-size: 14px;
     }
 
-    .grid {
+    .layout {
       display: grid;
-      grid-template-columns: 1.1fr 1fr;
-      gap: 12px;
+      grid-template-columns: 360px 1fr;
+      gap: 10px;
     }
 
     label {
       display: block;
       font-weight: 700;
       margin-bottom: 6px;
-      font-size: 13px;
+      font-size: 12px;
+      color: #263245;
     }
 
     select,
@@ -98,11 +101,13 @@
       border: 1px solid var(--line);
       border-radius: 10px;
       font: inherit;
-      font-size: 14px;
-      padding: 9px 10px;
+      font-size: 13px;
+      padding: 8px 9px;
       color: var(--ink);
       background: #fff;
     }
+
+    .row { margin-bottom: 10px; }
 
     button {
       cursor: pointer;
@@ -110,26 +115,31 @@
       color: #fff;
       font-weight: 700;
       border: none;
-      margin-top: 10px;
     }
 
-    .count-grid {
-      margin-top: 14px;
+    .row-inline {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .stats {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 8px;
+      margin-top: 12px;
     }
 
     .cell {
       border: 1px solid var(--line);
-      border-radius: 12px;
+      border-radius: 10px;
       text-align: center;
       padding: 10px 6px;
       background: #fbfdff;
     }
 
     .num {
-      font-size: clamp(26px, 4vw, 40px);
+      font-size: clamp(22px, 3.5vw, 34px);
       line-height: 1;
       font-weight: 800;
       color: var(--accent);
@@ -137,39 +147,115 @@
     }
 
     .tag {
-      margin-top: 6px;
+      margin-top: 4px;
       color: var(--muted);
-      font-size: 12px;
+      font-size: 11px;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.06em;
     }
 
     .meta {
-      margin-top: 12px;
+      margin-top: 10px;
       color: var(--muted);
-      font-size: 13px;
+      font-size: 12px;
     }
 
     .hint {
       margin-top: 8px;
-      padding: 10px;
-      border-radius: 10px;
+      padding: 9px;
+      border-radius: 9px;
       background: #fff8f2;
       border: 1px dashed #f0c7a8;
-      font-size: 13px;
+      font-size: 12px;
       color: #9c4d1f;
     }
 
-    .src-list {
-      margin: 8px 0 0;
-      padding-left: 20px;
-      color: var(--muted);
-      font-size: 13px;
+    .list-wrap {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      overflow: hidden;
+      background: #fff;
+      max-height: 520px;
+      overflow-y: auto;
     }
 
-    @media (max-width: 760px) {
-      .grid { grid-template-columns: 1fr; }
-      .count-grid { grid-template-columns: repeat(2, 1fr); }
+    .list-head,
+    .item {
+      display: grid;
+      grid-template-columns: 1.2fr 60px 56px 74px 120px;
+      gap: 8px;
+      align-items: center;
+      padding: 8px 10px;
+      font-size: 12px;
+    }
+
+    .list-head {
+      position: sticky;
+      top: 0;
+      background: #f6f9ff;
+      color: #44506a;
+      font-weight: 700;
+      border-bottom: 1px solid var(--line);
+      z-index: 1;
+    }
+
+    .item {
+      border-bottom: 1px solid #ecf1f8;
+      cursor: pointer;
+    }
+
+    .item:hover { background: #f7fbff; }
+    .item.active { background: #eaf6fa; }
+
+    .name {
+      font-weight: 700;
+      color: #243146;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .minor {
+      color: var(--muted);
+      font-size: 11px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .status {
+      border-radius: 999px;
+      text-align: center;
+      font-size: 11px;
+      padding: 2px 6px;
+      font-weight: 700;
+      color: #fff;
+      background: #0c6a80;
+    }
+
+    .status.past {
+      background: #9ca3af;
+    }
+
+    .source {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 980px) {
+      .layout { grid-template-columns: 1fr; }
+      .list-head,
+      .item { grid-template-columns: 1.4fr 56px 56px 80px 110px; }
+    }
+
+    @media (max-width: 620px) {
+      .stats { grid-template-columns: repeat(2, 1fr); }
+      .row-inline { grid-template-columns: 1fr; }
+      .list-head,
+      .item { grid-template-columns: 1.6fr 52px 48px 66px 90px; font-size: 11px; }
+      .name { font-size: 11px; }
     }
   </style>
 </head>
@@ -182,151 +268,404 @@
 
     <section class="hero">
       <h1>CCF-DDL</h1>
-      <p>Focus on target conferences with a real-time paper-writing countdown. Use presets or enter your own deadline.</p>
+      <p>Filter conferences by category/rank/year, choose one from real data, and track your countdown.</p>
     </section>
 
-    <section class="card grid">
-      <div>
-        <label for="conf">Target Conference</label>
-        <select id="conf">
-          <option value="custom">Custom Conference</option>
-          <option value="CCS 2026|2026-05-31T23:59:59+08:00">CCS 2026 (Example)</option>
-          <option value="USENIX Security 2026|2026-06-20T23:59:59+08:00">USENIX Security 2026 (Example)</option>
-          <option value="NDSS 2027|2026-08-01T23:59:59+08:00">NDSS 2027 (Example)</option>
-        </select>
+    <section class="layout">
+      <div class="card">
+        <div class="row">
+          <label for="sub">Category (Sub)</label>
+          <select id="sub"><option value="">All</option></select>
+        </div>
 
-        <label for="title" style="margin-top:10px;">Conference Name</label>
-        <input id="title" type="text" value="My Target Conference" placeholder="e.g. S&P 2027">
+        <div class="row-inline">
+          <div class="row">
+            <label for="rank">CCF Rank</label>
+            <select id="rank">
+              <option value="">All</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="N">N</option>
+            </select>
+          </div>
+          <div class="row">
+            <label for="year">Year</label>
+            <select id="year"><option value="">All</option></select>
+          </div>
+        </div>
 
-        <label for="ddl" style="margin-top:10px;">Deadline (Beijing Time)</label>
-        <input id="ddl" type="datetime-local">
+        <div class="row">
+          <label for="keyword">Keyword</label>
+          <input id="keyword" type="text" placeholder="e.g. NDSS / VLDB / privacy">
+        </div>
 
-        <button id="start">Start Countdown</button>
-        <div class="hint">Note: Preset dates are examples. Please follow official CFP updates.</div>
+        <div class="row">
+          <button id="search">Search Conferences</button>
+        </div>
+
+        <div class="row">
+          <label for="confName">Conference Name</label>
+          <input id="confName" type="text" value="No conference selected" readonly>
+        </div>
+
+        <div class="row">
+          <label for="deadline">Deadline (Beijing Time)</label>
+          <input id="deadline" type="datetime-local">
+        </div>
+
+        <div class="row">
+          <button id="start">Start Countdown</button>
+        </div>
+
+        <div class="hint">Data source is synced from <code>ccfddl/ccf-deadlines</code>. Use filters first, then click one conference row.</div>
       </div>
 
-      <div>
-        <h2 id="conf-name">My Target Conference</h2>
-        <div class="count-grid">
+      <div class="card">
+        <h2 id="targetTitle">No conference selected</h2>
+        <div class="stats">
           <div class="cell"><div id="d" class="num">--</div><div class="tag">Days</div></div>
           <div class="cell"><div id="h" class="num">--</div><div class="tag">Hours</div></div>
           <div class="cell"><div id="m" class="num">--</div><div class="tag">Minutes</div></div>
           <div class="cell"><div id="s" class="num">--</div><div class="tag">Seconds</div></div>
         </div>
-        <p id="meta" class="meta">Please select a conference and set a deadline.</p>
-      </div>
-    </section>
+        <p id="meta" class="meta">Select one conference from the list and start countdown.</p>
 
-    <section class="card">
-      <h2>Integration Notes</h2>
-      <p class="meta">This page keeps the core use case of your local CCF-DDL tools: conference targeting, deadline setup, and continuous countdown.</p>
-      <ul class="src-list">
-        <li>Source script: <code>ccf_deadlines_app.py</code></li>
-        <li>Source script: <code>ccf_deadlines_web.py</code></li>
-      </ul>
+        <div class="list-wrap" style="margin-top:12px;">
+          <div class="list-head">
+            <div>Conference</div>
+            <div>Rank</div>
+            <div>Sub</div>
+            <div>Status</div>
+            <div>Deadline</div>
+          </div>
+          <div id="list"></div>
+        </div>
+
+        <div id="source" class="source"></div>
+      </div>
     </section>
   </main>
 
   <script>
-    const conf = document.getElementById("conf");
-    const titleInput = document.getElementById("title");
-    const ddlInput = document.getElementById("ddl");
-    const nameEl = document.getElementById("conf-name");
-    const metaEl = document.getElementById("meta");
-    const dEl = document.getElementById("d");
-    const hEl = document.getElementById("h");
-    const mEl = document.getElementById("m");
-    const sEl = document.getElementById("s");
+    const CACHE_URL = "./data/conference_cache.json";
+    const BJ_OFFSET_MINUTES = 8 * 60;
 
-    let targetTime = null;
+    const state = {
+      cache: null,
+      rows: [],
+      selected: null,
+      targetTime: null
+    };
 
-    function toIsoWithSeconds(localValue) {
-      if (!localValue) return "";
-      return `${localValue}:00+08:00`;
+    const els = {
+      sub: document.getElementById("sub"),
+      rank: document.getElementById("rank"),
+      year: document.getElementById("year"),
+      keyword: document.getElementById("keyword"),
+      search: document.getElementById("search"),
+      confName: document.getElementById("confName"),
+      deadline: document.getElementById("deadline"),
+      start: document.getElementById("start"),
+      targetTitle: document.getElementById("targetTitle"),
+      meta: document.getElementById("meta"),
+      list: document.getElementById("list"),
+      d: document.getElementById("d"),
+      h: document.getElementById("h"),
+      m: document.getElementById("m"),
+      s: document.getElementById("s"),
+      source: document.getElementById("source")
+    };
+
+    function parseTimezone(tzText) {
+      if (!tzText || tzText === "UTC") return 0;
+      if (tzText === "AoE") return -12 * 60;
+      const match = /^UTC([+-])(\d{1,2})(?::(\d{1,2}))?$/.exec(tzText);
+      if (!match) return 0;
+      const sign = match[1] === "+" ? 1 : -1;
+      const hours = Number(match[2] || "0");
+      const mins = Number(match[3] || "0");
+      return sign * (hours * 60 + mins);
     }
 
-    function applyPreset() {
-      if (conf.value === "custom") {
+    function parseDeadlineToBjMs(deadlineText, tzText) {
+      if (!deadlineText || deadlineText.toUpperCase() === "TBD") return null;
+      const hasTime = deadlineText.includes(":");
+      const base = hasTime ? deadlineText : `${deadlineText} 23:59:59`;
+      const m = /^(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2}):(\d{2})$/.exec(base);
+      if (!m) return null;
+
+      const y = Number(m[1]);
+      const mon = Number(m[2]);
+      const d = Number(m[3]);
+      const h = Number(m[4]);
+      const mi = Number(m[5]);
+      const s = Number(m[6]);
+
+      const sourceOffset = parseTimezone(tzText);
+      const utcMs = Date.UTC(y, mon - 1, d, h, mi, s) - sourceOffset * 60000;
+      return utcMs + BJ_OFFSET_MINUTES * 60000;
+    }
+
+    function toDatetimeLocalFromBjMs(bjMs) {
+      if (bjMs == null) return "";
+      const utcMs = bjMs - BJ_OFFSET_MINUTES * 60000;
+      const date = new Date(utcMs + new Date().getTimezoneOffset() * 60000);
+      const y = date.getFullYear();
+      const mon = String(date.getMonth() + 1).padStart(2, "0");
+      const d = String(date.getDate()).padStart(2, "0");
+      const h = String(date.getHours()).padStart(2, "0");
+      const mi = String(date.getMinutes()).padStart(2, "0");
+      return `${y}-${mon}-${d}T${h}:${mi}`;
+    }
+
+    function fromDatetimeLocalToBjMs(localValue) {
+      if (!localValue) return null;
+      const local = new Date(localValue).getTime();
+      const localOffset = new Date().getTimezoneOffset();
+      const utcMs = local + localOffset * 60000;
+      return utcMs + BJ_OFFSET_MINUTES * 60000;
+    }
+
+    function formatBj(bjMs) {
+      const utcMs = bjMs - BJ_OFFSET_MINUTES * 60000;
+      return new Date(utcMs).toLocaleString("en-GB", {
+        hour12: false,
+        timeZone: "Asia/Shanghai"
+      });
+    }
+
+    function buildRows(records) {
+      const nowBj = Date.now() + (BJ_OFFSET_MINUTES + new Date().getTimezoneOffset()) * 60000;
+      const rows = [];
+
+      for (const rec of records) {
+        if (!Array.isArray(rec.timeline) || rec.timeline.length === 0) continue;
+
+        let best = null;
+        for (const tl of rec.timeline) {
+          const bjMs = parseDeadlineToBjMs((tl.deadline || "").trim(), rec.timezone || "UTC");
+          if (bjMs == null) continue;
+          const isFuture = bjMs >= nowBj;
+          if (!best) {
+            best = { bjMs, tl, isFuture };
+            continue;
+          }
+          if (best.isFuture && isFuture) {
+            if (bjMs < best.bjMs) best = { bjMs, tl, isFuture };
+          } else if (!best.isFuture && !isFuture) {
+            if (bjMs > best.bjMs) best = { bjMs, tl, isFuture };
+          } else if (!best.isFuture && isFuture) {
+            best = { bjMs, tl, isFuture };
+          }
+        }
+
+        if (!best) continue;
+
+        rows.push({
+          key: `${rec.id}::${rec.year}`,
+          title: rec.title || "-",
+          description: rec.description || "",
+          year: Number(rec.year) || 0,
+          sub: rec.sub || "-",
+          subName: rec.sub_name_en || rec.sub_name || rec.sub || "-",
+          rank: rec.ccf_rank || "N",
+          timezone: rec.timezone || "UTC",
+          deadlineText: best.tl.deadline || "",
+          deadlineBjMs: best.bjMs,
+          status: best.isFuture ? "upcoming" : "past"
+        });
+      }
+
+      rows.sort((a, b) => a.deadlineBjMs - b.deadlineBjMs);
+      return rows;
+    }
+
+    function fillFilterOptions() {
+      const categories = state.cache.categories || {};
+      const subs = Object.keys(categories).sort();
+      for (const sub of subs) {
+        const opt = document.createElement("option");
+        opt.value = sub;
+        const label = categories[sub].name_en || categories[sub].name || sub;
+        opt.textContent = `${sub} - ${label}`;
+        els.sub.appendChild(opt);
+      }
+
+      const years = [...new Set(state.rows.map(r => r.year))].filter(Boolean).sort((a, b) => b - a);
+      for (const y of years) {
+        const opt = document.createElement("option");
+        opt.value = String(y);
+        opt.textContent = String(y);
+        els.year.appendChild(opt);
+      }
+    }
+
+    function filteredRows() {
+      const sub = els.sub.value.trim();
+      const rank = els.rank.value.trim();
+      const year = els.year.value.trim();
+      const keyword = els.keyword.value.trim().toLowerCase();
+
+      return state.rows.filter(r => {
+        if (sub && r.sub !== sub) return false;
+        if (rank && r.rank !== rank) return false;
+        if (year && String(r.year) !== year) return false;
+        if (keyword) {
+          const text = `${r.title} ${r.description} ${r.sub} ${r.subName}`.toLowerCase();
+          if (!text.includes(keyword)) return false;
+        }
+        return true;
+      });
+    }
+
+    function renderList(rows) {
+      els.list.innerHTML = "";
+      if (rows.length === 0) {
+        const empty = document.createElement("div");
+        empty.className = "item";
+        empty.innerHTML = `<div class="minor">No conferences match current filters.</div><div></div><div></div><div></div><div></div>`;
+        els.list.appendChild(empty);
         return;
       }
-      const [name, iso] = conf.value.split("|");
-      titleInput.value = name;
-      const dt = new Date(iso);
-      const y = dt.getFullYear();
-      const mo = String(dt.getMonth() + 1).padStart(2, "0");
-      const da = String(dt.getDate()).padStart(2, "0");
-      const hh = String(dt.getHours()).padStart(2, "0");
-      const mm = String(dt.getMinutes()).padStart(2, "0");
-      ddlInput.value = `${y}-${mo}-${da}T${hh}:${mm}`;
-    }
 
-    function formatDiff(ms) {
-      if (ms <= 0) {
-        return { d: "00", h: "00", m: "00", s: "00", done: true };
-      }
-      const sec = Math.floor(ms / 1000);
-      const d = Math.floor(sec / 86400);
-      const h = Math.floor((sec % 86400) / 3600);
-      const m = Math.floor((sec % 3600) / 60);
-      const s = sec % 60;
-      return {
-        d: String(d).padStart(2, "0"),
-        h: String(h).padStart(2, "0"),
-        m: String(m).padStart(2, "0"),
-        s: String(s).padStart(2, "0"),
-        done: false
-      };
-    }
-
-    function tick() {
-      if (!targetTime) return;
-      const now = Date.now();
-      const diff = targetTime - now;
-      const data = formatDiff(diff);
-      dEl.textContent = data.d;
-      hEl.textContent = data.h;
-      mEl.textContent = data.m;
-      sEl.textContent = data.s;
-      if (data.done) {
-        metaEl.textContent = `${titleInput.value} is past deadline. Move to final polishing mode.`;
+      for (const row of rows) {
+        const div = document.createElement("div");
+        div.className = `item${state.selected && state.selected.key === row.key ? " active" : ""}`;
+        div.dataset.key = row.key;
+        div.innerHTML = `
+          <div>
+            <div class="name">${row.title} ${row.year}</div>
+            <div class="minor">${row.subName}</div>
+          </div>
+          <div>${row.rank}</div>
+          <div>${row.sub}</div>
+          <div><span class="status ${row.status === "past" ? "past" : ""}">${row.status}</span></div>
+          <div class="minor">${formatBj(row.deadlineBjMs)}</div>
+        `;
+        div.addEventListener("click", () => selectConference(row));
+        els.list.appendChild(div);
       }
     }
 
-    function start() {
-      const name = titleInput.value.trim() || "My Target Conference";
-      const iso = toIsoWithSeconds(ddlInput.value);
-      if (!iso) {
-        metaEl.textContent = "Please set a deadline first.";
+    function selectConference(row) {
+      state.selected = row;
+      els.confName.value = `${row.title} ${row.year}`;
+      els.targetTitle.textContent = `${row.title} ${row.year}`;
+      els.deadline.value = toDatetimeLocalFromBjMs(row.deadlineBjMs);
+      els.meta.textContent = `Selected deadline: ${formatBj(row.deadlineBjMs)} (Beijing Time)`;
+      renderList(filteredRows());
+      saveLocalSelection();
+    }
+
+    function startCountdown() {
+      const name = els.confName.value.trim();
+      const bjMs = fromDatetimeLocalToBjMs(els.deadline.value);
+      if (!name || !bjMs) {
+        els.meta.textContent = "Please select a conference and a valid deadline first.";
         return;
       }
 
-      nameEl.textContent = name;
-      targetTime = new Date(iso).getTime();
-      metaEl.textContent = `Deadline: ${new Date(iso).toLocaleString("en-GB", { hour12: false })}`;
+      state.targetTime = bjMs;
+      els.targetTitle.textContent = name;
+      els.meta.textContent = `Countdown target: ${formatBj(bjMs)} (Beijing Time)`;
       localStorage.setItem("ccfddl_name", name);
-      localStorage.setItem("ccfddl_deadline", ddlInput.value);
+      localStorage.setItem("ccfddl_deadline", els.deadline.value);
       tick();
     }
 
-    conf.addEventListener("change", applyPreset);
-    document.getElementById("start").addEventListener("click", start);
+    function tick() {
+      if (!state.targetTime) return;
+      const nowBj = Date.now() + (BJ_OFFSET_MINUTES + new Date().getTimezoneOffset()) * 60000;
+      let diff = Math.floor((state.targetTime - nowBj) / 1000);
 
-    (function init() {
-      const savedName = localStorage.getItem("ccfddl_name");
-      const savedDdl = localStorage.getItem("ccfddl_deadline");
-      if (savedName) titleInput.value = savedName;
-      if (savedDdl) ddlInput.value = savedDdl;
-      if (!savedDdl) {
-        const now = new Date(Date.now() + 7 * 24 * 3600 * 1000);
-        const y = now.getFullYear();
-        const mo = String(now.getMonth() + 1).padStart(2, "0");
-        const da = String(now.getDate()).padStart(2, "0");
-        const hh = String(now.getHours()).padStart(2, "0");
-        const mm = String(now.getMinutes()).padStart(2, "0");
-        ddlInput.value = `${y}-${mo}-${da}T${hh}:${mm}`;
+      if (diff <= 0) {
+        els.d.textContent = "00";
+        els.h.textContent = "00";
+        els.m.textContent = "00";
+        els.s.textContent = "00";
+        els.meta.textContent = `${els.targetTitle.textContent} is past deadline. Move to final polishing mode.`;
+        return;
       }
-      start();
-      setInterval(tick, 1000);
+
+      const days = Math.floor(diff / 86400);
+      diff %= 86400;
+      const hours = Math.floor(diff / 3600);
+      diff %= 3600;
+      const mins = Math.floor(diff / 60);
+      const secs = diff % 60;
+
+      els.d.textContent = String(days).padStart(2, "0");
+      els.h.textContent = String(hours).padStart(2, "0");
+      els.m.textContent = String(mins).padStart(2, "0");
+      els.s.textContent = String(secs).padStart(2, "0");
+    }
+
+    function saveLocalSelection() {
+      if (!state.selected) return;
+      localStorage.setItem("ccfddl_selected_key", state.selected.key);
+    }
+
+    function restoreSelection(rows) {
+      const savedKey = localStorage.getItem("ccfddl_selected_key");
+      if (savedKey) {
+        const found = rows.find(r => r.key === savedKey);
+        if (found) {
+          selectConference(found);
+          return;
+        }
+      }
+
+      const savedName = localStorage.getItem("ccfddl_name");
+      const savedDeadline = localStorage.getItem("ccfddl_deadline");
+      if (savedName) {
+        els.confName.value = savedName;
+        els.targetTitle.textContent = savedName;
+      }
+      if (savedDeadline) {
+        els.deadline.value = savedDeadline;
+        state.targetTime = fromDatetimeLocalToBjMs(savedDeadline);
+      }
+    }
+
+    async function loadData() {
+      const res = await fetch(CACHE_URL, { cache: "no-cache" });
+      if (!res.ok) throw new Error(`Failed to load data: HTTP ${res.status}`);
+
+      state.cache = await res.json();
+      state.rows = buildRows(state.cache.records || []);
+
+      fillFilterOptions();
+      const initialRows = filteredRows();
+      renderList(initialRows);
+      restoreSelection(initialRows);
+
+      const fetchedAt = state.cache.fetched_at || "unknown";
+      els.source.innerHTML = `
+        Data source: ccfddl/ccf-deadlines<br>
+        Cached at (UTC): ${fetchedAt}<br>
+        Total conferences loaded: ${state.rows.length}
+      `;
+    }
+
+    els.search.addEventListener("click", () => {
+      const rows = filteredRows();
+      renderList(rows);
+      if (rows.length > 0 && (!state.selected || !rows.find(r => r.key === state.selected.key))) {
+        selectConference(rows[0]);
+      }
+    });
+
+    els.start.addEventListener("click", startCountdown);
+
+    (async function init() {
+      try {
+        await loadData();
+        setInterval(tick, 1000);
+        tick();
+      } catch (err) {
+        els.meta.textContent = err.message;
+      }
     })();
   </script>
 </body>
