@@ -530,7 +530,7 @@
             <div>Rank</div>
             <div>Sub</div>
             <div>Status</div>
-            <div>Deadline</div>
+            <div>Next DDL</div>
           </div>
           <div id="list"></div>
         </div>
@@ -670,6 +670,25 @@
       });
     }
 
+    function isRegistrationComment(comment) {
+      const text = String(comment || "").toLowerCase();
+      return (
+        text.includes("registration") ||
+        text.includes("register") ||
+        text.includes("paper registration") ||
+        text.includes("mandatory paper registration")
+      );
+    }
+
+    function chooseByNow(entries, nowBj) {
+      if (!entries || entries.length === 0) return null;
+      const future = entries
+        .filter(e => e.bjMs >= nowBj)
+        .sort((a, b) => a.bjMs - b.bjMs);
+      if (future.length > 0) return future[0];
+      return entries.slice().sort((a, b) => b.bjMs - a.bjMs)[0];
+    }
+
     function buildRows(records) {
       const nowBj = Date.now() + (BJ_OFFSET_MINUTES + new Date().getTimezoneOffset()) * 60000;
       const rows = [];
@@ -677,25 +696,64 @@
       for (const rec of records) {
         if (!Array.isArray(rec.timeline) || rec.timeline.length === 0) continue;
 
-        let best = null;
+        const entries = [];
         for (const tl of rec.timeline) {
           const bjMs = parseDeadlineToBjMs((tl.deadline || "").trim(), rec.timezone || "UTC");
           if (bjMs == null) continue;
-          const isFuture = bjMs >= nowBj;
-          if (!best) {
-            best = { bjMs, tl, isFuture };
-            continue;
+          entries.push({
+            bjMs,
+            comment: tl.comment || "",
+            isRegistration: isRegistrationComment(tl.comment || ""),
+            abstractBjMs: parseDeadlineToBjMs((tl.abstract_deadline || "").trim(), rec.timezone || "UTC")
+          });
+        }
+
+        if (entries.length === 0) continue;
+
+        const submissionCandidates = entries.filter(e => !e.isRegistration);
+        let submission = chooseByNow(submissionCandidates, nowBj);
+        if (!submission) {
+          submission = chooseByNow(entries, nowBj);
+        }
+
+        let registration = null;
+        const registrationCandidates = entries.filter(e => e.isRegistration);
+        if (submission) {
+          const explicit = registrationCandidates.filter(e => e.bjMs <= submission.bjMs);
+          if (explicit.length > 0) {
+            registration = explicit.sort((a, b) => b.bjMs - a.bjMs)[0];
+          } else if (submission.abstractBjMs && submission.abstractBjMs <= submission.bjMs) {
+            registration = {
+              bjMs: submission.abstractBjMs,
+              comment: "abstract deadline",
+              isRegistration: true
+            };
           }
-          if (best.isFuture && isFuture) {
-            if (bjMs < best.bjMs) best = { bjMs, tl, isFuture };
-          } else if (!best.isFuture && !isFuture) {
-            if (bjMs > best.bjMs) best = { bjMs, tl, isFuture };
-          } else if (!best.isFuture && isFuture) {
-            best = { bjMs, tl, isFuture };
+        } else if (registrationCandidates.length > 0) {
+          registration = chooseByNow(registrationCandidates, nowBj);
+        }
+
+        const nextCandidates = [];
+        if (registration && registration.bjMs >= nowBj) {
+          nextCandidates.push({ type: "registration", label: "Reg/Abs", bjMs: registration.bjMs });
+        }
+        if (submission && submission.bjMs >= nowBj) {
+          nextCandidates.push({ type: "submission", label: "Full", bjMs: submission.bjMs });
+        }
+
+        let next = null;
+        if (nextCandidates.length > 0) {
+          next = nextCandidates.sort((a, b) => a.bjMs - b.bjMs)[0];
+        } else {
+          const pastCandidates = [];
+          if (registration) pastCandidates.push({ type: "registration", label: "Reg/Abs", bjMs: registration.bjMs });
+          if (submission) pastCandidates.push({ type: "submission", label: "Full", bjMs: submission.bjMs });
+          if (pastCandidates.length > 0) {
+            next = pastCandidates.sort((a, b) => b.bjMs - a.bjMs)[0];
           }
         }
 
-        if (!best) continue;
+        if (!next) continue;
 
         rows.push({
           key: `${rec.id}::${rec.year}`,
@@ -706,13 +764,16 @@
           subName: rec.sub_name_en || rec.sub_name || rec.sub || "-",
           rank: rec.ccf_rank || "N",
           timezone: rec.timezone || "UTC",
-          deadlineText: best.tl.deadline || "",
-          deadlineBjMs: best.bjMs,
-          status: best.isFuture ? "upcoming" : "past"
+          submissionBjMs: submission ? submission.bjMs : null,
+          registrationBjMs: registration ? registration.bjMs : null,
+          nextType: next.type,
+          nextLabel: next.label,
+          nextBjMs: next.bjMs,
+          status: next.bjMs >= nowBj ? "upcoming" : "past"
         });
       }
 
-      rows.sort((a, b) => a.deadlineBjMs - b.deadlineBjMs);
+      rows.sort((a, b) => a.nextBjMs - b.nextBjMs);
       return rows;
     }
 
@@ -776,7 +837,7 @@
           <div>${row.rank}</div>
           <div>${row.sub}</div>
           <div><span class="status ${row.status === "past" ? "past" : ""}">${row.status}</span></div>
-          <div class="minor">${formatBj(row.deadlineBjMs)}</div>
+          <div class="minor">${row.nextLabel}: ${formatBj(row.nextBjMs)}</div>
         `;
         div.addEventListener("click", () => selectConference(row));
         els.list.appendChild(div);
@@ -787,8 +848,10 @@
       state.selected = row;
       els.confName.value = `${row.title} ${row.year}`;
       els.targetTitle.textContent = `${row.title} ${row.year}`;
-      els.deadline.value = toDatetimeLocalFromBjMs(row.deadlineBjMs);
-      els.meta.textContent = `Selected deadline: ${formatBj(row.deadlineBjMs)} (Beijing Time)`;
+      els.deadline.value = toDatetimeLocalFromBjMs(row.nextBjMs);
+      const regText = row.registrationBjMs ? formatBj(row.registrationBjMs) : "-";
+      const subText = row.submissionBjMs ? formatBj(row.submissionBjMs) : "-";
+      els.meta.textContent = `Reg/Abs: ${regText} | Full: ${subText} | Focus target: ${row.nextLabel} @ ${formatBj(row.nextBjMs)}`;
       renderList(filteredRows());
       saveLocalSelection();
     }
