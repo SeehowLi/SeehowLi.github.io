@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-04T05:57:57.728328+00:00",
+  "fetched_at": "2026-06-05T05:19:46.005082+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -259,7 +259,7 @@
       "sub_name": "计算机图形学与多媒体",
       "sub_name_en": "Graphics",
       "ccf_rank": "N",
-      "core_rank": "N",
+      "core_rank": "A*",
       "thcpl_rank": "N",
       "dblp": "siggrapha",
       "year": 2021,
@@ -2722,7 +2722,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "A",
-      "core_rank": "A",
+      "core_rank": "A*",
       "thcpl_rank": "A",
       "dblp": "dac",
       "year": 2022,
@@ -5239,7 +5239,7 @@
       "sub_name": "计算机图形学与多媒体",
       "sub_name_en": "Graphics",
       "ccf_rank": "N",
-      "core_rank": "N",
+      "core_rank": "A*",
       "thcpl_rank": "N",
       "dblp": "siggrapha",
       "year": 2023,
@@ -5840,7 +5840,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "A",
-      "core_rank": "A",
+      "core_rank": "A*",
       "thcpl_rank": "A",
       "dblp": "dac",
       "year": 2023,
@@ -6394,7 +6394,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "B",
-      "core_rank": "N",
+      "core_rank": "C",
       "thcpl_rank": "B",
       "dblp": "iccd",
       "year": 2023,
@@ -8872,7 +8872,7 @@
       "sub_name": "计算机图形学与多媒体",
       "sub_name_en": "Graphics",
       "ccf_rank": "N",
-      "core_rank": "N",
+      "core_rank": "A*",
       "thcpl_rank": "N",
       "dblp": "siggrapha",
       "year": 2024,
@@ -9220,7 +9220,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "C",
-      "core_rank": "C",
+      "core_rank": "B",
       "thcpl_rank": "B",
       "dblp": "aspdac",
       "year": 2024,
@@ -9914,7 +9914,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "A",
-      "core_rank": "A",
+      "core_rank": "A*",
       "thcpl_rank": "A",
       "dblp": "dac",
       "year": 2024,
@@ -10883,7 +10883,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "B",
-      "core_rank": "N",
+      "core_rank": "C",
       "thcpl_rank": "B",
       "dblp": "iccd",
       "year": 2024,
@@ -13848,6 +13848,32 @@
       ]
     },
     {
+      "title": "WINE",
+      "description": "Conference on Web and Internet Economics",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "B",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "wine",
+      "year": 2024,
+      "id": "wine2024",
+      "link": "https://wine2024.org/",
+      "date": "December 2-5, 2024",
+      "place": "Edinburgh, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Edinburgh",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2024-07-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "WSDM",
       "description": "International Conference on Web Search and Data Mining",
       "sub": "DB",
@@ -14119,7 +14145,7 @@
       "sub_name": "计算机图形学与多媒体",
       "sub_name_en": "Graphics",
       "ccf_rank": "N",
-      "core_rank": "N",
+      "core_rank": "A*",
       "thcpl_rank": "N",
       "dblp": "siggrapha",
       "year": 2025,
@@ -14550,7 +14576,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "C",
-      "core_rank": "C",
+      "core_rank": "B",
       "thcpl_rank": "B",
       "dblp": "aspdac",
       "year": 2025,
@@ -15676,7 +15702,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "A",
-      "core_rank": "A",
+      "core_rank": "A*",
       "thcpl_rank": "A",
       "dblp": "dac",
       "year": 2025,
@@ -17254,7 +17280,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "B",
-      "core_rank": "N",
+      "core_rank": "C",
       "thcpl_rank": "B",
       "dblp": "iccd",
       "year": 2025,
@@ -21423,6 +21449,32 @@
       ]
     },
     {
+      "title": "WINE",
+      "description": "Conference on Web and Internet Economics",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "B",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "wine",
+      "year": 2025,
+      "id": "wine2025",
+      "link": "https://wine2025.cs.rutgers.edu/",
+      "date": "December 8-11, 2025",
+      "place": "New Brunswick, USA",
+      "country": "USA",
+      "region": "New Brunswick",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2025-07-03 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "WSDM",
       "description": "International Conference on Web Search and Data Mining",
       "sub": "DB",
@@ -21777,7 +21829,7 @@
       "sub_name": "计算机图形学与多媒体",
       "sub_name_en": "Graphics",
       "ccf_rank": "N",
-      "core_rank": "N",
+      "core_rank": "A*",
       "thcpl_rank": "N",
       "dblp": "siggrapha",
       "year": 2026,
@@ -22208,7 +22260,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "C",
-      "core_rank": "C",
+      "core_rank": "B",
       "thcpl_rank": "B",
       "dblp": "aspdac",
       "year": 2026,
@@ -23376,7 +23428,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "A",
-      "core_rank": "A",
+      "core_rank": "A*",
       "thcpl_rank": "A",
       "dblp": "dac",
       "year": 2026,
@@ -23392,6 +23444,37 @@
           "deadline": "2025-11-18 17:00:00",
           "abstract_deadline": "2025-11-11 17:00:00",
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "DAI",
+      "description": "International Conference on Distributed Artificial Intelligence",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "dai2",
+      "year": 2026,
+      "id": "dai2026",
+      "link": "https://www.adai.ai/dai/2026/index.html",
+      "date": "November 29-December 2, 2026",
+      "place": "Hong Kong, China",
+      "country": "China",
+      "region": "Hong Kong",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-08-03 23:59:59",
+          "abstract_deadline": "2026-07-27 23:59:59",
+          "comment": "Research / Industry Track"
+        },
+        {
+          "deadline": "2026-08-10 23:59:59",
+          "abstract_deadline": null,
+          "comment": "AI Paper Track"
         }
       ]
     },
@@ -24985,7 +25068,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "B",
-      "core_rank": "N",
+      "core_rank": "C",
       "thcpl_rank": "B",
       "dblp": "iccd",
       "year": 2026,
@@ -25167,6 +25250,37 @@
           "deadline": "2025-09-10 23:59:59",
           "abstract_deadline": "2025-09-03 23:59:59",
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ICECCS",
+      "description": "International Conference on Engineering of Complex Computer Systems",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "iceccs",
+      "year": 2026,
+      "id": "iceccs26",
+      "link": "https://formal-analysis.com/iceccs/2026/",
+      "date": "November 23-24, 2026",
+      "place": "Brisbane, Australia",
+      "country": "Australia",
+      "region": "Brisbane",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-06-29 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Abstract submission"
+        },
+        {
+          "deadline": "2026-07-06 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Full paper submission"
         }
       ]
     },
@@ -27174,7 +27288,7 @@
       "timezone": "UTC+8",
       "timeline": [
         {
-          "deadline": "2026-05-26 23:59:59",
+          "deadline": "2026-06-20 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
@@ -29300,6 +29414,32 @@
       ]
     },
     {
+      "title": "WINE",
+      "description": "Conference on Web and Internet Economics",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "B",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "wine",
+      "year": 2026,
+      "id": "wine2026",
+      "link": "https://wine2026conf.github.io/",
+      "date": "December 1-4, 2026",
+      "place": "Hong Kong, China",
+      "country": "China",
+      "region": "Hong Kong",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-07-02 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "WISA",
       "description": "Web Information Systems and Applications",
       "sub": "DB",
@@ -29493,7 +29633,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "C",
-      "core_rank": "C",
+      "core_rank": "B",
       "thcpl_rank": "B",
       "dblp": "aspdac",
       "year": 2027,
@@ -29679,6 +29819,32 @@
       ]
     },
     {
+      "title": "EACL",
+      "description": "The Annual Conference of the European Chapter of the Association for Computational Linguistics",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "N",
+      "core_rank": "A",
+      "thcpl_rank": "N",
+      "dblp": "eacl",
+      "year": 2027,
+      "id": "eacl27",
+      "link": "https://2027.eacl.org/",
+      "date": "March 9-14, 2027",
+      "place": "Athens, Greece",
+      "country": "Greece",
+      "region": "Athens",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-08-03 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "EDBT",
       "description": "International Conference on Extending Database Technology",
       "sub": "DB",
@@ -29825,6 +29991,58 @@
           "deadline": "2025-07-15 23:59:59",
           "abstract_deadline": "2025-07-08 23:59:59",
           "comment": "Full Paper First Wave Submissions"
+        }
+      ]
+    },
+    {
+      "title": "HICSS",
+      "description": "Hawaii International Conference on System Sciences",
+      "sub": "HI",
+      "sub_name": "人机交互与普适计算",
+      "sub_name_en": "Computer-Human Interaction",
+      "ccf_rank": "N",
+      "core_rank": "A",
+      "thcpl_rank": "N",
+      "dblp": "hicss",
+      "year": 2027,
+      "id": "hicss27",
+      "link": "https://hicss.hawaii.edu/",
+      "date": "January 5-8, 2027",
+      "place": "Big Island, Hawaii, USA",
+      "country": "USA",
+      "region": "Big Island, Hawaii",
+      "timezone": "UTC-10",
+      "timeline": [
+        {
+          "deadline": "2026-06-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper Submission Deadline"
+        }
+      ]
+    },
+    {
+      "title": "HPCA",
+      "description": "IEEE International Symposium on High-Performance Computer Architecture",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "A",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "hpca",
+      "year": 2027,
+      "id": "hpca27",
+      "link": "https://conf.researchr.org/home/hpca-2027",
+      "date": "Jan 30-Feb 3, 2027",
+      "place": "Salt Lake City, Utah",
+      "country": "Utah",
+      "region": "Salt Lake City",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-07-31 23:59:59",
+          "abstract_deadline": "2026-07-24 23:59:59",
+          "comment": ""
         }
       ]
     },
@@ -30283,8 +30501,8 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": "TBD",
+          "deadline": "2026-09-25 23:59:59",
+          "abstract_deadline": "2026-09-21 23:59:59",
           "comment": "Research Track Paper submission deadline"
         }
       ]
@@ -30302,16 +30520,26 @@
       "year": 2027,
       "id": "sigmetrics27",
       "link": "https://www.sigmetrics.org/sigmetrics2027/",
-      "date": "TBD",
+      "date": "June 7-11, 2027",
       "place": "Atlanta, Georgia, USA",
       "country": "USA",
       "region": "Atlanta, Georgia",
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": "TBD",
-          "comment": ""
+          "deadline": "2026-07-10 23:59:00",
+          "abstract_deadline": "2026-07-03 23:59:00",
+          "comment": "summer round"
+        },
+        {
+          "deadline": "2026-10-09 23:59:00",
+          "abstract_deadline": "2026-10-02 23:59:00",
+          "comment": "fall round"
+        },
+        {
+          "deadline": "2027-01-11 23:59:00",
+          "abstract_deadline": "2027-01-04 23:59:00",
+          "comment": "winter round"
         }
       ]
     },
