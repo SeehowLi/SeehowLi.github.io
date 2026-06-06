@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-05T05:19:46.005082+00:00",
+  "fetched_at": "2026-06-06T04:54:33.321803+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -24848,6 +24848,32 @@
       "timeline": [
         {
           "deadline": "2026-06-05 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ICAIF",
+      "description": "International Conference on AI in Finance",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "N",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "icaif",
+      "year": 2026,
+      "id": "icaif2026",
+      "link": "https://icaif2026.org/index.html",
+      "date": "November 14-17, 2026",
+      "place": "Milan, Italy",
+      "country": "Italy",
+      "region": "Milan",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-08-02 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
