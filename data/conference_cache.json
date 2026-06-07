@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-06T04:54:33.321803+00:00",
+  "fetched_at": "2026-06-07T05:23:10.476566+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -1894,7 +1894,7 @@
       "place": "Copenhagen, Denmark",
       "country": "Denmark",
       "region": "Copenhagen",
-      "timezone": "UTC-7",
+      "timezone": "PT",
       "timeline": [
         {
           "deadline": "2020-04-01 17:00:00",
@@ -4960,7 +4960,7 @@
       "place": "Sydney, Australia",
       "country": "Australia",
       "region": "Sydney",
-      "timezone": "UTC-7",
+      "timezone": "PT",
       "timeline": [
         {
           "deadline": "2021-04-01 17:00:00",
@@ -8510,7 +8510,7 @@
       "place": "Vancouver, Canada",
       "country": "Canada",
       "region": "Vancouver",
-      "timezone": "UTC-7",
+      "timezone": "PT",
       "timeline": [
         {
           "deadline": "2022-04-01 17:00:00",
@@ -13783,7 +13783,7 @@
       "place": "Guangzhou, China (and hybrid)",
       "country": "China (and hybrid)",
       "region": "Guangzhou",
-      "timezone": "UTC-7",
+      "timezone": "PT",
       "timeline": [
         {
           "deadline": "2023-04-01 17:00:00",
@@ -21301,7 +21301,7 @@
       "place": "London, United Kingdom",
       "country": "United Kingdom",
       "region": "London",
-      "timezone": "UTC-7",
+      "timezone": "PT",
       "timeline": [
         {
           "deadline": "2024-04-01 17:00:00",
@@ -21865,15 +21865,15 @@
       "place": "Melbourne, Australia",
       "country": "Australia",
       "region": "Melbourne",
-      "timezone": "UTC-7",
+      "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-06-06 23:59:59",
+          "deadline": "2026-06-20 23:59:59",
           "abstract_deadline": null,
           "comment": "Journal Track"
         },
         {
-          "deadline": "2025-06-26 23:59:59",
+          "deadline": "2026-06-26 23:59:59",
           "abstract_deadline": null,
           "comment": "Conference Track"
         }
@@ -29266,7 +29266,7 @@
       "place": "Boston, MA, USA",
       "country": "USA",
       "region": "Boston, MA",
-      "timezone": "UTC-7",
+      "timezone": "PT",
       "timeline": [
         {
           "deadline": "2025-04-01 17:00:00",
@@ -30715,7 +30715,7 @@
       "place": "Athens, Greece",
       "country": "Greece",
       "region": "Athens",
-      "timezone": "UTC-7",
+      "timezone": "PT",
       "timeline": [
         {
           "deadline": "2026-04-01 17:00:00",
