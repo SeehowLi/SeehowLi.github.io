@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-08T05:52:33.910572+00:00",
+  "fetched_at": "2026-06-09T05:08:15.376614+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -21949,14 +21949,14 @@
       "year": 2026,
       "id": "adma26",
       "link": "https://adma2026.github.io/",
-      "date": "November 1 - 3, 2026",
+      "date": "November 13 - 15, 2026",
       "place": "Hong Kong, China",
       "country": "China",
       "region": "Hong Kong",
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
+          "deadline": "2026-06-26 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
@@ -28025,8 +28025,8 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": "TBD",
+          "deadline": "2025-10-17 23:59:59",
+          "abstract_deadline": "2025-10-10 23:59:59",
           "comment": ""
         }
       ]
@@ -30263,8 +30263,8 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": "TBD",
+          "deadline": "2026-08-20 23:59:59",
+          "abstract_deadline": "2026-08-13 23:59:59",
           "comment": ""
         }
       ]
@@ -30807,6 +30807,32 @@
           "deadline": "2026-08-27 23:59:59",
           "abstract_deadline": "2026-08-20 23:59:00",
           "comment": "Second round"
+        }
+      ]
+    },
+    {
+      "title": "WCNC",
+      "description": "Wireless Communications and Networking Conference",
+      "sub": "NW",
+      "sub_name": "计算机网络",
+      "sub_name_en": "Network System",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "wcnc",
+      "year": 2027,
+      "id": "wcnc27",
+      "link": "https://wcnc2027.ieee-wcnc.org/",
+      "date": "April 5-8, 2027",
+      "place": "Panama City, Panama",
+      "country": "Panama",
+      "region": "Panama City",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-09-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
         }
       ]
     },
