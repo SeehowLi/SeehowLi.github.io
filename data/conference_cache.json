@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-09T05:08:15.376614+00:00",
+  "fetched_at": "2026-06-10T05:21:26.996980+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -556,7 +556,7 @@
       "year": 2021,
       "id": "cscw21",
       "link": "https://cscw.acm.org/2021/",
-      "date": "TBD",
+      "date": "October 23-27, 2021",
       "place": "Virtual",
       "country": "Virtual",
       "region": "Virtual",
@@ -4169,10 +4169,10 @@
       "year": 2022,
       "id": "mobicom22",
       "link": "https://www.sigmobile.org/mobicom/2022/",
-      "date": "TBD",
-      "place": "TBD",
-      "country": "TBD",
-      "region": "TBD",
+      "date": "October 17-21, 2022",
+      "place": "Sydney, Australia",
+      "country": "Australia",
+      "region": "Sydney",
       "timezone": "UTC-7",
       "timeline": [
         {
@@ -4226,10 +4226,10 @@
       "year": 2022,
       "id": "mobisys22",
       "link": "https://www.sigmobile.org/mobisys/2022/",
-      "date": "TBD",
-      "place": "TBD",
-      "country": "TBD",
-      "region": "TBD",
+      "date": "June 27 - July 1, 2022",
+      "place": "Portland, Oregon, USA",
+      "country": "USA",
+      "region": "Portland, Oregon",
       "timezone": "UTC-12",
       "timeline": [
         {
@@ -4278,7 +4278,7 @@
       "year": 2022,
       "id": "ndss22",
       "link": "https://www.ndss-symposium.org/ndss2022/",
-      "date": "February 27 - March 3, 2022",
+      "date": "April 24-28, 2022",
       "place": "San Diego, California",
       "country": "California",
       "region": "San Diego",
@@ -7506,7 +7506,7 @@
       "year": 2023,
       "id": "ndss23",
       "link": "https://www.ndss-symposium.org/ndss2023/",
-      "date": "TBD",
+      "date": "February 27 - March 3, 2023",
       "place": "San Diego, California",
       "country": "California",
       "region": "San Diego",
@@ -15802,9 +15802,9 @@
     {
       "title": "DCC",
       "description": "Data Compression Conference",
-      "sub": "DS",
-      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
-      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
       "ccf_rank": "B",
       "core_rank": "A*",
       "thcpl_rank": "B",
@@ -18220,10 +18220,10 @@
       "year": 2025,
       "id": "cgo2025",
       "link": "https://conf.researchr.org/home/cgo-2025",
-      "date": "TBD",
-      "place": "TBD",
-      "country": "TBD",
-      "region": "TBD",
+      "date": "March 1-5, 2025",
+      "place": "Las Vegas, Nevada, United States",
+      "country": "United States",
+      "region": "Las Vegas, Nevada",
       "timezone": "AoE",
       "timeline": [
         {
@@ -18712,12 +18712,12 @@
         {
           "deadline": "2025-03-14 23:59:59",
           "abstract_deadline": null,
-          "comment": ""
+          "comment": "First round 2025"
         },
         {
           "deadline": "2025-07-25 23:59:59",
           "abstract_deadline": null,
-          "comment": ""
+          "comment": "Second round 2025"
         }
       ]
     },
@@ -22913,6 +22913,32 @@
       ]
     },
     {
+      "title": "CODES+ISSS",
+      "description": "International Conference on Hardware/Software Co-design and System Synthesis",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "codes",
+      "year": 2026,
+      "id": "codesisss26",
+      "link": "https://esweek.org/codes_isss_cfp/",
+      "date": "October 4-9, 2026",
+      "place": "Barcelona, Spain",
+      "country": "Spain",
+      "region": "Barcelona",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-03-30 23:59:59",
+          "abstract_deadline": "2026-03-23 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "COLM",
       "description": "Conference on Language Modeling",
       "sub": "AI",
@@ -26578,6 +26604,37 @@
       ]
     },
     {
+      "title": "ISS",
+      "description": "ACM International Conference on Interactive Surfaces and Spaces",
+      "sub": "HI",
+      "sub_name": "人机交互与普适计算",
+      "sub_name_en": "Computer-Human Interaction",
+      "ccf_rank": "B",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "tabletop",
+      "year": 2026,
+      "id": "iss26",
+      "link": "https://iss.acm.org/2026/",
+      "date": "November 23-26, 2026",
+      "place": "Turin, Italy",
+      "country": "Italy",
+      "region": "Turin",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-02-12 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Winter round"
+        },
+        {
+          "deadline": "2026-07-22 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Summer round"
+        }
+      ]
+    },
+    {
       "title": "ISSRE",
       "description": "International Symposium on Software Reliability Engineering",
       "sub": "SE",
@@ -26942,6 +26999,32 @@
         {
           "deadline": "2026-01-22 23:59:59",
           "abstract_deadline": "2026-01-15 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "LISA",
+      "description": "Large Installation System Administration Conference",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "lisa",
+      "year": 2026,
+      "id": "lisa26",
+      "link": "https://www.usenix.org/conferences/byname/5",
+      "date": "TBD",
+      "place": "TBD",
+      "country": "TBD",
+      "region": "TBD",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
           "comment": ""
         }
       ]
@@ -27897,6 +27980,32 @@
       ]
     },
     {
+      "title": "Performance",
+      "description": "International Symposium on Computer Performance, Modeling, Measurements and Evaluation",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "performance",
+      "year": 2026,
+      "id": "performance26",
+      "link": "https://performance2026.github.io/call/",
+      "date": "November 3-5, 2026",
+      "place": "Ghent, Belgium",
+      "country": "Belgium",
+      "region": "Ghent",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-05-22 23:59:59",
+          "abstract_deadline": "2026-05-15 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "ProbML",
       "description": "Symposium on Probabilistic Machine Learning",
       "sub": "AI",
@@ -28761,7 +28870,7 @@
       "timezone": "UTC+0",
       "timeline": [
         {
-          "deadline": "2026-06-10 23:59:59",
+          "deadline": "2026-06-11 11:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
@@ -29821,9 +29930,9 @@
     {
       "title": "DCC",
       "description": "Data Compression Conference",
-      "sub": "DS",
-      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
-      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
       "ccf_rank": "B",
       "core_rank": "A*",
       "thcpl_rank": "B",
@@ -30068,6 +30177,32 @@
         {
           "deadline": "2026-07-31 23:59:59",
           "abstract_deadline": "2026-07-24 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "HiPEAC",
+      "description": "International Conference on High Performance and Embedded Architectures and Compilers",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "hipeac",
+      "year": 2027,
+      "id": "hipeac27",
+      "link": "https://www.hipeac.net/2027/glasgow/#/call-for-papers/",
+      "date": "January 18-20, 2027",
+      "place": "Glasgow, Scotland, UK",
+      "country": "UK",
+      "region": "Glasgow, Scotland",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-06-01 23:59:59",
+          "abstract_deadline": null,
           "comment": ""
         }
       ]
@@ -30396,10 +30531,10 @@
       "year": 2027,
       "id": "pets27",
       "link": "https://petsymposium.org/cfp27.php",
-      "date": "TBD",
-      "place": "TBA (Europe)",
-      "country": "TBA (Europe)",
-      "region": "TBA (Europe)",
+      "date": "July 19-24, 2027",
+      "place": "Delft, The Netherlands",
+      "country": "The Netherlands",
+      "region": "Delft",
       "timezone": "AoE",
       "timeline": [
         {
