@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-10T05:21:26.996980+00:00",
+  "fetched_at": "2026-06-11T05:50:36.409794+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -24876,6 +24876,32 @@
           "deadline": "2026-06-05 23:59:59",
           "abstract_deadline": null,
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ICA3PP",
+      "description": "International Conference on Algorithms and Architectures for Parallel Processing",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "C",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "ica3pp",
+      "year": 2026,
+      "id": "ica3pp",
+      "link": "https://hpcn.exeter.ac.uk/ica3pp2026/",
+      "date": "October 26-28, 2026",
+      "place": "Exeter, UK",
+      "country": "UK",
+      "region": "Exeter",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-07-10 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Paper Submission Due"
         }
       ]
     },
