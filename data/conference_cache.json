@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-11T05:50:36.409794+00:00",
+  "fetched_at": "2026-06-12T05:50:32.556560+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -285,7 +285,7 @@
       "sub_name": "人工智能",
       "sub_name_en": "Artificial Intelligence",
       "ccf_rank": "C",
-      "core_rank": "N",
+      "core_rank": "C",
       "thcpl_rank": "N",
       "dblp": "acml",
       "year": 2021,
@@ -1158,6 +1158,32 @@
           "deadline": "2021-05-05 23:59:59",
           "abstract_deadline": null,
           "comment": "Final Copy Deadline"
+        }
+      ]
+    },
+    {
+      "title": "LISA",
+      "description": "Large Installation System Administration Conference",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "lisa",
+      "year": 2021,
+      "id": "lisa21",
+      "link": "https://www.usenix.org/conference/lisa21",
+      "date": "June 1-3, 2021",
+      "place": "Virtual Event",
+      "country": "Virtual Event",
+      "region": "Virtual Event",
+      "timezone": "PT",
+      "timeline": [
+        {
+          "deadline": "2021-02-23 20:59:59",
+          "abstract_deadline": null,
+          "comment": ""
         }
       ]
     },
@@ -5265,7 +5291,7 @@
       "sub_name": "人工智能",
       "sub_name_en": "Artificial Intelligence",
       "ccf_rank": "C",
-      "core_rank": "N",
+      "core_rank": "C",
       "thcpl_rank": "N",
       "dblp": "acml",
       "year": 2023,
@@ -8898,7 +8924,7 @@
       "sub_name": "人工智能",
       "sub_name_en": "Artificial Intelligence",
       "ccf_rank": "C",
-      "core_rank": "N",
+      "core_rank": "C",
       "thcpl_rank": "N",
       "dblp": "acml",
       "year": 2024,
@@ -14171,7 +14197,7 @@
       "sub_name": "人工智能",
       "sub_name_en": "Artificial Intelligence",
       "ccf_rank": "C",
-      "core_rank": "N",
+      "core_rank": "C",
       "thcpl_rank": "N",
       "dblp": "acml",
       "year": 2025,
@@ -15806,17 +15832,17 @@
       "sub_name": "计算机图形学与多媒体",
       "sub_name_en": "Graphics",
       "ccf_rank": "B",
-      "core_rank": "A*",
+      "core_rank": "B",
       "thcpl_rank": "B",
       "dblp": "dcc",
       "year": 2025,
       "id": "dcc2025",
       "link": "https://datacompressionconference.org/",
       "date": "March 18-21, 2025",
-      "place": "Snowbird, Utah, U.S.",
-      "country": "U.S.",
+      "place": "Snowbird, Utah, United States",
+      "country": "United States",
       "region": "Snowbird, Utah",
-      "timezone": "UTC-8",
+      "timezone": "PT",
       "timeline": [
         {
           "deadline": "2024-10-11 23:59:59",
@@ -20487,6 +20513,32 @@
       ]
     },
     {
+      "title": "SIGCSE",
+      "description": "Technical Symposium on Computer Science Education Conference",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "N",
+      "core_rank": "A",
+      "thcpl_rank": "N",
+      "dblp": "sigcse",
+      "year": 2025,
+      "id": "sigcse25",
+      "link": "https://sigcse2025.sigcse.org/",
+      "date": "February 26 - March 1, 2025",
+      "place": "Pittsburgh, Pennsylvania, USA",
+      "country": "USA",
+      "region": "Pittsburgh, Pennsylvania",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2024-07-21 23:59:59",
+          "abstract_deadline": "2024-07-14 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "SIGIR",
       "description": "International Conference on Research on Development in Information Retrieval",
       "sub": "DB",
@@ -21855,7 +21907,7 @@
       "sub_name": "人工智能",
       "sub_name_en": "Artificial Intelligence",
       "ccf_rank": "C",
-      "core_rank": "N",
+      "core_rank": "C",
       "thcpl_rank": "N",
       "dblp": "acml",
       "year": 2026,
@@ -27030,32 +27082,6 @@
       ]
     },
     {
-      "title": "LISA",
-      "description": "Large Installation System Administration Conference",
-      "sub": "DS",
-      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
-      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
-      "ccf_rank": "B",
-      "core_rank": "N",
-      "thcpl_rank": "N",
-      "dblp": "lisa",
-      "year": 2026,
-      "id": "lisa26",
-      "link": "https://www.usenix.org/conferences/byname/5",
-      "date": "TBD",
-      "place": "TBD",
-      "country": "TBD",
-      "region": "TBD",
-      "timezone": "AoE",
-      "timeline": [
-        {
-          "deadline": "TBD",
-          "abstract_deadline": null,
-          "comment": ""
-        }
-      ]
-    },
-    {
       "title": "MICCAI",
       "description": "International Conference on Medical Image Computing and Computer Assisted Intervention",
       "sub": "MX",
@@ -28743,6 +28769,32 @@
       ]
     },
     {
+      "title": "SIGCSE",
+      "description": "Technical Symposium on Computer Science Education Conference",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "N",
+      "core_rank": "A",
+      "thcpl_rank": "N",
+      "dblp": "sigcse",
+      "year": 2026,
+      "id": "sigcse26",
+      "link": "https://sigcse2026.sigcse.org/",
+      "date": "February 18-21, 2026",
+      "place": "St. Louis, Missouri, USA",
+      "country": "USA",
+      "region": "St. Louis, Missouri",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2025-07-03 23:59:59",
+          "abstract_deadline": "2025-06-26 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "SIGIR",
       "description": "International Conference on Research on Development in Information Retrieval",
       "sub": "DB",
@@ -29257,6 +29309,32 @@
           "deadline": "2026-07-14 23:59:59",
           "abstract_deadline": "2026-07-07 23:59:59",
           "comment": "Second round"
+        }
+      ]
+    },
+    {
+      "title": "TCC",
+      "description": "Theory of Cryptography Conference",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "tcc",
+      "year": 2026,
+      "id": "tcc26",
+      "link": "https://tcc.iacr.org/2026/",
+      "date": "November 10-13, 2026",
+      "place": "New York City, USA",
+      "country": "USA",
+      "region": "New York City",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-05-19 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
         }
       ]
     },
@@ -29960,17 +30038,17 @@
       "sub_name": "计算机图形学与多媒体",
       "sub_name_en": "Graphics",
       "ccf_rank": "B",
-      "core_rank": "A*",
+      "core_rank": "B",
       "thcpl_rank": "B",
       "dblp": "dcc",
       "year": 2027,
       "id": "dcc2027",
       "link": "https://datacompressionconference.org/",
       "date": "March 23-26, 2027",
-      "place": "The Cliff Lodge convention center, Snowbird, Utah, U.S.",
-      "country": "U.S.",
-      "region": "The Cliff Lodge convention center, Snowbird, Utah",
-      "timezone": "AoE",
+      "place": "Snowbird, Utah, United States",
+      "country": "United States",
+      "region": "Snowbird, Utah",
+      "timezone": "PT",
       "timeline": [
         {
           "deadline": "2026-10-02 23:59:59",
@@ -30691,6 +30769,32 @@
           "deadline": "2026-09-25 23:59:59",
           "abstract_deadline": "2026-09-21 23:59:59",
           "comment": "Research Track Paper submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "SIGCSE",
+      "description": "Technical Symposium on Computer Science Education Conference",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "N",
+      "core_rank": "A",
+      "thcpl_rank": "N",
+      "dblp": "sigcse",
+      "year": 2027,
+      "id": "sigcse27",
+      "link": "https://2027.sigcse-ts.acm.org/",
+      "date": "February 17-20, 2027",
+      "place": "Sacramento, California, USA",
+      "country": "USA",
+      "region": "Sacramento, California",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2026-07-03 23:59:59",
+          "abstract_deadline": "2026-06-26 23:59:59",
+          "comment": ""
         }
       ]
     },
