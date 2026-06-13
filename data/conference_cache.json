@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-12T05:50:32.556560+00:00",
+  "fetched_at": "2026-06-13T05:22:05.823772+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -27968,7 +27968,7 @@
       "timezone": "UTC-12",
       "timeline": [
         {
-          "deadline": "2026-06-13 23:59:59",
+          "deadline": "2026-06-27 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
@@ -31064,13 +31064,13 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-06-25 23:59:59",
-          "abstract_deadline": "2026-06-18 23:59:00",
+          "deadline": "2026-06-26 23:59:59",
+          "abstract_deadline": "2026-06-19 23:59:00",
           "comment": "First round"
         },
         {
-          "deadline": "2026-08-27 23:59:59",
-          "abstract_deadline": "2026-08-20 23:59:00",
+          "deadline": "2026-08-28 23:59:59",
+          "abstract_deadline": "2026-08-21 23:59:00",
           "comment": "Second round"
         }
       ]
