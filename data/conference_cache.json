@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-17T06:14:49.104616+00:00",
+  "fetched_at": "2026-06-18T05:57:07.158554+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -17846,7 +17846,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "C",
-      "core_rank": "N",
+      "core_rank": "B",
       "thcpl_rank": "N",
       "dblp": "icpads",
       "year": 2025,
@@ -25700,6 +25700,32 @@
       "timeline": [
         {
           "deadline": "2026-05-31 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ICPADS",
+      "description": "IEEE International Conference on Parallel and Distributed Systems",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "icpads",
+      "year": 2026,
+      "id": "icpads26",
+      "link": "https://www.cloud-conf.net/icpads2026",
+      "date": "November 22-26 2026",
+      "place": "Tokyo, Japan",
+      "country": "Japan",
+      "region": "Tokyo",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-06-30 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
