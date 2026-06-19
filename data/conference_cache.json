@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-18T05:57:07.158554+00:00",
+  "fetched_at": "2026-06-19T06:22:33.008773+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -30546,6 +30546,32 @@
           "deadline": "2026-09-10 23:59:59",
           "abstract_deadline": null,
           "comment": "Second Submission"
+        }
+      ]
+    },
+    {
+      "title": "INFOCOM",
+      "description": "IEEE International Conference on Computer Communications",
+      "sub": "NW",
+      "sub_name": "计算机网络",
+      "sub_name_en": "Network System",
+      "ccf_rank": "A",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "infocom",
+      "year": 2027,
+      "id": "infocom27",
+      "link": "https://infocom2027.ieee-infocom.org/",
+      "date": "May 24 - 27, 2027",
+      "place": "Honolulu, HI, USA",
+      "country": "USA",
+      "region": "Honolulu, HI",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-07-31 23:59:59",
+          "abstract_deadline": "2026-07-24 23:59:59",
+          "comment": ""
         }
       ]
     },
