@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-19T06:22:33.008773+00:00",
+  "fetched_at": "2026-06-20T05:16:32.204547+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -18671,7 +18671,7 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "B",
-      "core_rank": "N",
+      "core_rank": "C",
       "thcpl_rank": "B",
       "dblp": "iscas",
       "year": 2025,
@@ -26584,16 +26584,16 @@
       "sub_name": "计算机体系结构/并行与分布计算/存储系统",
       "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
       "ccf_rank": "B",
-      "core_rank": "N",
+      "core_rank": "C",
       "thcpl_rank": "B",
       "dblp": "iscas",
       "year": 2026,
       "id": "iscas26",
       "link": "https://2026.ieee-iscas.org/",
       "date": "May 24-27, 2026",
-      "place": "SHANGHAI, CHINA",
-      "country": "CHINA",
-      "region": "SHANGHAI",
+      "place": "Shanghai, China",
+      "country": "China",
+      "region": "Shanghai",
       "timezone": "AoE",
       "timeline": [
         {
@@ -30187,6 +30187,32 @@
       ]
     },
     {
+      "title": "EUROCRYPT",
+      "description": "European Cryptology Conference",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "A",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "eurocrypt",
+      "year": 2027,
+      "id": "eurocrypt27",
+      "link": "https://eurocrypt.iacr.org/2027/",
+      "date": "April 11-15, 2027",
+      "place": "Eindhoven, Netherlands",
+      "country": "Netherlands",
+      "region": "Eindhoven",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-09-17 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "EuroSys",
       "description": "European Conference on Computer Systems",
       "sub": "DS",
@@ -30571,6 +30597,32 @@
         {
           "deadline": "2026-07-31 23:59:59",
           "abstract_deadline": "2026-07-24 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ISCAS",
+      "description": "IEEE International Symposium on Circuits and Systems",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "C",
+      "thcpl_rank": "B",
+      "dblp": "iscas",
+      "year": 2027,
+      "id": "iscas27",
+      "link": "https://2027.ieee-iscas.org/",
+      "date": "June 6-9, 2027",
+      "place": "Bordeaux, France",
+      "country": "France",
+      "region": "Bordeaux",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-10-13 23:59:59",
+          "abstract_deadline": null,
           "comment": ""
         }
       ]
