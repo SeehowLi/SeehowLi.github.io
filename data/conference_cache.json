@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T05:03:11.325277+00:00",
+  "fetched_at": "2026-06-24T05:02:46.927714+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -30940,6 +30940,32 @@
           "deadline": "2026-07-03 23:59:59",
           "abstract_deadline": "2026-06-26 23:59:59",
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "SIGKDD",
+      "description": "ACM Knowledge Discovery and Data Mining",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "A",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "kdd",
+      "year": 2027,
+      "id": "sigkdd27",
+      "link": "https://kdd2027.kdd.org/",
+      "date": "August 2027 (exact dates TBD)",
+      "place": "San Jose, California, USA",
+      "country": "USA",
+      "region": "San Jose, California",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-07-26 23:59:59",
+          "abstract_deadline": "2026-07-19 23:59:59",
+          "comment": "1st round of 2 total rounds"
         }
       ]
     },
