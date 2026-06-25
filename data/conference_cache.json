@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-24T05:02:46.927714+00:00",
+  "fetched_at": "2026-06-25T05:06:45.351995+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -30763,6 +30763,32 @@
         {
           "deadline": "2026-09-17 23:59:59",
           "abstract_deadline": "2026-09-10 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "OSDI",
+      "description": "USENIX Symposium on Operating Systems Design and Implementation",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "A",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "osdi",
+      "year": 2027,
+      "id": "osdi2027",
+      "link": "https://www.usenix.org/conference/osdi27",
+      "date": "July 7-9, 2027",
+      "place": "Baltimore, MD, USA",
+      "country": "USA",
+      "region": "Baltimore, MD",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "2026-12-08 22:59:59",
+          "abstract_deadline": "2026-12-01 22:59:59",
           "comment": ""
         }
       ]
