@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-25T05:06:45.351995+00:00",
+  "fetched_at": "2026-06-26T05:09:54.402259+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -21925,7 +21925,7 @@
           "comment": "Journal Track"
         },
         {
-          "deadline": "2026-06-26 23:59:59",
+          "deadline": "2026-07-05 23:59:59",
           "abstract_deadline": null,
           "comment": "Conference Track"
         }
@@ -30271,6 +30271,32 @@
           "deadline": "2026-09-15 23:59:00",
           "abstract_deadline": null,
           "comment": "Fall deadline"
+        }
+      ]
+    },
+    {
+      "title": "FC",
+      "description": "Financial Cryptography and Data Security",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "fc",
+      "year": 2027,
+      "id": "fc27",
+      "link": "https://fc27.ifca.ai/",
+      "date": "February 8-12, 2027",
+      "place": "Barbados (tentative)",
+      "country": "Barbados (tentative)",
+      "region": "Barbados (tentative)",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2026-09-17 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission deadline"
         }
       ]
     },
