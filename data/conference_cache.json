@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-03T04:42:52.745580+00:00",
+  "fetched_at": "2026-07-04T04:36:21.955750+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -16050,7 +16050,7 @@
       "dblp": "ecir",
       "year": 2025,
       "id": "ecir25",
-      "link": "https://ecir2025.eu/key-dates/",
+      "link": "https://ecir2025.eu/",
       "date": "April 06 - April 10, 2025",
       "place": "Lucca, Italy",
       "country": "Italy",
@@ -30172,6 +30172,32 @@
         {
           "deadline": "2026-08-03 23:59:59",
           "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ECIR",
+      "description": "European Conference on Information Retrieval",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "C",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "ecir",
+      "year": 2027,
+      "id": "ecir27",
+      "link": "https://ecir2027.co.uk/",
+      "date": "March 21-25, 2027",
+      "place": "Southampton, UK",
+      "country": "UK",
+      "region": "Southampton",
+      "timezone": "UTC+0",
+      "timeline": [
+        {
+          "deadline": "2026-10-02 23:59:59",
+          "abstract_deadline": "2026-09-25 23:59:59",
           "comment": ""
         }
       ]
