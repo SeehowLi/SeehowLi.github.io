@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-06T05:13:23.934513+00:00",
+  "fetched_at": "2026-07-07T04:53:10.685878+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -25403,14 +25403,9 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-06-29 23:59:59",
+          "deadline": "2026-07-20 23:59:59",
           "abstract_deadline": null,
-          "comment": "Abstract submission"
-        },
-        {
-          "deadline": "2026-07-06 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Full paper submission"
+          "comment": "Abstract and full paper submission"
         }
       ]
     },
@@ -30935,6 +30930,32 @@
           "deadline": "2026-07-09 23:59:59",
           "abstract_deadline": null,
           "comment": "Submission Deadline"
+        }
+      ]
+    },
+    {
+      "title": "PPoPP",
+      "description": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "A",
+      "core_rank": "B",
+      "thcpl_rank": "A",
+      "dblp": "ppopp",
+      "year": 2027,
+      "id": "ppopp27",
+      "link": "https://ppopp27.sigplan.org/",
+      "date": "Mar 20-24, 2027",
+      "place": "Salt Lake City, Utah, USA",
+      "country": "USA",
+      "region": "Salt Lake City, Utah",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-08-03 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
         }
       ]
     },
