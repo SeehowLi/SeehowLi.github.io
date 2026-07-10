@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-09T04:54:53.132597+00:00",
+  "fetched_at": "2026-07-10T04:53:20.038636+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -27181,6 +27181,32 @@
       ]
     },
     {
+      "title": "MMAsia",
+      "description": "ACM Multimedia Asia",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "mmasia",
+      "year": 2026,
+      "id": "mmasia26",
+      "link": "https://www.mmasia2026.org/",
+      "date": "December 15-18, 2026",
+      "place": "VinUniversity, Hanoi, Vietnam",
+      "country": "Vietnam",
+      "region": "VinUniversity, Hanoi",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-08-03 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Regular Paper / Special Session Submission"
+        }
+      ]
+    },
+    {
       "title": "MMM",
       "description": "International Conference on Multimedia Modeling",
       "sub": "CG",
@@ -31435,16 +31461,16 @@
       "dblp": "www",
       "year": 2027,
       "id": "www27",
-      "link": "https://www2027.thewebconf.org/",
-      "date": "TBD",
+      "link": "https://acmweb2027.org/",
+      "date": "May 10 - 14, 2027",
       "place": "Dublin, Ireland",
       "country": "Ireland",
       "region": "Dublin",
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": "TBD",
+          "deadline": "2026-10-18 23:59:59",
+          "abstract_deadline": "2026-10-11 23:59:59",
           "comment": ""
         }
       ]
