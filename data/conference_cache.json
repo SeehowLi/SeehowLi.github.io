@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T04:25:51.634010+00:00",
+  "fetched_at": "2026-07-13T04:32:02.495069+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -30671,6 +30671,32 @@
           "deadline": "2026-09-10 23:59:59",
           "abstract_deadline": null,
           "comment": "Second Submission"
+        }
+      ]
+    },
+    {
+      "title": "IJCNN",
+      "description": "International Joint Conference on Neural Networks",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "ijcnn",
+      "year": 2027,
+      "id": "ijcnn2027",
+      "link": "https://ijcnn.org/2027",
+      "date": "June 14 - 18, 2027",
+      "place": "Cape Town, South Africa",
+      "country": "South Africa",
+      "region": "Cape Town",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2027-01-31 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
         }
       ]
     },
