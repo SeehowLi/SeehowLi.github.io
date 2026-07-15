@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T03:57:26.607272+00:00",
+  "fetched_at": "2026-07-15T04:05:43.826368+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -30167,6 +30167,32 @@
         {
           "deadline": "2026-10-02 23:59:59",
           "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "DSN",
+      "description": "International Conference on Dependable Systems and Networks",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "dsn",
+      "year": 2027,
+      "id": "dsn27",
+      "link": "https://dsn2027-berlin.github.io/",
+      "date": "June 22-25, 2027",
+      "place": "Berlin, Germany",
+      "country": "Germany",
+      "region": "Berlin",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-12-02 23:59:59",
+          "abstract_deadline": "2026-11-25 23:59:59",
           "comment": ""
         }
       ]
