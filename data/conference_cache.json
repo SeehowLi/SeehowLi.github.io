@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-15T04:05:43.826368+00:00",
+  "fetched_at": "2026-07-16T04:09:31.364198+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -29887,6 +29887,32 @@
       ]
     },
     {
+      "title": "3DV",
+      "description": "International Conference on 3D Vision",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "3dim",
+      "year": 2027,
+      "id": "3dv2027",
+      "link": "https://3dvconf.github.io/2027/",
+      "date": "April 6-9, 2027",
+      "place": "Thessaloniki, Greece",
+      "country": "Greece",
+      "region": "Thessaloniki",
+      "timezone": "UTC-7",
+      "timeline": [
+        {
+          "deadline": "2026-08-28 11:00:00",
+          "abstract_deadline": null,
+          "comment": "Supplementary material due Sep 2, 2026. All deadlines are 11:00 am PDT."
+        }
+      ]
+    },
+    {
       "title": "AAAI",
       "description": "AAAI Conference on Artificial Intelligence",
       "sub": "AI",
@@ -30550,6 +30576,32 @@
       "timeline": [
         {
           "deadline": "2026-09-16 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ICC",
+      "description": "IEEE International Conference on Communications",
+      "sub": "NW",
+      "sub_name": "计算机网络",
+      "sub_name_en": "Network System",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "B",
+      "dblp": "icc",
+      "year": 2027,
+      "id": "icc27",
+      "link": "https://icc2027.ieee-icc.org",
+      "date": "May 30 - June 3, 2027",
+      "place": "Washington, DC, USA",
+      "country": "USA",
+      "region": "Washington, DC",
+      "timezone": "UTC-4",
+      "timeline": [
+        {
+          "deadline": "2026-10-02 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
