@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T04:21:33.679371+00:00",
+  "fetched_at": "2026-07-20T04:35:50.028048+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -30065,10 +30065,10 @@
       "year": 2027,
       "id": "ches27",
       "link": "https://ches.iacr.org/2027/",
-      "date": "TBD, 2027",
-      "place": "TBD, Americas",
-      "country": "Americas",
-      "region": "TBD",
+      "date": "September 6 - 9, 2027",
+      "place": "Cancún, Mexico",
+      "country": "Mexico",
+      "region": "Cancún",
       "timezone": "AoE",
       "timeline": [
         {
