@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-20T04:35:50.028048+00:00",
+  "fetched_at": "2026-07-21T04:15:44.497407+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -22008,9 +22008,34 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-06-26 23:59:59",
+          "deadline": "2026-07-17 23:59:59",
           "abstract_deadline": null,
-          "comment": ""
+          "comment": "Main Track"
+        },
+        {
+          "deadline": "2026-07-31 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Industry Track"
+        },
+        {
+          "deadline": "2026-07-31 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Special Session Paper"
+        },
+        {
+          "deadline": "2026-08-07 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Short Paper"
+        },
+        {
+          "deadline": "2026-09-11 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Poster Paper"
+        },
+        {
+          "deadline": "2026-09-11 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Encore Paper"
         }
       ]
     },
@@ -28655,6 +28680,32 @@
       ]
     },
     {
+      "title": "SDM",
+      "description": "SIAM International Conference on Data Mining",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "sdm",
+      "year": 2026,
+      "id": "sdm2026",
+      "link": "https://www.siam.org/conferences-events/siam-conferences/sdm26/",
+      "date": "November 19-20, 2026",
+      "place": "Salt Lake City, Utah, USA",
+      "country": "USA",
+      "region": "Salt Lake City, Utah",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-04-17 23:59:59",
+          "abstract_deadline": "2026-04-10 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "SEC",
       "description": "ACM/IEEE Symposium on Edge Computing",
       "sub": "DS",
@@ -29752,6 +29803,32 @@
       ]
     },
     {
+      "title": "WISE",
+      "description": "International Conference on Web Information Systems Engineering",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "B",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "wise",
+      "year": 2026,
+      "id": "wise26",
+      "link": "https://conferences.sigappfr.org/wise2026/",
+      "date": "November 2-5, 2026",
+      "place": "Venice, Italy",
+      "country": "Italy",
+      "region": "Venice",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-06-30 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Extended submission deadline"
+        }
+      ]
+    },
+    {
       "title": "WSDM",
       "description": "International Conference on Web Search and Data Mining",
       "sub": "DB",
@@ -30307,6 +30384,32 @@
         {
           "deadline": "2026-10-02 23:59:59",
           "abstract_deadline": "2026-09-25 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ECML-PKDD",
+      "description": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "N",
+      "dblp": "pkdd",
+      "year": 2027,
+      "id": "ecmlpkdd2027",
+      "link": "https://ecmlpkdd.org/2027/",
+      "date": "September 20-24, 2027",
+      "place": "Eindhoven, The Netherlands",
+      "country": "The Netherlands",
+      "region": "Eindhoven",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
           "comment": ""
         }
       ]
