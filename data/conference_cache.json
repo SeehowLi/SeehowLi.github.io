@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T04:17:14.855063+00:00",
+  "fetched_at": "2026-07-23T04:15:49.359852+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -23982,7 +23982,7 @@
         {
           "deadline": "2026-05-25 23:59:59",
           "abstract_deadline": null,
-          "comment": ""
+          "comment": "ARR Submission; commitment deadline: 2026-08-02"
         }
       ]
     },
@@ -26336,15 +26336,15 @@
       "id": "ijcnlp2026",
       "link": "https://2026.aaclnet.org/",
       "date": "Nov 6-10, 2026",
-      "place": "Hengqin, China",
+      "place": "Hengqin, Zhuhai, China",
       "country": "China",
-      "region": "Hengqin",
+      "region": "Hengqin, Zhuhai",
       "timezone": "UTC-12",
       "timeline": [
         {
           "deadline": "2026-05-25 23:59:59",
           "abstract_deadline": null,
-          "comment": "ARR Submission; AACL-IJCNLP 2026 (the 5th AACL & 15th IJCNLP)"
+          "comment": "ARR Submission; commitment deadline: 2026-08-02; AACL-IJCNLP 2026 (the 5th AACL & 15th IJCNLP)"
         }
       ]
     },
@@ -30042,6 +30042,32 @@
       ]
     },
     {
+      "title": "ACL",
+      "description": "Annual Meeting of the Association for Computational Linguistics",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "A",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "acl",
+      "year": 2027,
+      "id": "acl27",
+      "link": "https://2027.aclweb.org/",
+      "date": "August 17-22, 2027",
+      "place": "Kyoto, Japan",
+      "country": "Japan",
+      "region": "Kyoto",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "ARR Submission"
+        }
+      ]
+    },
+    {
       "title": "ASP-DAC",
       "description": "Asia and South Pacific Design Automation Conference",
       "sub": "DS",
@@ -30223,6 +30249,32 @@
       ]
     },
     {
+      "title": "COLING",
+      "description": "INTERNATIONNAL CONFERENCE ON COMPUTATIONAL LINGUISTICS",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "B",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "coling",
+      "year": 2027,
+      "id": "coling27",
+      "link": "https://2027.coling-iccl.org/",
+      "date": "May 9-14, 2027",
+      "place": "Macau SAR, China",
+      "country": "China",
+      "region": "Macau SAR",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "ARR Submission"
+        }
+      ]
+    },
+    {
       "title": "CSFW",
       "description": "IEEE Computer Security Foundations Symposium",
       "sub": "SC",
@@ -30353,12 +30405,12 @@
       "place": "Athens, Greece",
       "country": "Greece",
       "region": "Athens",
-      "timezone": "AoE",
+      "timezone": "UTC-12",
       "timeline": [
         {
           "deadline": "2026-08-03 23:59:59",
           "abstract_deadline": null,
-          "comment": ""
+          "comment": "ARR Submission; commitment deadline: 2026-10-11"
         }
       ]
     },
@@ -31044,6 +31096,32 @@
           "deadline": "2026-09-17 23:59:59",
           "abstract_deadline": "2026-09-10 23:59:59",
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "NAACL",
+      "description": "The Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "naacl",
+      "year": 2027,
+      "id": "naacl27",
+      "link": "https://2027.naacl.org/",
+      "date": "June 1-5, 2027",
+      "place": "San Francisco, California, USA",
+      "country": "USA",
+      "region": "San Francisco, California",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2026-10-12 23:59:59",
+          "abstract_deadline": null,
+          "comment": "ARR Submission"
         }
       ]
     },
