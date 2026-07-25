@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-24T04:15:30.444167+00:00",
+  "fetched_at": "2026-07-25T04:12:16.700135+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -31096,6 +31096,32 @@
           "deadline": "2026-09-17 23:59:59",
           "abstract_deadline": "2026-09-10 23:59:59",
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "MobiCom",
+      "description": "ACM Annual International Conference On Mobile Computing And Networking",
+      "sub": "NW",
+      "sub_name": "计算机网络",
+      "sub_name_en": "Network System",
+      "ccf_rank": "A",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "mobicom",
+      "year": 2027,
+      "id": "mobicom27",
+      "link": "https://www.sigmobile.org/mobicom/2027/",
+      "date": "Oct 18-22, 2027",
+      "place": "TBD",
+      "country": "TBD",
+      "region": "TBD",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-09-02 23:59:59",
+          "abstract_deadline": "2026-08-26 23:59:59",
+          "comment": "Summer Deadlines"
         }
       ]
     },
