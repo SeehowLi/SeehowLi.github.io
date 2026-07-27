@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T04:27:29.929411+00:00",
+  "fetched_at": "2026-07-27T04:37:07.414759+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -19729,6 +19729,32 @@
       ]
     },
     {
+      "title": "PODC",
+      "description": "ACM Symposium on Principles of Distributed Computing",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "A*",
+      "thcpl_rank": "B",
+      "dblp": "podc",
+      "year": 2025,
+      "id": "podc25",
+      "link": "https://www.podc.org/podc2025/",
+      "date": "June 16-20, 2025",
+      "place": "Santa María Huatulco, Mexico",
+      "country": "Mexico",
+      "region": "Santa María Huatulco",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2025-02-08 23:59:59",
+          "abstract_deadline": "2025-02-04 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "POPL",
       "description": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
       "sub": "SE",
@@ -24250,8 +24276,8 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-03-06 23:59:59",
-          "abstract_deadline": "2026-02-27 23:59:59",
+          "deadline": "2026-03-13 23:59:59",
+          "abstract_deadline": "2026-03-06 23:59:59",
           "comment": ""
         }
       ]
@@ -27336,6 +27362,32 @@
       ]
     },
     {
+      "title": "MSST",
+      "description": "International Conference on Massive Storage Systems and Technology",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "N",
+      "thcpl_rank": "B",
+      "dblp": "mss",
+      "year": 2026,
+      "id": "msst2026",
+      "link": "https://msstconference.org/2026/index.html",
+      "date": "June 1-5, 2026",
+      "place": "Santa Clara University, Santa Clara, CA, USA",
+      "country": "USA",
+      "region": "Santa Clara University, Santa Clara, CA",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "2026-04-14 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "MSWiM",
       "description": "International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
       "sub": "NW",
@@ -27746,6 +27798,32 @@
       ]
     },
     {
+      "title": "PACT",
+      "description": "International Conference on Parallel Architectures and Compilation Techniques",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "pact",
+      "year": 2026,
+      "id": "pact26",
+      "link": "https://pact2026.github.io/",
+      "date": "October 19-22, 2026",
+      "place": "Chicago, Illinois, USA",
+      "country": "USA",
+      "region": "Chicago, Illinois",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-04-30 23:59:59",
+          "abstract_deadline": "2026-04-23 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "PAKDD",
       "description": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
       "sub": "DB",
@@ -27912,6 +27990,32 @@
         {
           "deadline": "2025-11-13 23:59:59",
           "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "PODC",
+      "description": "ACM Symposium on Principles of Distributed Computing",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "A*",
+      "thcpl_rank": "B",
+      "dblp": "podc",
+      "year": 2026,
+      "id": "podc26",
+      "link": "https://www.podc.org/podc2026/",
+      "date": "July 6-10, 2026",
+      "place": "Egham, England",
+      "country": "England",
+      "region": "Egham",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-02-16 23:59:59",
+          "abstract_deadline": "2026-02-11 23:59:59",
           "comment": ""
         }
       ]
@@ -30996,6 +31100,32 @@
       ]
     },
     {
+      "title": "IPDPS",
+      "description": "IEEE International Parallel and Distributed Processing Symposium",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "ipps",
+      "year": 2027,
+      "id": "ipdps27",
+      "link": "https://www.ipdps.org/",
+      "date": "June 1-5, 2027",
+      "place": "Seattle, USA",
+      "country": "USA",
+      "region": "Seattle",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-10-08 23:59:59",
+          "abstract_deadline": "2026-10-01 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "ISCAS",
       "description": "IEEE International Symposium on Circuits and Systems",
       "sub": "DS",
@@ -31412,6 +31542,32 @@
           "deadline": "2026-09-25 23:59:59",
           "abstract_deadline": "2026-09-21 23:59:59",
           "comment": "Research Track Paper submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "SECON",
+      "description": "IEEE International Conference on Sensing, Communication, and Networking",
+      "sub": "NW",
+      "sub_name": "计算机网络",
+      "sub_name_en": "Network System",
+      "ccf_rank": "B",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "secon",
+      "year": 2027,
+      "id": "secon27",
+      "link": "https://secon2027.ieee-secon.org/",
+      "date": "May 5-7, 2027",
+      "place": "Lisbon, Portugal",
+      "country": "Portugal",
+      "region": "Lisbon",
+      "timezone": "UTC-5",
+      "timeline": [
+        {
+          "deadline": "2026-11-30 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
         }
       ]
     },
