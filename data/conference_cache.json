@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-27T04:37:07.414759+00:00",
+  "fetched_at": "2026-07-28T04:11:40.303019+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -30960,6 +30960,32 @@
         {
           "deadline": "2026-09-10 23:59:59",
           "abstract_deadline": "2026-09-03 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ICRA",
+      "description": "IEEE International Conference on Robotics and Automation",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "B",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "icra",
+      "year": 2027,
+      "id": "icra27",
+      "link": "https://2027.ieee-icra.org/",
+      "date": "May 24-28, 2027",
+      "place": "Seoul, Republic of Korea",
+      "country": "Republic of Korea",
+      "region": "Seoul",
+      "timezone": "UTC-7",
+      "timeline": [
+        {
+          "deadline": "2026-09-15 23:59:59",
+          "abstract_deadline": null,
           "comment": ""
         }
       ]
