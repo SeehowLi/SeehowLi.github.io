@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T03:58:22.896602+00:00",
+  "fetched_at": "2026-07-31T04:23:30.690256+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -22233,7 +22233,7 @@
       "dblp": "apsys",
       "year": 2026,
       "id": "apsys2026",
-      "link": "https://ap-sys.org/",
+      "link": "https://apsys26.github.io/",
       "date": "September 17-18, 2026",
       "place": "Bangkok, Thailand",
       "country": "Thailand",
@@ -32000,7 +32000,12 @@
         {
           "deadline": "2026-08-24 23:59:59",
           "abstract_deadline": "2026-08-17 23:59:59",
-          "comment": ""
+          "comment": "Full Paper"
+        },
+        {
+          "deadline": "2026-11-17 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Short Paper"
         }
       ]
     },
