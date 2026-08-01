@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T04:23:30.690256+00:00",
+  "fetched_at": "2026-08-01T04:21:39.742720+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -31459,6 +31459,32 @@
           "deadline": "2027-02-28 23:59:59",
           "abstract_deadline": null,
           "comment": "Issue 4 Paper Submission Deadline"
+        }
+      ]
+    },
+    {
+      "title": "PKC",
+      "description": "International Conference on Practice and Theory of Public-Key Cryptography",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "B",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "pkc",
+      "year": 2027,
+      "id": "pkc27",
+      "link": "https://pkc.iacr.org/2027/",
+      "date": "March 1-4, 2027",
+      "place": "Taipei, Taiwan",
+      "country": "Taiwan",
+      "region": "Taipei",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2026-08-16 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
         }
       ]
     },
