@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T04:23:55.856729+00:00",
+  "fetched_at": "2026-08-03T04:31:13.981399+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -27251,7 +27251,7 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-08-03 23:59:59",
+          "deadline": "2026-08-14 23:59:59",
           "abstract_deadline": null,
           "comment": "Regular Paper / Special Session Submission"
         }
@@ -30721,6 +30721,37 @@
       ]
     },
     {
+      "title": "FPGA",
+      "description": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "N",
+      "thcpl_rank": "A",
+      "dblp": "fpga",
+      "year": 2027,
+      "id": "fpga2027",
+      "link": "https://www.isfpga.org/",
+      "date": "March 14 - March 16, 2027",
+      "place": "Monterey, California, USA",
+      "country": "USA",
+      "region": "Monterey, California",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2026-10-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Abstracts Due"
+        },
+        {
+          "deadline": "2026-10-08 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submissions Due"
+        }
+      ]
+    },
+    {
       "title": "FSE",
       "description": "ACM International Conference on the Foundations of Software Engineering",
       "sub": "SE",
@@ -30977,7 +31008,7 @@
       "year": 2027,
       "id": "iclr27",
       "link": "https://iclr.cc/Conferences/2027",
-      "date": "TBD",
+      "date": "April 26-30, 2027",
       "place": "San Francisco, CA, USA",
       "country": "USA",
       "region": "San Francisco, CA",
