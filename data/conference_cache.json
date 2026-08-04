@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-03T04:31:13.981399+00:00",
+  "fetched_at": "2026-08-04T04:15:12.012961+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -30660,6 +30660,32 @@
           "deadline": "2026-09-24 23:59:59",
           "abstract_deadline": "2026-09-17 23:59:59",
           "comment": "Fall Submission Deadline"
+        }
+      ]
+    },
+    {
+      "title": "Eurographics",
+      "description": "Eurographics",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "B",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "eurographics",
+      "year": 2027,
+      "id": "eg27",
+      "link": "https://eg2027.isti.cnr.it/",
+      "date": "May 10-14, 2027",
+      "place": "Lucca, Italy",
+      "country": "Italy",
+      "region": "Lucca",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "2026-10-01 23:59:59",
+          "abstract_deadline": "2026-09-25 23:59:59",
+          "comment": ""
         }
       ]
     },
