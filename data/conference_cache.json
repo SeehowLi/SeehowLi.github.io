@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-10T03:11:32.694422+00:00",
+  "fetched_at": "2026-08-11T03:04:20.006435+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -27253,7 +27253,17 @@
         {
           "deadline": "2026-08-14 23:59:59",
           "abstract_deadline": null,
-          "comment": "Regular Paper / Special Session Submission"
+          "comment": "Regular Paper"
+        },
+        {
+          "deadline": "2026-08-21 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Special Session Paper"
+        },
+        {
+          "deadline": "2026-09-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Demo / Industry Submission"
         }
       ]
     },
@@ -30804,6 +30814,32 @@
       ]
     },
     {
+      "title": "FG",
+      "description": "International Conference on Automatic Face and Gesture Recognition",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "fg",
+      "year": 2027,
+      "id": "fg27",
+      "link": "https://fg2027.ieee-biometrics.org/",
+      "date": "April 26-30, 2027",
+      "place": "Marrakesh, Morocco",
+      "country": "Morocco",
+      "region": "Marrakesh",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-10-16 23:59:59",
+          "abstract_deadline": "2026-10-09 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "FPGA",
       "description": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
       "sub": "DS",
@@ -31100,6 +31136,32 @@
         {
           "deadline": "2026-09-25 23:59:59",
           "abstract_deadline": "2026-09-18 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ICMR",
+      "description": "ACM SIGMM International Conference on Multimedia Retrieval",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "B",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "mir",
+      "year": 2027,
+      "id": "icmr27",
+      "link": "https://www.icmr2027.org/",
+      "date": "June 7-10, 2027",
+      "place": "Singapore",
+      "country": "Singapore",
+      "region": "Singapore",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2027-01-31 23:59:59",
+          "abstract_deadline": null,
           "comment": ""
         }
       ]
@@ -32083,6 +32145,32 @@
         {
           "deadline": "2027-03-01 17:00:00",
           "abstract_deadline": "2027-02-25 17:00:00",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "VMCAI",
+      "description": "International Conference on Verification, Model Checking, and Abstract Interpretation",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "B",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "vmcai",
+      "year": 2027,
+      "id": "vmcai27",
+      "link": "https://conf.researchr.org/home/VMCAI-2027",
+      "date": "January 11-12, 2027",
+      "place": "Mexico City, Mexico",
+      "country": "Mexico",
+      "region": "Mexico City",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-09-16 23:59:59",
+          "abstract_deadline": null,
           "comment": ""
         }
       ]
