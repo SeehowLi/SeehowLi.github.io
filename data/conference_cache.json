@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-11T03:04:20.006435+00:00",
+  "fetched_at": "2026-08-12T03:23:24.932045+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -30239,6 +30239,32 @@
       ]
     },
     {
+      "title": "ALT",
+      "description": "International Conference on Algorithmic Learning Theory",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "alt",
+      "year": 2027,
+      "id": "alt2027",
+      "link": "https://algorithmiclearningtheory.org/alt2027/",
+      "date": "March 9-12, 2027",
+      "place": "Leiden, Netherlands",
+      "country": "Netherlands",
+      "region": "Leiden",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-10-12 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "ASP-DAC",
       "description": "Asia and South Pacific Design Automation Conference",
       "sub": "DS",
@@ -31659,6 +31685,32 @@
       "timeline": [
         {
           "deadline": "2026-08-16 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "PLDI",
+      "description": "ACM SIGPLAN Conference on Programming Language Design & Implementation",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "A",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "pldi",
+      "year": 2027,
+      "id": "pldi27",
+      "link": "https://pldi27.sigplan.org/",
+      "date": "June 5-11, 2027",
+      "place": "Atlanta, Georgia, USA",
+      "country": "USA",
+      "region": "Atlanta, Georgia",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-11-12 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
