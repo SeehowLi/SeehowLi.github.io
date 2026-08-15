@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-14T03:24:04.170002+00:00",
+  "fetched_at": "2026-08-15T02:13:50.262823+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -17934,17 +17934,12 @@
       "place": "Atlanta (GA), USA",
       "country": "USA",
       "region": "Atlanta (GA)",
-      "timezone": "UTC-4",
+      "timezone": "UTC-7",
       "timeline": [
         {
-          "deadline": "2024-07-15 12:00:00",
+          "deadline": "2024-09-16 23:59:59",
           "abstract_deadline": null,
-          "comment": "submission open"
-        },
-        {
-          "deadline": "2024-09-15 00:00:00",
-          "abstract_deadline": null,
-          "comment": "submission close"
+          "comment": ""
         }
       ]
     },
