@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-20T02:17:22.658587+00:00",
+  "fetched_at": "2026-08-21T02:23:19.222772+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -27334,7 +27334,7 @@
       "timezone": "UTC-12",
       "timeline": [
         {
-          "deadline": "2026-08-20 23:59:59",
+          "deadline": "2026-08-30 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
