@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T02:17:55.015447+00:00",
+  "fetched_at": "2026-08-26T02:24:44.891387+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -31885,7 +31885,7 @@
       "year": 2027,
       "id": "sp27",
       "link": "https://sp2027.ieee-security.org/index.html",
-      "date": "TBD",
+      "date": "May 17-19, 2027",
       "place": "MONTREAL, CANADA",
       "country": "CANADA",
       "region": "MONTREAL",
@@ -32020,7 +32020,7 @@
       "year": 2027,
       "id": "sigkdd27",
       "link": "https://kdd2027.kdd.org/",
-      "date": "August 2027 (exact dates TBD)",
+      "date": "August 1-5, 2027",
       "place": "San Jose, California, USA",
       "country": "USA",
       "region": "San Jose, California",
@@ -32149,7 +32149,7 @@
       "year": 2027,
       "id": "sensys27",
       "link": "https://sensys.acm.org/2027/",
-      "date": "2027",
+      "date": "May 17-20, 2027",
       "place": "New York, USA",
       "country": "USA",
       "region": "New York",
