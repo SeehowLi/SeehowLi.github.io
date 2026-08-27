@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-26T02:24:44.891387+00:00",
+  "fetched_at": "2026-08-27T10:57:56.334769+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -30560,6 +30560,32 @@
       ]
     },
     {
+      "title": "CVM",
+      "description": "The international conference on Computational Visual Media",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "cvm",
+      "year": 2027,
+      "id": "cvm27",
+      "link": "http://iccvm.org/2027/",
+      "date": "April 9-11, 2027",
+      "place": "Nanyang Technological University, Singapore",
+      "country": "Singapore",
+      "region": "Nanyang Technological University",
+      "timezone": "UTC+0",
+      "timeline": [
+        {
+          "deadline": "2026-10-26 23:59:59",
+          "abstract_deadline": "2026-10-23 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "DATE",
       "description": "Design, Automation & Test in Europe",
       "sub": "DS",
@@ -31297,6 +31323,32 @@
       ]
     },
     {
+      "title": "IEEE CEC",
+      "description": "IEEE Congress on Evolutionary Computation",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "cec",
+      "year": 2027,
+      "id": "cec2027",
+      "link": "https://ieeecec.org/2027",
+      "date": "July 25-28, 2027",
+      "place": "Edinburgh, Scotland, UK",
+      "country": "UK",
+      "region": "Edinburgh, Scotland",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2027-02-28 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "IEEE VR",
       "description": "IEEE Virtual Reality",
       "sub": "CG",
@@ -31458,6 +31510,32 @@
       ]
     },
     {
+      "title": "ISSTA",
+      "description": "ACM SIGSOFT International Symposium on Software Testing and Analysis",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "A",
+      "core_rank": "A",
+      "thcpl_rank": "A",
+      "dblp": "issta",
+      "year": 2027,
+      "id": "issta27",
+      "link": "https://conf.researchr.org/home/issta-2027",
+      "date": "September 7-10, 2027",
+      "place": "Singapore",
+      "country": "Singapore",
+      "region": "Singapore",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-01-11 23:59:59",
+          "abstract_deadline": "2027-01-08 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "IUI",
       "description": "ACM Conference on Intelligent User Interfaces",
       "sub": "HI",
@@ -31479,6 +31557,32 @@
         {
           "deadline": "2026-08-20 23:59:59",
           "abstract_deadline": "2026-08-13 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "MLSys",
+      "description": "Conference on Machine Learning and Systems",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "N",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "mlsys",
+      "year": 2027,
+      "id": "mlsys27",
+      "link": "https://mlsys.org/",
+      "date": "TBD",
+      "place": "Bellevue, Washington, USA",
+      "country": "USA",
+      "region": "Bellevue, Washington",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "2026-10-30 20:00:00",
+          "abstract_deadline": null,
           "comment": ""
         }
       ]
