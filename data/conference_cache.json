@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-04T05:36:34.544720+00:00",
+  "fetched_at": "2026-09-05T05:20:34.232196+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -30265,6 +30265,32 @@
       ]
     },
     {
+      "title": "AISTATS",
+      "description": "International Conference on Artificial Intelligence and Statistics",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "C",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "aistats",
+      "year": 2027,
+      "id": "aistats27",
+      "link": "https://virtual.aistats.org/Conferences/2027",
+      "date": "May 3, 2027",
+      "place": "Montréal, Canada",
+      "country": "Canada",
+      "region": "Montréal",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2026-10-06 23:59:59",
+          "abstract_deadline": "2026-09-29 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "ALT",
       "description": "International Conference on Algorithmic Learning Theory",
       "sub": "AI",
@@ -30931,13 +30957,13 @@
       "id": "fc27",
       "link": "https://fc27.ifca.ai/",
       "date": "February 8-12, 2027",
-      "place": "Barbados (tentative)",
-      "country": "Barbados (tentative)",
-      "region": "Barbados (tentative)",
+      "place": "Barbados",
+      "country": "Barbados",
+      "region": "Barbados",
       "timezone": "UTC-12",
       "timeline": [
         {
-          "deadline": "2026-09-17 23:59:59",
+          "deadline": "2026-09-24 23:59:59",
           "abstract_deadline": null,
           "comment": "Submission deadline"
         }
@@ -32535,7 +32561,7 @@
       "dblp": "www",
       "year": 2027,
       "id": "www27",
-      "link": "https://acmweb2027.org/",
+      "link": "https://www2027.thewebconf.org/",
       "date": "May 10 - 14, 2027",
       "place": "Dublin, Ireland",
       "country": "Ireland",
@@ -32543,8 +32569,8 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-10-18 23:59:59",
-          "abstract_deadline": "2026-10-11 23:59:59",
+          "deadline": "2026-10-25 23:59:59",
+          "abstract_deadline": "2026-10-18 23:59:59",
           "comment": ""
         }
       ]
