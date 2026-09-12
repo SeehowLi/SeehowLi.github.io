@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-11T05:40:08.860893+00:00",
+  "fetched_at": "2026-09-12T05:27:26.116507+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -30690,6 +30690,32 @@
         {
           "deadline": "2026-11-16 23:59:00",
           "abstract_deadline": "2026-11-10 23:59:00",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "DAC",
+      "description": "Design Automation Conference",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "A",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "dac",
+      "year": 2027,
+      "id": "dac27",
+      "link": "https://dac.com/2027/authors/call-for-contributions",
+      "date": "July 11-14, 2027",
+      "place": "San Jose, CA",
+      "country": "CA",
+      "region": "San Jose",
+      "timezone": "UTC-8",
+      "timeline": [
+        {
+          "deadline": "2026-11-18 17:00:00",
+          "abstract_deadline": null,
           "comment": ""
         }
       ]
