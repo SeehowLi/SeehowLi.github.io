@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-14T05:53:51.825419+00:00",
+  "fetched_at": "2026-09-15T05:55:46.877136+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -19750,6 +19750,37 @@
       ]
     },
     {
+      "title": "PODS",
+      "description": "ACM Symposium on Principles of Database Systems",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "B",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "pods",
+      "year": 2025,
+      "id": "pods25",
+      "link": "https://2025.sigmod.org/",
+      "date": "June 22-27, 2025",
+      "place": "Berlin, Germany",
+      "country": "Germany",
+      "region": "Berlin",
+      "timezone": "UTC-7",
+      "timeline": [
+        {
+          "deadline": "2024-06-07 17:00:00",
+          "abstract_deadline": "2024-05-31 17:00:00",
+          "comment": "FIRST SUBMISSION CYCLE"
+        },
+        {
+          "deadline": "2024-12-09 17:00:00",
+          "abstract_deadline": "2024-12-02 17:00:00",
+          "comment": "SECOND SUBMISSION CYCLE"
+        }
+      ]
+    },
+    {
       "title": "POPL",
       "description": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
       "sub": "SE",
@@ -22953,7 +22984,7 @@
       "timeline": [
         {
           "deadline": "2026-05-07 23:59:59",
-          "abstract_deadline": "2026-04-30 23:59:59",
+          "abstract_deadline": "2026-05-07 23:59:59",
           "comment": ""
         }
       ]
@@ -24029,6 +24060,32 @@
         {
           "deadline": "2026-03-30 23:59:59",
           "abstract_deadline": "2026-03-23 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ESA",
+      "description": "European Symposium on Algorithms",
+      "sub": "CT",
+      "sub_name": "计算机科学理论",
+      "sub_name_en": "Computing Theory",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "esa",
+      "year": 2026,
+      "id": "esa2026",
+      "link": "https://algo-conference.org/2026/esa/",
+      "date": "August 31 - September 4, 2026",
+      "place": "L'Aquila, Italy",
+      "country": "Italy",
+      "region": "L'Aquila",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-04-23 23:59:59",
+          "abstract_deadline": "2026-04-21 23:59:59",
           "comment": ""
         }
       ]
@@ -30462,6 +30519,32 @@
       ]
     },
     {
+      "title": "CCGRID",
+      "description": "IEEE International Symposium on Cluster, Cloud and Internet Computing",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "ccgrid",
+      "year": 2027,
+      "id": "ccgrid27",
+      "link": "https://hpcclab.org/ccgrid27/",
+      "date": "May 24-27, 2027",
+      "place": "Dallas-Fort Worth, Texas, USA",
+      "country": "USA",
+      "region": "Dallas-Fort Worth, Texas",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-12-01 23:59:59",
+          "abstract_deadline": "2026-11-24 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "CHES",
       "description": "International Conference on Cryptographic Hardware and Embedded Systems",
       "sub": "SC",
@@ -30639,6 +30722,32 @@
           "deadline": "2026-10-22 23:59:59",
           "abstract_deadline": null,
           "comment": "Paper submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "CVC",
+      "description": "Computer Vision Conference",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "N",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "cvc",
+      "year": 2027,
+      "id": "cvc27",
+      "link": "https://saiconference.com/CVC",
+      "date": "April 15-16, 2027",
+      "place": "Amsterdam, Netherlands",
+      "country": "Netherlands",
+      "region": "Amsterdam",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-10-01 23:59:00",
+          "abstract_deadline": null,
+          "comment": ""
         }
       ]
     },
@@ -30939,6 +31048,37 @@
       ]
     },
     {
+      "title": "ETAPS",
+      "description": "European Joint Conferences on Theory and Practice of Software",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "B",
+      "core_rank": "N",
+      "thcpl_rank": "B",
+      "dblp": "etaps",
+      "year": 2027,
+      "id": "etaps27",
+      "link": "https://etaps.org/2027",
+      "date": "April 10-15, 2027",
+      "place": "Copenhagen, Denmark",
+      "country": "Denmark",
+      "region": "Copenhagen",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-05-28 23:59:59",
+          "abstract_deadline": null,
+          "comment": "ESOP round 1"
+        },
+        {
+          "deadline": "2026-10-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "ESOP round 2, FoSSaCS, TACAS, iFS"
+        }
+      ]
+    },
+    {
       "title": "EUROCRYPT",
       "description": "European Cryptology Conference",
       "sub": "SC",
@@ -30960,6 +31100,58 @@
         {
           "deadline": "2026-09-17 23:59:59",
           "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "EuroGP",
+      "description": "European Conference on Genetic Programming",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "N",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "eurogp",
+      "year": 2027,
+      "id": "eurogp27",
+      "link": "https://www.evostar.org/2027/eurogp/",
+      "date": "March 31-April 2, 2027",
+      "place": "Mainz, Germany (hybrid)",
+      "country": "Germany (hybrid)",
+      "region": "Mainz",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-11-01 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Full papers"
+        }
+      ]
+    },
+    {
+      "title": "EuroS&P",
+      "description": "IEEE European Symposium on Security and Privacy",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "eurosp",
+      "year": 2027,
+      "id": "eurosp27",
+      "link": "https://eurosp2027.ieee-security.org/",
+      "date": "July 5 - 9, 2027",
+      "place": "Madrid, Spain",
+      "country": "Spain",
+      "region": "Madrid",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2026-12-02 23:59:59",
+          "abstract_deadline": "2026-11-25 23:59:59",
           "comment": ""
         }
       ]
@@ -31018,6 +31210,84 @@
           "deadline": "2026-10-01 23:59:59",
           "abstract_deadline": "2026-09-25 23:59:59",
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "EvoApplications",
+      "description": "International Conference on the Applications of Evolutionary Computation",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "N",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "evoapps",
+      "year": 2027,
+      "id": "evoapps27",
+      "link": "https://www.evostar.org/2027/evoapps/",
+      "date": "March 31-April 2, 2027",
+      "place": "Mainz, Germany (hybrid)",
+      "country": "Germany (hybrid)",
+      "region": "Mainz",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-11-01 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Full papers"
+        }
+      ]
+    },
+    {
+      "title": "EvoCOP",
+      "description": "European Conference on Evolutionary Computation in Combinatorial Optimisation",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "N",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "evocop",
+      "year": 2027,
+      "id": "evocop27",
+      "link": "https://www.evostar.org/2027/evocop/",
+      "date": "March 31-April 2, 2027",
+      "place": "Mainz, Germany (hybrid)",
+      "country": "Germany (hybrid)",
+      "region": "Mainz",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-11-01 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Full papers"
+        }
+      ]
+    },
+    {
+      "title": "EvoMUSART",
+      "description": "International Conference on Artificial Intelligence in Music, Sound, Art and Design",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "N",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "evomusart",
+      "year": 2027,
+      "id": "evomusart27",
+      "link": "https://www.evostar.org/2027/evomusart/",
+      "date": "March 31-April 2, 2027",
+      "place": "Mainz, Germany (hybrid)",
+      "country": "Germany (hybrid)",
+      "region": "Mainz",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-11-01 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Full papers"
         }
       ]
     },
@@ -31548,7 +31818,7 @@
       "year": 2027,
       "id": "cgo2027",
       "link": "https://conf.researchr.org/home/cgo-2027",
-      "date": "TBD",
+      "date": "March 20-24, 2027",
       "place": "Salt Lake City, Utah, USA",
       "country": "USA",
       "region": "Salt Lake City, Utah",
@@ -31718,6 +31988,32 @@
         {
           "deadline": "2026-08-20 23:59:59",
           "abstract_deadline": "2026-08-13 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "MICCAI",
+      "description": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "miccai",
+      "year": 2027,
+      "id": "miccai27",
+      "link": "https://conferences.miccai.org/2027/en/",
+      "date": "Sep 27 - Oct 1, 2027",
+      "place": "Auckland, New Zealand",
+      "country": "New Zealand",
+      "region": "Auckland",
+      "timezone": "UTC-8",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
           "comment": ""
         }
       ]
@@ -31915,6 +32211,37 @@
       ]
     },
     {
+      "title": "OOPSLA",
+      "description": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "A",
+      "core_rank": "A",
+      "thcpl_rank": "A",
+      "dblp": "oopsla",
+      "year": 2027,
+      "id": "oopsla27",
+      "link": "https://2027.splashcon.org/track/splashoopsla2027",
+      "date": "October 10-15, 2027",
+      "place": "Prague, Czechia",
+      "country": "Czechia",
+      "region": "Prague",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-10-14 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission Deadline Round 1"
+        },
+        {
+          "deadline": "2027-04-07 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission Deadline Round 2"
+        }
+      ]
+    },
+    {
       "title": "OSDI",
       "description": "USENIX Symposium on Operating Systems Design and Implementation",
       "sub": "SE",
@@ -32030,6 +32357,37 @@
           "deadline": "2026-11-12 23:59:59",
           "abstract_deadline": null,
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "PODS",
+      "description": "ACM Symposium on Principles of Database Systems",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "B",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "pods",
+      "year": 2027,
+      "id": "pods27",
+      "link": "https://2027.sigmod.org/",
+      "date": "June 13-19, 2027",
+      "place": "Huntington Beach, California, USA",
+      "country": "USA",
+      "region": "Huntington Beach, California",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-05-30 23:59:59",
+          "abstract_deadline": "2026-05-23 23:59:59",
+          "comment": "First Submission Cycle"
+        },
+        {
+          "deadline": "2026-12-10 23:59:59",
+          "abstract_deadline": "2026-12-03 23:59:59",
+          "comment": "Second Submission Cycle"
         }
       ]
     },
@@ -32165,6 +32523,32 @@
           "deadline": "2026-11-17 23:59:59",
           "abstract_deadline": "2026-11-10 23:59:59",
           "comment": "Second Paper submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "SAI Computing Conference",
+      "description": "Computing Conference (SAI)",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "N",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "sai",
+      "year": 2027,
+      "id": "computing27",
+      "link": "https://saiconference.com/Computing",
+      "date": "July 8-9, 2027",
+      "place": "London, United Kingdom",
+      "country": "United Kingdom",
+      "region": "London",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-10-01 23:59:00",
+          "abstract_deadline": null,
+          "comment": ""
         }
       ]
     },
@@ -32680,6 +33064,32 @@
         {
           "deadline": "2026-10-25 23:59:59",
           "abstract_deadline": "2026-10-18 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "MICCAI",
+      "description": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "miccai",
+      "year": 2028,
+      "id": "miccai28",
+      "link": "https://conferences.miccai.org/2028/en/",
+      "date": "Oct 16-20, 2028",
+      "place": "São Paulo, Brazil",
+      "country": "Brazil",
+      "region": "São Paulo",
+      "timezone": "UTC-8",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
           "comment": ""
         }
       ]
