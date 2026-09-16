@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-15T05:55:46.877136+00:00",
+  "fetched_at": "2026-09-16T05:42:27.145379+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -10350,7 +10350,7 @@
       "sub_name": "网络与信息安全",
       "sub_name_en": "Network and System Security",
       "ccf_rank": "C",
-      "core_rank": "N",
+      "core_rank": "A",
       "thcpl_rank": "N",
       "dblp": "eurosp",
       "year": 2024,
@@ -16455,7 +16455,7 @@
       "sub_name": "网络与信息安全",
       "sub_name_en": "Network and System Security",
       "ccf_rank": "C",
-      "core_rank": "N",
+      "core_rank": "A",
       "thcpl_rank": "N",
       "dblp": "eurosp",
       "year": 2025,
@@ -24341,7 +24341,7 @@
       "sub_name": "网络与信息安全",
       "sub_name_en": "Network and System Security",
       "ccf_rank": "C",
-      "core_rank": "N",
+      "core_rank": "A",
       "thcpl_rank": "N",
       "dblp": "eurosp",
       "year": 2026,
@@ -26158,6 +26158,37 @@
           "deadline": "2026-01-31 23:59:59",
           "abstract_deadline": null,
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "IEEE CoG",
+      "description": "IEEE Conference on Games",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "N",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "cig",
+      "year": 2026,
+      "id": "cog26",
+      "link": "https://cog2026.org/",
+      "date": "September 1-4, 2026",
+      "place": "Madrid, Spain",
+      "country": "Spain",
+      "region": "Madrid",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-03-17 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Regular Paper"
+        },
+        {
+          "deadline": "2026-05-14 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Auxiliary Paper"
         }
       ]
     },
@@ -30638,6 +30669,32 @@
       ]
     },
     {
+      "title": "CODASPY",
+      "description": "ACM Conference on Data and Application Security and Privacy",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "codaspy",
+      "year": 2027,
+      "id": "codaspy2027",
+      "link": "https://www.codaspy.org/2027/",
+      "date": "June 14-17, 2027",
+      "place": "Fort Collins, Colorado, USA",
+      "country": "USA",
+      "region": "Fort Collins, Colorado",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-11-23 23:59:59",
+          "abstract_deadline": "2026-11-16 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "COLING",
       "description": "International Conference on Computational Linguistics",
       "sub": "AI",
@@ -30908,6 +30965,32 @@
       ]
     },
     {
+      "title": "DFRWS",
+      "description": "Digital Forensic Research Workshop",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "dfrws",
+      "year": 2027,
+      "id": "dfrws27",
+      "link": "https://dfrws.org/conferences/dfceurope2027/",
+      "date": "March 30 - April 2, 2027",
+      "place": "Edinburgh, Scotland",
+      "country": "Scotland",
+      "region": "Edinburgh",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-09-25 23:59:59",
+          "abstract_deadline": "2026-09-18 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "DSN",
       "description": "International Conference on Dependable Systems and Networks",
       "sub": "SC",
@@ -31137,7 +31220,7 @@
       "sub_name": "网络与信息安全",
       "sub_name_en": "Network and System Security",
       "ccf_rank": "C",
-      "core_rank": "N",
+      "core_rank": "A",
       "thcpl_rank": "N",
       "dblp": "eurosp",
       "year": 2027,
@@ -31619,6 +31702,32 @@
       ]
     },
     {
+      "title": "ICDF2C",
+      "description": "International Conference on Digital Forensics & Cyber Crime",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "icdf2c",
+      "year": 2027,
+      "id": "icdf2c27",
+      "link": "https://icdf2c.eai-conferences.org/2027/",
+      "date": "June 25-27, 2027",
+      "place": "New York, USA",
+      "country": "USA",
+      "region": "New York",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2026-12-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Full Paper Submission deadline"
+        }
+      ]
+    },
+    {
       "title": "ICDT",
       "description": "International Conference on Database Theory",
       "sub": "DB",
@@ -31780,6 +31889,37 @@
       ]
     },
     {
+      "title": "IEEE CoG",
+      "description": "IEEE Conference on Games",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "N",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "cig",
+      "year": 2027,
+      "id": "cog27",
+      "link": "https://cog2027.u-aizu.ac.jp/",
+      "date": "August 2-5, 2027",
+      "place": "Aizuwakamatsu, Japan",
+      "country": "Japan",
+      "region": "Aizuwakamatsu",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-03-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Full Technical Paper"
+        },
+        {
+          "deadline": "2027-05-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Auxiliary Paper"
+        }
+      ]
+    },
+    {
       "title": "IEEE VR",
       "description": "IEEE Virtual Reality",
       "sub": "CG",
@@ -31833,6 +31973,32 @@
           "deadline": "2026-09-10 23:59:59",
           "abstract_deadline": null,
           "comment": "Second Submission"
+        }
+      ]
+    },
+    {
+      "title": "IFIP WG 11.9",
+      "description": "IFIP WG 11.9 International Conference on Digital Forensics",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "NO DBLP",
+      "year": 2027,
+      "id": "ifip119'27",
+      "link": "https://www.ifip119.org/Conferences/",
+      "date": "January 7 - 8, 2027",
+      "place": "New Delhi, India",
+      "country": "India",
+      "region": "New Delhi",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-10-10 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission Deadline"
         }
       ]
     },
@@ -32527,6 +32693,37 @@
       ]
     },
     {
+      "title": "SACMAT",
+      "description": "ACM Symposium on Access Control Models and Technologies",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "sacmat",
+      "year": 2027,
+      "id": "sacmat27",
+      "link": "https://www.sacmat.org/2027/",
+      "date": "July 19-21, 2027",
+      "place": "Durham, England, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Durham, England",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-10-30 23:59:59",
+          "abstract_deadline": null,
+          "comment": "First Cycle"
+        },
+        {
+          "deadline": "2027-02-12 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Second Cycle"
+        }
+      ]
+    },
+    {
       "title": "SAI Computing Conference",
       "description": "Computing Conference (SAI)",
       "sub": "MX",
@@ -32782,6 +32979,32 @@
           "deadline": "2026-07-09 23:59:59",
           "abstract_deadline": null,
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "SecureComm",
+      "description": "International Conference on Security and Privacy in Communication Networks",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "securecomm",
+      "year": 2027,
+      "id": "securecomm27",
+      "link": "https://securecomm.eai-conferences.org/2027/",
+      "date": "October 15-18, 2027",
+      "place": "Hefei, China",
+      "country": "China",
+      "region": "Hefei",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-03-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Full Paper Submission deadline"
         }
       ]
     },
