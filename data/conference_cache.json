@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-17T05:51:25.472760+00:00",
+  "fetched_at": "2026-09-18T05:36:29.134426+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -32977,6 +32977,32 @@
       "timeline": [
         {
           "deadline": "2026-07-09 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "STOC",
+      "description": "ACM Symposium on the Theory of Computing",
+      "sub": "CT",
+      "sub_name": "计算机科学理论",
+      "sub_name_en": "Computing Theory",
+      "ccf_rank": "A",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "stoc",
+      "year": 2027,
+      "id": "stoc27",
+      "link": "https://acm-stoc.org/stoc2027/",
+      "date": "June 6-11, 2027",
+      "place": "Atlanta, Georgia, USA",
+      "country": "USA",
+      "region": "Atlanta, Georgia",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2026-11-02 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
