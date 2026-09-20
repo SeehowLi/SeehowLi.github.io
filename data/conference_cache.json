@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-19T05:32:11.732107+00:00",
+  "fetched_at": "2026-09-20T05:49:42.605859+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -30733,7 +30733,7 @@
       "year": 2027,
       "id": "csfw27",
       "link": "https://www.ieee-security.org/TC/CSF2027/",
-      "date": "TBA",
+      "date": "September 13-17, 2027",
       "place": "Tokyo, Japan",
       "country": "Japan",
       "region": "Tokyo",
@@ -32197,7 +32197,7 @@
       "year": 2027,
       "id": "mlsys27",
       "link": "https://mlsys.org/",
-      "date": "TBD",
+      "date": "June 21-25, 2027",
       "place": "Bellevue, Washington, USA",
       "country": "USA",
       "region": "Bellevue, Washington",
@@ -33251,10 +33251,10 @@
       "place": "Panama City, Panama",
       "country": "Panama",
       "region": "Panama City",
-      "timezone": "AoE",
+      "timezone": "UTC-4",
       "timeline": [
         {
-          "deadline": "2026-09-15 23:59:59",
+          "deadline": "2026-10-05 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
