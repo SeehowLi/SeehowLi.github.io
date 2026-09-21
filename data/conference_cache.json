@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-20T05:49:42.605859+00:00",
+  "fetched_at": "2026-09-21T05:58:02.276052+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -32823,6 +32823,32 @@
         {
           "deadline": "2026-11-30 23:59:59",
           "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "SIGCOMM",
+      "description": "ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+      "sub": "NW",
+      "sub_name": "计算机网络",
+      "sub_name_en": "Network System",
+      "ccf_rank": "A",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "sigcomm",
+      "year": 2027,
+      "id": "sigcomm27",
+      "link": "https://conferences.sigcomm.org/sigcomm/2027/",
+      "date": "August 8 - 12, 2027",
+      "place": "Bangkok, Thailand",
+      "country": "Thailand",
+      "region": "Bangkok",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
           "comment": ""
         }
       ]
