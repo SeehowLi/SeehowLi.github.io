@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-23T05:35:36.122721+00:00",
+  "fetched_at": "2026-09-24T05:54:54.110804+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -23276,6 +23276,32 @@
       ]
     },
     {
+      "title": "CSCWD",
+      "description": "International Conference on Computer Supported Cooperative Work in Design",
+      "sub": "HI",
+      "sub_name": "人机交互与普适计算",
+      "sub_name_en": "Computer-Human Interaction",
+      "ccf_rank": "C",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "cscwd",
+      "year": 2026,
+      "id": "cscwd26",
+      "link": "http://2026.cscwd.org",
+      "date": "May 13-15, 2026",
+      "place": "Fuzhou, China",
+      "country": "China",
+      "region": "Fuzhou",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2025-11-30 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "CSCloud",
       "description": "IEEE International Conference on Cyber Security and Cloud Computing",
       "sub": "SC",
@@ -30773,6 +30799,32 @@
       ]
     },
     {
+      "title": "CSCWD",
+      "description": "International Conference on Computer Supported Cooperative Work in Design",
+      "sub": "HI",
+      "sub_name": "人机交互与普适计算",
+      "sub_name_en": "Computer-Human Interaction",
+      "ccf_rank": "C",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "cscwd",
+      "year": 2027,
+      "id": "cscwd27",
+      "link": "http://2027.cscwd.org",
+      "date": "May 26-28, 2027",
+      "place": "Brisbane, Australia",
+      "country": "Australia",
+      "region": "Brisbane",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-10-31 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "CSFW",
       "description": "IEEE Computer Security Foundations Symposium",
       "sub": "SC",
@@ -31671,6 +31723,32 @@
       ]
     },
     {
+      "title": "ICAPS",
+      "description": "International Conference on Automated Planning and Scheduling",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "B",
+      "core_rank": "A*",
+      "thcpl_rank": "B",
+      "dblp": "icaps",
+      "year": 2027,
+      "id": "icaps27",
+      "link": "https://icaps27.icaps-conference.org/",
+      "date": "June 27 - July 2, 2027",
+      "place": "Columbia, SC, USA",
+      "country": "USA",
+      "region": "Columbia, SC",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2026-12-14 23:59:59",
+          "abstract_deadline": "2026-12-07 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "ICASSP",
       "description": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
       "sub": "CG",
@@ -32481,6 +32559,32 @@
         {
           "deadline": "2026-12-08 22:59:59",
           "abstract_deadline": "2026-12-01 22:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "PAKDD",
+      "description": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "pakdd",
+      "year": 2027,
+      "id": "pakdd27",
+      "link": "https://www.pakdd2027.org/",
+      "date": "June 29-July 2, 2027",
+      "place": "Wellington, New Zealand",
+      "country": "New Zealand",
+      "region": "Wellington",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-11-20 23:59:59",
+          "abstract_deadline": null,
           "comment": ""
         }
       ]
