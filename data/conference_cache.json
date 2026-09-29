@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-28T06:24:01.383767+00:00",
+  "fetched_at": "2026-09-29T06:38:36.705453+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -1075,6 +1075,32 @@
           "deadline": "2021-04-15 23:59:59",
           "abstract_deadline": null,
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "CSCloud",
+      "description": "IEEE International Conference on Cyber Security and Cloud Computing",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "cscloud",
+      "year": 2021,
+      "id": "cscloud2021",
+      "link": "https://www.cloud-conf.net/cscloud/2021/cscloud/",
+      "date": "June 26-27, 2021",
+      "place": "Online",
+      "country": "Online",
+      "region": "Online",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular paper submission deadline (firm); April 20, 2021, clock and timezone not published"
         }
       ]
     },
@@ -4341,6 +4367,32 @@
       ]
     },
     {
+      "title": "SLT",
+      "description": "IEEE Spoken Language Technology (SLT) Workshop",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "slt",
+      "year": 2021,
+      "id": "slt21",
+      "link": "https://slt2021.signalprocessingsociety.org/",
+      "date": "January 19-22, 2021",
+      "place": "Online",
+      "country": "Online",
+      "region": "Online",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2020-08-14 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Regular papers; initial submission"
+        }
+      ]
+    },
+    {
       "title": "SMI",
       "description": "Shape Modeling International",
       "sub": "CG",
@@ -6073,6 +6125,32 @@
       ]
     },
     {
+      "title": "CSCloud",
+      "description": "IEEE International Conference on Cyber Security and Cloud Computing",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "cscloud",
+      "year": 2022,
+      "id": "cscloud2022",
+      "link": "https://www.cloud-conf.net/cscloud/2022/cscloud/",
+      "date": "June 25-26, 2022",
+      "place": "Online",
+      "country": "Online",
+      "region": "Online",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular paper submission deadline (firm); April 15, 2022, clock and timezone not published"
+        }
+      ]
+    },
+    {
       "title": "CSFW",
       "description": "IEEE Computer Security Foundations Symposium",
       "sub": "SC",
@@ -6315,9 +6393,35 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2021-10-03 23:59:59",
+          "deadline": "TBD",
           "abstract_deadline": null,
-          "comment": "Paper submission deadline"
+          "comment": "Regular full paper submission deadline (extended); October 15, 2021, clock and timezone not published"
+        }
+      ]
+    },
+    {
+      "title": "DFRWS APAC",
+      "description": "Digital Forensic Research Workshop Asia Pacific",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "di",
+      "year": 2022,
+      "id": "dfrws-apac22",
+      "link": "https://dfrws.org/conferences/dfrws-apac-2022/",
+      "date": "September 28-30, 2022",
+      "place": "Adelaide, Australia (Hybrid)",
+      "country": "Australia (Hybrid)",
+      "region": "Adelaide",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2022-05-16 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Regular full research paper submission deadline"
         }
       ]
     },
@@ -8995,6 +9099,32 @@
       ]
     },
     {
+      "title": "PKC",
+      "description": "International Conference on Practice and Theory of Public-Key Cryptography",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "B",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "pkc",
+      "year": 2022,
+      "id": "pkc22",
+      "link": "https://pkc.iacr.org/2022/",
+      "date": "March 8-11, 2022",
+      "place": "Virtual",
+      "country": "Virtual",
+      "region": "Virtual",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "2021-09-16 21:00:00",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "PLDI",
       "description": "ACM SIGPLAN Conference on Programming Language Design & Implementation",
       "sub": "SE",
@@ -9152,6 +9282,32 @@
           "deadline": "2021-08-13 23:59:59",
           "abstract_deadline": "2021-08-09 23:59:59",
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "PacificVis",
+      "description": "IEEE Pacific Visualization Symposium",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "pacificvis",
+      "year": 2022,
+      "id": "pacificvis22",
+      "link": "https://pvis2022.github.io/pvis2022/",
+      "date": "April 11-14, 2022",
+      "place": "Online",
+      "country": "Online",
+      "region": "Online",
+      "timezone": "UTC-7",
+      "timeline": [
+        {
+          "deadline": "2021-10-22 21:00:00",
+          "abstract_deadline": "2021-10-15 21:00:00",
+          "comment": "Regular full papers; 21:00 Pacific Time (PDT)"
         }
       ]
     },
@@ -9582,6 +9738,32 @@
       ]
     },
     {
+      "title": "SEC",
+      "description": "IFIP International Information Security Conference",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "B",
+      "dblp": "sec",
+      "year": 2022,
+      "id": "sec22",
+      "link": "https://ifipsec2022.compute.dtu.dk/",
+      "date": "June 13-15, 2022",
+      "place": "Copenhagen, Denmark (Hybrid)",
+      "country": "Denmark (Hybrid)",
+      "region": "Copenhagen",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular paper submission: February 3, 2022 (firm, AoE); time unverified."
+        }
+      ]
+    },
+    {
       "title": "SEKE",
       "description": "International Conference on Software Engineering and Knowledge Engineering",
       "sub": "SE",
@@ -9769,6 +9951,32 @@
       ]
     },
     {
+      "title": "SLT",
+      "description": "IEEE Spoken Language Technology (SLT) Workshop",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "slt",
+      "year": 2022,
+      "id": "slt22",
+      "link": "https://www.slt2022.signalprocessingsociety.org/SLT%202022/slt2022.org/index.html",
+      "date": "January 9-12, 2023",
+      "place": "Doha, Qatar",
+      "country": "Qatar",
+      "region": "Doha",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2022-07-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Regular papers; initial submission"
+        }
+      ]
+    },
+    {
       "title": "SMI",
       "description": "Shape Modeling International",
       "sub": "CG",
@@ -9947,6 +10155,32 @@
           "deadline": "2021-11-04 16:59:00",
           "abstract_deadline": null,
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "SecureComm",
+      "description": "International Conference on Security and Privacy in Communication Networks",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "securecomm",
+      "year": 2022,
+      "id": "securecomm22",
+      "link": "https://securecomm.eai-conferences.org/2022/",
+      "date": "October 17-19, 2022",
+      "place": "Virtual",
+      "country": "Virtual",
+      "region": "Virtual",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Main track full paper submission: April 17, 2022; time and timezone unverified."
         }
       ]
     },
@@ -11575,6 +11809,58 @@
           "deadline": "2022-09-25 23:59:59",
           "abstract_deadline": null,
           "comment": "full paper deadline"
+        }
+      ]
+    },
+    {
+      "title": "DFRWS",
+      "description": "Digital Forensic Research Workshop",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "dfrws",
+      "year": 2023,
+      "id": "dfrws23",
+      "link": "https://dfrws.org/conferences/dfrws-eu-2023/",
+      "date": "March 22-23, 2023",
+      "place": "Bonn, Germany (Hybrid)",
+      "country": "Germany (Hybrid)",
+      "region": "Bonn",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Regular full paper abstract/title October 10, 2022 and full submission October 17, 2022; clock and timezone not published"
+        }
+      ]
+    },
+    {
+      "title": "DFRWS APAC",
+      "description": "Digital Forensic Research Workshop Asia Pacific",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "di",
+      "year": 2023,
+      "id": "dfrws-apac23",
+      "link": "https://dfrws.org/conferences/dfrws-apac-2023/",
+      "date": "October 17-20, 2023",
+      "place": "Singapore and Hong Kong",
+      "country": "Singapore and Hong Kong",
+      "region": "Singapore and Hong Kong",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular full research paper submission deadline; May 15, 2023, clock and timezone not published"
         }
       ]
     },
@@ -14413,6 +14699,32 @@
       ]
     },
     {
+      "title": "PKC",
+      "description": "International Conference on Practice and Theory of Public-Key Cryptography",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "B",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "pkc",
+      "year": 2023,
+      "id": "pkc23",
+      "link": "https://pkc.iacr.org/2023/",
+      "date": "May 7-10, 2023",
+      "place": "Atlanta, USA",
+      "country": "USA",
+      "region": "Atlanta",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular paper submission: November 1, 2022; time and timezone unverified."
+        }
+      ]
+    },
+    {
       "title": "PLDI",
       "description": "ACM SIGPLAN Conference on Programming Language Design & Implementation",
       "sub": "SE",
@@ -15022,6 +15334,32 @@
           "deadline": "2022-10-07 23:59:00",
           "abstract_deadline": "2022-09-30 23:59:00",
           "comment": "Regular research papers"
+        }
+      ]
+    },
+    {
+      "title": "SEC",
+      "description": "IFIP International Information Security Conference",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "B",
+      "dblp": "sec",
+      "year": 2023,
+      "id": "sec23",
+      "link": "https://ifipsec2023.psnc.pl/",
+      "date": "June 14-16, 2023",
+      "place": "Poznan, Poland",
+      "country": "Poland",
+      "region": "Poznan",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular paper submission extended to March 12, 2023; time and timezone unverified."
         }
       ]
     },
@@ -17323,6 +17661,32 @@
       ]
     },
     {
+      "title": "CSCloud",
+      "description": "IEEE International Conference on Cyber Security and Cloud Computing",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "cscloud",
+      "year": 2024,
+      "id": "cscloud2024",
+      "link": "https://www.cloud-conf.net/cscloud/2024/cscloud/",
+      "date": "June 29, 2024",
+      "place": "Shanghai, China (Hybrid)",
+      "country": "China (Hybrid)",
+      "region": "Shanghai",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular paper submission deadline (firm); May 5, 2024, clock and timezone not published"
+        }
+      ]
+    },
+    {
       "title": "CSFW",
       "description": "IEEE Computer Security Foundations Symposium",
       "sub": "SC",
@@ -17615,6 +17979,58 @@
           "deadline": "2023-09-17 23:59:59",
           "abstract_deadline": "2023-09-10 23:59:59",
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "DFRWS",
+      "description": "Digital Forensic Research Workshop",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "dfrws",
+      "year": 2024,
+      "id": "dfrws24",
+      "link": "https://dfrws.org/conferences/dfrws-eu-2024/",
+      "date": "March 20-21, 2024",
+      "place": "Zaragoza, Spain (Hybrid)",
+      "country": "Spain (Hybrid)",
+      "region": "Zaragoza",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Extended regular full paper abstract/title October 5, 2023 and full submission October 12, 2023; clock and timezone not published"
+        }
+      ]
+    },
+    {
+      "title": "DFRWS APAC",
+      "description": "Digital Forensic Research Workshop Asia Pacific",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "di",
+      "year": 2024,
+      "id": "dfrws-apac24",
+      "link": "https://dfrws.org/conferences/dfrws-apac-2024/",
+      "date": "October 22-24, 2024",
+      "place": "Brisbane, Australia",
+      "country": "Australia",
+      "region": "Brisbane",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2024-06-03 23:59:00",
+          "abstract_deadline": "2024-05-27 23:59:00",
+          "comment": "Regular full research paper submission deadline"
         }
       ]
     },
@@ -21735,6 +22151,32 @@
       ]
     },
     {
+      "title": "SEC",
+      "description": "IFIP International Information Security Conference",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "B",
+      "dblp": "sec",
+      "year": 2024,
+      "id": "sec24",
+      "link": "https://history.ifipsec.org/archive/2024/",
+      "date": "June 12-14, 2024",
+      "place": "Edinburgh, UK",
+      "country": "UK",
+      "region": "Edinburgh",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular paper submission extended to March 1, 2024; time and timezone unverified."
+        }
+      ]
+    },
+    {
       "title": "SEKE",
       "description": "International Conference on Software Engineering and Knowledge Engineering",
       "sub": "SE",
@@ -24266,6 +24708,32 @@
       ]
     },
     {
+      "title": "CSCloud",
+      "description": "IEEE International Conference on Cyber Security and Cloud Computing",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "cscloud",
+      "year": 2025,
+      "id": "cscloud2025",
+      "link": "https://www.cloud-conf.net/cscloud/2025/cscloud/",
+      "date": "November 8-9, 2025",
+      "place": "New York City, USA (Hybrid)",
+      "country": "USA (Hybrid)",
+      "region": "New York City",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular paper submission deadline (firm); September 8, 2025, clock and timezone not published"
+        }
+      ]
+    },
+    {
       "title": "CSFW",
       "description": "IEEE Computer Security Foundations Symposium",
       "sub": "SC",
@@ -24690,9 +25158,9 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2024-09-27 23:59:59",
-          "abstract_deadline": "2024-09-20 23:59:59",
-          "comment": ""
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Extended regular full paper abstract/title October 4, 2024 and full submission October 11, 2024; clock and timezone not published"
         }
       ]
     },
@@ -42321,14 +42789,9 @@
       "timezone": "UTC-12",
       "timeline": [
         {
-          "deadline": "2026-10-01 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Abstracts Due"
-        },
-        {
           "deadline": "2026-10-08 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Submissions Due"
+          "abstract_deadline": "2026-10-01 23:59:59",
+          "comment": ""
         }
       ]
     },
