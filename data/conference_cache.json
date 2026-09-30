@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-29T06:38:36.705453+00:00",
+  "fetched_at": "2026-09-30T06:20:47.665970+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -1380,6 +1380,32 @@
       ]
     },
     {
+      "title": "EASE",
+      "description": "International Conference on Evaluation and Assessment in Software Engineering",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "C",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "ease",
+      "year": 2021,
+      "id": "ease21",
+      "link": "https://conf.researchr.org/home/ease-2021",
+      "date": "June 21-23, 2021",
+      "place": "Virtual",
+      "country": "Virtual",
+      "region": "Virtual",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Regular research abstract: 2021-03-05; full paper: 2021-03-12; exact time and timezone unpublished."
+        }
+      ]
+    },
+    {
       "title": "ECIR",
       "description": "European Conference on Information Retrieval",
       "sub": "DB",
@@ -1932,6 +1958,32 @@
           "deadline": "2021-02-25 23:59:59",
           "abstract_deadline": null,
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "HPCC",
+      "description": "IEEE International Conference on High Performance Computing and Communications",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "C",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "hpcc",
+      "year": 2021,
+      "id": "hpcc2021",
+      "link": "https://www.ieee-hpcc.org/2021/",
+      "date": "December 20-22, 2021",
+      "place": "Haikou, China",
+      "country": "China",
+      "region": "Haikou",
+      "timezone": "UTC+0",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular paper: September 15, 2021; exact time and timezone unpublished (UTC+0 is a placeholder)."
         }
       ]
     },
@@ -3241,6 +3293,32 @@
       ]
     },
     {
+      "title": "MoDELS",
+      "description": "International Conference on Model Driven Engineering Languages and Systems",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "models",
+      "year": 2021,
+      "id": "models21",
+      "link": "https://conf.researchr.org/home/models-2021",
+      "date": "October 13-16, 2021",
+      "place": "Online",
+      "country": "Online",
+      "region": "Online",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Regular research papers: CFP prose gives abstract April 30 / full May 7, 2021, but the same page's Important Dates widget gives May 3 / May 14; AoE; date conflict unresolved"
+        }
+      ]
+    },
+    {
       "title": "MobiCom",
       "description": "ACM Annual International Conference On Mobile Computing And Networking",
       "sub": "NW",
@@ -4306,6 +4384,42 @@
           "deadline": "2021-02-08 23:59:59",
           "abstract_deadline": null,
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "SIGMETRICS",
+      "description": "ACM Special Interest Group on Measurement and Evaluation",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "sigmetrics",
+      "year": 2021,
+      "id": "sigmetrics21",
+      "link": "https://www.sigmetrics.org/sigmetrics2021/",
+      "date": "June 15-17, 2021",
+      "place": "Virtual",
+      "country": "Virtual",
+      "region": "Virtual",
+      "timezone": "UTC+0",
+      "timeline": [
+        {
+          "deadline": "2020-08-07 15:59:00",
+          "abstract_deadline": "2020-07-31 15:59:00",
+          "comment": "Summer cycle; 11:59 AM New York time converted to UTC"
+        },
+        {
+          "deadline": "2020-10-23 15:59:00",
+          "abstract_deadline": "2020-10-16 15:59:00",
+          "comment": "Fall cycle; 11:59 AM New York time converted to UTC"
+        },
+        {
+          "deadline": "2021-02-05 16:59:00",
+          "abstract_deadline": "2021-01-29 16:59:00",
+          "comment": "Winter cycle; 11:59 AM New York time converted to UTC"
         }
       ]
     },
@@ -5658,6 +5772,32 @@
       ]
     },
     {
+      "title": "BlockSys",
+      "description": "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "blocksys",
+      "year": 2022,
+      "id": "blocksys22",
+      "link": "https://blocksys.info/2022/",
+      "date": "August 4-5, 2022",
+      "place": "Chengdu, China",
+      "country": "China",
+      "region": "Chengdu",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular paper date in updated official CFP: April 30, 2022; clock, timezone and any later extension unverified"
+        }
+      ]
+    },
+    {
       "title": "CAV",
       "description": "International Conference on Computer-Aided Verification",
       "sub": "CT",
@@ -6457,6 +6597,32 @@
       ]
     },
     {
+      "title": "EASE",
+      "description": "International Conference on Evaluation and Assessment in Software Engineering",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "C",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "ease",
+      "year": 2022,
+      "id": "ease22",
+      "link": "https://conf.researchr.org/home/ease-2022",
+      "date": "June 14-15, 2022",
+      "place": "Gothenburg, Sweden (Hybrid)",
+      "country": "Sweden (Hybrid)",
+      "region": "Gothenburg",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Regular research abstract: 2022-01-24; full paper: 2022-01-31; exact time and timezone unpublished."
+        }
+      ]
+    },
+    {
       "title": "ECAI",
       "description": "European Conference on Artificial Intelligence",
       "sub": "AI",
@@ -7231,6 +7397,32 @@
           "deadline": "2021-07-30 23:59:59",
           "abstract_deadline": null,
           "comment": "full paper deadline"
+        }
+      ]
+    },
+    {
+      "title": "HPCC",
+      "description": "IEEE International Conference on High Performance Computing and Communications",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "C",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "hpcc",
+      "year": 2022,
+      "id": "hpcc2022",
+      "link": "https://www.ieee-hpcc.org/2022/",
+      "date": "December 18-21, 2022",
+      "place": "Chengdu, China",
+      "country": "China",
+      "region": "Chengdu",
+      "timezone": "UTC+0",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular paper: September 20, 2022 (extended); exact time and timezone unpublished (UTC+0 is a placeholder)."
         }
       ]
     },
@@ -8160,6 +8352,32 @@
       ]
     },
     {
+      "title": "INDOCRYPT",
+      "description": "International Conference on Cryptology in India",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "N",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "indocrypt",
+      "year": 2022,
+      "id": "indocrypt22",
+      "link": "https://www.tcgcrest.org/indocrypt-2022/",
+      "date": "December 12-14, 2022",
+      "place": "Kolkata, India",
+      "country": "India",
+      "region": "Kolkata",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2022-09-07 23:59:00",
+          "abstract_deadline": "2022-09-01 23:59:00",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "INFOCOM",
       "description": "IEEE International Conference on Computer Communications",
       "sub": "NW",
@@ -8477,6 +8695,32 @@
       ]
     },
     {
+      "title": "Internetware",
+      "description": "Asia-Pacific Symposium on Internetware",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "internetware",
+      "year": 2022,
+      "id": "internetware22",
+      "link": "https://internetware2022.github.io/",
+      "date": "June 11-12, 2022",
+      "place": "Virtual",
+      "country": "Virtual",
+      "region": "Virtual",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Extended technical research paper submission: March 13, 2022; exact clock and timezone unpublished"
+        }
+      ]
+    },
+    {
       "title": "LCTES",
       "description": "International Conference on Languages, Compilers and Tools for Embedded Systems",
       "sub": "SE",
@@ -8689,8 +8933,8 @@
       "timeline": [
         {
           "deadline": "2022-05-18 23:59:59",
-          "abstract_deadline": null,
-          "comment": ""
+          "abstract_deadline": "TBD",
+          "comment": "Regular research papers: mandatory abstract May 18, 2022 AoE; exact abstract time unpublished"
         }
       ]
     },
@@ -9556,6 +9800,37 @@
       ]
     },
     {
+      "title": "SACMAT",
+      "description": "ACM Symposium on Access Control Models and Technologies",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "sacmat",
+      "year": 2022,
+      "id": "sacmat22",
+      "link": "https://www.sacmat.org/2022/",
+      "date": "June 8-10, 2022",
+      "place": "Virtual",
+      "country": "Virtual",
+      "region": "Virtual",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Cycle 1 originally November 15, 2021, now struck through on the CFP; final cutoff unverified."
+        },
+        {
+          "deadline": "2022-02-25 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Second cycle"
+        }
+      ]
+    },
+    {
       "title": "SANER",
       "description": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
       "sub": "SE",
@@ -9890,6 +10165,42 @@
           "deadline": "2022-02-10 23:59:59",
           "abstract_deadline": null,
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "SIGMETRICS",
+      "description": "ACM Special Interest Group on Measurement and Evaluation",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "sigmetrics",
+      "year": 2022,
+      "id": "sigmetrics22",
+      "link": "https://www.sigmetrics.org/sigmetrics2022/",
+      "date": "June 7-9, 2022",
+      "place": "Mumbai, India",
+      "country": "India",
+      "region": "Mumbai",
+      "timezone": "UTC+0",
+      "timeline": [
+        {
+          "deadline": "2021-08-11 15:59:00",
+          "abstract_deadline": "2021-08-04 15:59:00",
+          "comment": "Summer cycle; 11:59 AM New York time converted to UTC"
+        },
+        {
+          "deadline": "2021-10-20 15:59:00",
+          "abstract_deadline": "2021-10-13 15:59:00",
+          "comment": "Fall cycle; 11:59 AM New York time converted to UTC"
+        },
+        {
+          "deadline": "2022-02-03 16:59:00",
+          "abstract_deadline": "2022-01-26 16:59:00",
+          "comment": "Winter cycle; extended full-paper deadline; 11:59 AM New York time converted to UTC"
         }
       ]
     },
@@ -11097,6 +11408,32 @@
       ]
     },
     {
+      "title": "BlockSys",
+      "description": "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "blocksys",
+      "year": 2023,
+      "id": "blocksys23",
+      "link": "https://easychair.org/cfp/BlockSys2023",
+      "date": "August 8-10, 2023",
+      "place": "Haikou, China",
+      "country": "China",
+      "region": "Haikou",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular paper date in organizer CFP: March 15, 2023; clock, timezone and any later extension unverified"
+        }
+      ]
+    },
+    {
       "title": "CCC",
       "description": "Computational Complexity Conference",
       "sub": "CT",
@@ -11896,6 +12233,32 @@
       ]
     },
     {
+      "title": "EASE",
+      "description": "International Conference on Evaluation and Assessment in Software Engineering",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "C",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "ease",
+      "year": 2023,
+      "id": "ease23",
+      "link": "https://conf.researchr.org/home/ease-2023",
+      "date": "June 14-15, 2023",
+      "place": "Oulu, Finland",
+      "country": "Finland",
+      "region": "Oulu",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Regular research abstract: 2023-01-13; full paper: 2023-01-20; exact time unpublished."
+        }
+      ]
+    },
+    {
       "title": "ECAI",
       "description": "European Conference on Artificial Intelligence",
       "sub": "AI",
@@ -12665,6 +13028,32 @@
           "deadline": "2022-08-01 23:59:59",
           "abstract_deadline": null,
           "comment": "full paper deadline"
+        }
+      ]
+    },
+    {
+      "title": "HPCC",
+      "description": "IEEE International Conference on High Performance Computing and Communications",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "C",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "hpcc",
+      "year": 2023,
+      "id": "hpcc2023",
+      "link": "http://www.swinflow.org/confs/2023/hpcc/",
+      "date": "December 13-15, 2023",
+      "place": "Melbourne, Australia",
+      "country": "Australia",
+      "region": "Melbourne",
+      "timezone": "UTC-10",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular paper: September 15, 2023 HST (firm); exact time unpublished."
         }
       ]
     },
@@ -14295,6 +14684,32 @@
       ]
     },
     {
+      "title": "MoDELS",
+      "description": "International Conference on Model Driven Engineering Languages and Systems",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "models",
+      "year": 2023,
+      "id": "models23",
+      "link": "https://conf.researchr.org/home/models-2023",
+      "date": "October 4-6, 2023",
+      "place": "Västerås, Sweden",
+      "country": "Sweden",
+      "region": "Västerås",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Regular research papers: abstract April 7, 2023; full paper April 14, 2023 AoE; exact time unpublished"
+        }
+      ]
+    },
+    {
       "title": "MobiCom",
       "description": "ACM Annual International Conference On Mobile Computing And Networking",
       "sub": "NW",
@@ -15130,6 +15545,37 @@
       ]
     },
     {
+      "title": "SACMAT",
+      "description": "ACM Symposium on Access Control Models and Technologies",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "sacmat",
+      "year": 2023,
+      "id": "sacmat23",
+      "link": "https://www.sacmat.org/2023/",
+      "date": "June 7-9, 2023",
+      "place": "Trento, Italy",
+      "country": "Italy",
+      "region": "Trento",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2022-12-15 23:59:00",
+          "abstract_deadline": null,
+          "comment": "First cycle"
+        },
+        {
+          "deadline": "2023-03-02 23:59:00",
+          "abstract_deadline": "TBD",
+          "comment": "Second cycle; recommended, non-mandatory abstract registration February 23, 2023, time unverified."
+        }
+      ]
+    },
+    {
       "title": "SANER",
       "description": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
       "sub": "SE",
@@ -15490,6 +15936,42 @@
           "deadline": "2023-02-02 23:59:59",
           "abstract_deadline": null,
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "SIGMETRICS",
+      "description": "ACM Special Interest Group on Measurement and Evaluation",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "sigmetrics",
+      "year": 2023,
+      "id": "sigmetrics23",
+      "link": "https://www.sigmetrics.org/sigmetrics2023/",
+      "date": "June 20-22, 2023",
+      "place": "Orlando, Florida, USA",
+      "country": "USA",
+      "region": "Orlando, Florida",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2022-08-10 23:59:59",
+          "abstract_deadline": "2022-08-03 23:59:59",
+          "comment": "Summer cycle"
+        },
+        {
+          "deadline": "2022-10-19 23:59:59",
+          "abstract_deadline": "2022-10-12 23:59:59",
+          "comment": "Fall cycle"
+        },
+        {
+          "deadline": "2023-02-01 23:59:59",
+          "abstract_deadline": "2023-01-25 23:59:59",
+          "comment": "Winter cycle"
         }
       ]
     },
@@ -17069,6 +17551,32 @@
       ]
     },
     {
+      "title": "BlockSys",
+      "description": "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "blocksys",
+      "year": 2024,
+      "id": "blocksys24",
+      "link": "https://blocksys.info/2024/",
+      "date": "July 12-14, 2024",
+      "place": "Hangzhou, China",
+      "country": "China",
+      "region": "Hangzhou",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Regular paper submission extended to May 12, 2024; clock and timezone not specified"
+        }
+      ]
+    },
+    {
       "title": "CASA",
       "description": "International Conference on Computer Animation and Social Agents",
       "sub": "CG",
@@ -18119,6 +18627,32 @@
           "deadline": "2023-12-20 23:59:00",
           "abstract_deadline": null,
           "comment": "Commitment deadline for papers reviewed by ARR"
+        }
+      ]
+    },
+    {
+      "title": "EASE",
+      "description": "International Conference on Evaluation and Assessment in Software Engineering",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "C",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "ease",
+      "year": 2024,
+      "id": "ease24",
+      "link": "https://conf.researchr.org/home/ease-2024",
+      "date": "June 19-20, 2024",
+      "place": "Salerno, Italy",
+      "country": "Italy",
+      "region": "Salerno",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Regular research abstract: 2024-01-11; full paper: 2024-01-18; exact time unpublished."
         }
       ]
     },
@@ -20703,6 +21237,37 @@
       ]
     },
     {
+      "title": "Internetware",
+      "description": "Asia-Pacific Symposium on Internetware",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "internetware",
+      "year": 2024,
+      "id": "internetware24",
+      "link": "https://conf.researchr.org/home/internetware-2024",
+      "date": "July 24-26, 2024",
+      "place": "Macau SAR, China",
+      "country": "China",
+      "region": "Macau SAR",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2024-04-17 23:59:59",
+          "abstract_deadline": "2024-04-09 23:59:59",
+          "comment": "First Cycle"
+        },
+        {
+          "deadline": "2024-05-31 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Second Cycle"
+        }
+      ]
+    },
+    {
       "title": "KR",
       "description": "International Conference on Principles of Knowledge Representation and Reasoning",
       "sub": "AI",
@@ -20990,6 +21555,32 @@
           "deadline": "2024-01-07 04:59:59",
           "abstract_deadline": null,
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "MoDELS",
+      "description": "International Conference on Model Driven Engineering Languages and Systems",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "models",
+      "year": 2024,
+      "id": "models24",
+      "link": "https://conf.researchr.org/home/models-2024",
+      "date": "September 25-27, 2024",
+      "place": "Linz, Austria",
+      "country": "Austria",
+      "region": "Linz",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Regular research papers: abstract March 21, 2024; full paper March 28, 2024 AoE; exact time unpublished"
         }
       ]
     },
@@ -21943,6 +22534,32 @@
       ]
     },
     {
+      "title": "SACMAT",
+      "description": "ACM Symposium on Access Control Models and Technologies",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "sacmat",
+      "year": 2024,
+      "id": "sacmat24",
+      "link": "https://www.sacmat.org/2024/",
+      "date": "May 15-17, 2024",
+      "place": "San Antonio, TX, USA",
+      "country": "USA",
+      "region": "San Antonio, TX",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Recommended, non-mandatory abstract registration February 1, 2024; full submission extended to February 18, 2024, final time unverified."
+        }
+      ]
+    },
+    {
       "title": "SANER",
       "description": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
       "sub": "SE",
@@ -22303,6 +22920,42 @@
           "deadline": "2024-02-08 23:59:59",
           "abstract_deadline": "2024-02-01 23:59:59",
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "SIGMETRICS",
+      "description": "ACM Special Interest Group on Measurement and Evaluation",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "B",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "sigmetrics",
+      "year": 2024,
+      "id": "sigmetrics24",
+      "link": "https://www.sigmetrics.org/sigmetrics2024/",
+      "date": "June 11-13, 2024",
+      "place": "Venice, Italy",
+      "country": "Italy",
+      "region": "Venice",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2023-08-09 23:59:00",
+          "abstract_deadline": "2023-08-02 23:59:00",
+          "comment": "Summer cycle"
+        },
+        {
+          "deadline": "2023-10-11 23:59:00",
+          "abstract_deadline": "2023-10-04 23:59:00",
+          "comment": "Fall cycle"
+        },
+        {
+          "deadline": "2024-01-31 23:59:00",
+          "abstract_deadline": "2024-01-24 23:59:00",
+          "comment": "Winter cycle"
         }
       ]
     },
@@ -24024,6 +24677,37 @@
           "deadline": "2025-08-29 23:59:59",
           "abstract_deadline": null,
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "BlockSys",
+      "description": "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems",
+      "sub": "SC",
+      "sub_name": "网络与信息安全",
+      "sub_name_en": "Network and System Security",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "blocksys",
+      "year": 2025,
+      "id": "blocksys25",
+      "link": "https://blocksys.info/2025/",
+      "date": "May 30-31, 2025",
+      "place": "Zhuhai, China",
+      "country": "China",
+      "region": "Zhuhai",
+      "timezone": "UTC",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "1st round regular paper date: December 1, 2024; clock and timezone not specified"
+        },
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "2nd round regular paper extended to March 1, 2025; clock and timezone not specified"
         }
       ]
     },
@@ -28863,6 +29547,32 @@
           "deadline": "2024-11-09 23:59:59",
           "abstract_deadline": "2024-11-06 23:59:59",
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "MoDELS",
+      "description": "International Conference on Model Driven Engineering Languages and Systems",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "models",
+      "year": 2025,
+      "id": "models25",
+      "link": "https://conf.researchr.org/home/models-2025",
+      "date": "October 8-10, 2025",
+      "place": "Grand Rapids, Michigan, USA",
+      "country": "USA",
+      "region": "Grand Rapids, Michigan",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2025-04-03 23:59:00",
+          "abstract_deadline": "2025-03-27 23:59:00",
+          "comment": "Regular research papers"
         }
       ]
     },
