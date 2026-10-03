@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-02T06:47:02.970988+00:00",
+  "fetched_at": "2026-10-03T06:07:54.227480+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -384,6 +384,32 @@
           "deadline": "2021-05-21 22:00:00",
           "abstract_deadline": "2021-05-20 22:00:00",
           "comment": "Registration / full paper"
+        }
+      ]
+    },
+    {
+      "title": "ACM TURC",
+      "description": "ACM Turing Award Celebration Conference - China",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "N",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "acmturc",
+      "year": 2021,
+      "id": "acmturc2021",
+      "link": "https://www.acmturc.com/2021/en/",
+      "date": "July 30-August 1, 2021",
+      "place": "Hefei, China",
+      "country": "China",
+      "region": "Hefei",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2021-05-20 22:00:00",
+          "abstract_deadline": "2021-05-14 22:00:00",
+          "comment": ""
         }
       ]
     },
@@ -28488,6 +28514,32 @@
       ]
     },
     {
+      "title": "ACM TURC",
+      "description": "ACM Turing Award Celebration Conference - China",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "N",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "acmturc",
+      "year": 2024,
+      "id": "acmturc2024",
+      "link": "https://www.acmturc.com/2024/#/index",
+      "date": "July 5-7, 2024",
+      "place": "Changsha, China",
+      "country": "China",
+      "region": "Changsha",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2024-05-20 23:59:00",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "ACML",
       "description": "Asian Conference on Machine Learning",
       "sub": "AI",
@@ -47890,6 +47942,32 @@
           "deadline": "2026-05-12 23:59:00",
           "abstract_deadline": "2026-05-05 23:59:00",
           "comment": "Registration / full paper"
+        }
+      ]
+    },
+    {
+      "title": "ACM TURC",
+      "description": "ACM Turing Award Celebration Conference - China",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "N",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "acmturc",
+      "year": 2026,
+      "id": "acmturc2026",
+      "link": "https://www.acmturc.com/2026/en/",
+      "date": "July 11-12, 2026",
+      "place": "Hangzhou, China",
+      "country": "China",
+      "region": "Hangzhou",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-06-10 23:59:00",
+          "abstract_deadline": null,
+          "comment": ""
         }
       ]
     },
