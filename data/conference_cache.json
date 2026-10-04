@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-03T06:07:54.227480+00:00",
+  "fetched_at": "2026-10-04T06:39:26.352509+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -59759,10 +59759,10 @@
       "place": "Washington, DC, USA",
       "country": "USA",
       "region": "Washington, DC",
-      "timezone": "UTC-4",
+      "timezone": "UTC-7",
       "timeline": [
         {
-          "deadline": "2026-10-02 23:59:59",
+          "deadline": "2026-10-16 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
