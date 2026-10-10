@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-09T07:10:57.930954+00:00",
+  "fetched_at": "2026-10-10T06:44:54.041931+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -58547,9 +58547,9 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
+          "deadline": "2026-11-25 23:59:00",
           "abstract_deadline": null,
-          "comment": "Regular papers; CFP/home give November 25, 2026 at 23:59 AoE; important-dates page gives June 6, 2027 at 23:59 AoE; final date unresolved"
+          "comment": "Research papers"
         }
       ]
     },
@@ -59961,6 +59961,32 @@
       ]
     },
     {
+      "title": "ICIC",
+      "description": "International Conference on Intelligent Computing",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "icic",
+      "year": 2027,
+      "id": "icic27",
+      "link": "http://ic-icc.cn/2027/index.php",
+      "date": "July 22-26, 2027",
+      "place": "Jinan, China",
+      "country": "China",
+      "region": "Jinan",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Submission deadline to be confirmed"
+        }
+      ]
+    },
+    {
       "title": "ICLR",
       "description": "International Conference on Learning Representations",
       "sub": "AI",
@@ -60061,6 +60087,32 @@
           "deadline": "2026-11-05 23:59:59",
           "abstract_deadline": "2026-10-29 23:59:59",
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ICPR",
+      "description": "International Conference on Pattern Recognition",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "icpr",
+      "year": 2027,
+      "id": "icpr27",
+      "link": "https://www.icpr2027.com/",
+      "date": "October 4-6 and 14-15, 2027",
+      "place": "Online",
+      "country": "Online",
+      "region": "Online",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-03-08 23:59:59",
+          "abstract_deadline": "2027-03-01 23:59:59",
+          "comment": "All dates tentative; March 1 is paper registration; author rebuttal April 23 (provisional, cutoff unspecified)"
         }
       ]
     },
@@ -60408,17 +60460,17 @@
       "dblp": "ijcai",
       "year": 2027,
       "id": "ijcai27",
-      "link": "https://www.ijcai.org/node/8",
-      "date": "August 7-13 and August 15-17, 2027",
-      "place": "Kyoto, Japan and Hengqin, China",
-      "country": "China",
-      "region": "Kyoto, Japan and Hengqin",
-      "timezone": "UTC-12",
+      "link": "https://2027.ijcai.org/",
+      "date": "August 7-13, 2027",
+      "place": "Kyoto, Japan",
+      "country": "Japan",
+      "region": "Kyoto",
+      "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
-          "comment": ""
+          "deadline": "2027-01-11 23:59:00",
+          "abstract_deadline": "2027-01-04 23:59:00",
+          "comment": "Separate satellite event: August 15-17, 2027, Hengqin, China"
         }
       ]
     },
