@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-10T06:44:54.041931+00:00",
+  "fetched_at": "2026-10-11T06:52:53.902153+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -59104,6 +59104,32 @@
       ]
     },
     {
+      "title": "EuroVis",
+      "description": "Eurographics Conference on Visualization",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "B",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "vissym",
+      "year": 2027,
+      "id": "eurovis2027",
+      "link": "https://eurovis27.github.io/web/",
+      "date": "May 31-June 4, 2027",
+      "place": "Stuttgart, Germany",
+      "country": "Germany",
+      "region": "Stuttgart",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Full papers; submission deadline not yet announced"
+        }
+      ]
+    },
+    {
       "title": "Eurographics",
       "description": "Eurographics",
       "sub": "CG",
@@ -59904,6 +59930,32 @@
       ]
     },
     {
+      "title": "ICDM",
+      "description": "IEEE International Conference on Data Mining",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "B",
+      "core_rank": "A*",
+      "thcpl_rank": "B",
+      "dblp": "icdm",
+      "year": 2027,
+      "id": "icdm2027",
+      "link": "https://icdm2027-website.onrender.com/",
+      "date": "November 15-18, 2027",
+      "place": "Brisbane, Australia",
+      "country": "Australia",
+      "region": "Brisbane",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-06-06 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Full papers; dates are tentative and subject to change"
+        }
+      ]
+    },
+    {
       "title": "ICDT",
       "description": "International Conference on Database Theory",
       "sub": "DB",
@@ -59983,6 +60035,32 @@
           "deadline": "TBD",
           "abstract_deadline": null,
           "comment": "Submission deadline to be confirmed"
+        }
+      ]
+    },
+    {
+      "title": "ICIP",
+      "description": "The IEEE International Conference on Image Processing",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "icip",
+      "year": 2027,
+      "id": "icip27",
+      "link": "https://2027.ieeeicip.org/",
+      "date": "November 29-December 3, 2027",
+      "place": "Singapore",
+      "country": "Singapore",
+      "region": "Singapore",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-03-31 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
         }
       ]
     },
@@ -60728,9 +60806,9 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
+          "deadline": "2027-01-14 23:59:00",
           "abstract_deadline": null,
-          "comment": "Proceedings"
+          "comment": "Proceedings; conditional acceptance: March 2, 2027; revised papers due: March 18, 2027, 23:59 AoE; no extensions to submission or revision deadlines"
         }
       ]
     },
@@ -60876,17 +60954,17 @@
       "dblp": "kr",
       "year": 2027,
       "id": "krd27",
-      "link": "https://kr.org/",
-      "date": "TBD",
+      "link": "https://kr.org/KR2027/",
+      "date": "September 21-24, 2027",
       "place": "Buenos Aires, Argentina",
       "country": "Argentina",
       "region": "Buenos Aires",
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
-          "comment": ""
+          "deadline": "2027-04-28 23:59:59",
+          "abstract_deadline": "2027-04-23 23:59:59",
+          "comment": "Main track; author response period: June 15-18, 2027"
         }
       ]
     },
