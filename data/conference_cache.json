@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-11T06:52:53.902153+00:00",
+  "fetched_at": "2026-10-12T07:01:58.685651+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -50536,6 +50536,32 @@
       ]
     },
     {
+      "title": "ESWC",
+      "description": "European Semantic Web Conference",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "esws",
+      "year": 2026,
+      "id": "eswc26",
+      "link": "https://2026.eswc-conferences.org/",
+      "date": "May 12-14, 2026",
+      "place": "Dubrovnik, Croatia",
+      "country": "Croatia",
+      "region": "Dubrovnik",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2025-12-04 23:59:00",
+          "abstract_deadline": "2025-11-27 23:59:00",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "ETAPS",
       "description": "European Joint Conferences on Theory and Practice of Software",
       "sub": "SE",
@@ -53801,13 +53827,8 @@
       "timeline": [
         {
           "deadline": "2026-05-07 23:59:59",
-          "abstract_deadline": "2026-04-11 23:59:59",
-          "comment": "ESWC transfer"
-        },
-        {
-          "deadline": "2026-05-07 23:59:59",
           "abstract_deadline": "2026-05-02 23:59:59",
-          "comment": "Regular route"
+          "comment": "ESWC resubmissions must be committed by April 11, 2026"
         }
       ]
     },
@@ -58906,6 +58927,32 @@
       "timeline": [
         {
           "deadline": "2026-11-18 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ESWC",
+      "description": "European Semantic Web Conference",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "esws",
+      "year": 2027,
+      "id": "eswc27",
+      "link": "https://2027.eswc-conferences.org/",
+      "date": "May 23-27, 2027",
+      "place": "Limassol, Cyprus",
+      "country": "Cyprus",
+      "region": "Limassol",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
           "abstract_deadline": null,
           "comment": ""
         }
