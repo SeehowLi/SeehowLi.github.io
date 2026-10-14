@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-13T07:26:36.062955+00:00",
+  "fetched_at": "2026-10-14T05:53:44.134709+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -49945,6 +49945,32 @@
       ]
     },
     {
+      "title": "DEXA",
+      "description": "International Conference on Database and Expert Systems Applications",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "dexa",
+      "year": 2026,
+      "id": "dexa26",
+      "link": "https://www.dexa.org/2026/dexa2026.html",
+      "date": "August 11-13, 2026",
+      "place": "Graz, Austria",
+      "country": "Austria",
+      "region": "Graz",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-04-10 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Final and firm main conference deadline"
+        }
+      ]
+    },
+    {
       "title": "DFRWS",
       "description": "Digital Forensic Research Workshop",
       "sub": "SC",
@@ -58983,9 +59009,9 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
-          "comment": ""
+          "deadline": "2026-12-17 23:59:59",
+          "abstract_deadline": "2026-12-10 23:59:59",
+          "comment": "Research track; rebuttal period January 26-29, 2027"
         }
       ]
     },
@@ -60458,9 +60484,9 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
-          "comment": ""
+          "deadline": "2027-01-25 23:59:59",
+          "abstract_deadline": "2027-01-18 23:59:59",
+          "comment": "Full and Short Papers; abstract deadline includes author information"
         }
       ]
     },
@@ -60798,17 +60824,17 @@
       "dblp": "isca",
       "year": 2027,
       "id": "isca27",
-      "link": "https://www.iscaconf.org/",
-      "date": "TBD",
+      "link": "https://iscaconf.org/isca2027/",
+      "date": "June 5-9, 2027",
       "place": "Atlanta, Georgia, USA",
       "country": "USA",
       "region": "Atlanta, Georgia",
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
-          "comment": ""
+          "deadline": "2026-11-16 23:59:59",
+          "abstract_deadline": "2026-11-09 23:59:59",
+          "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
         }
       ]
     },
@@ -60832,7 +60858,7 @@
       "timezone": "UTC-5",
       "timeline": [
         {
-          "deadline": "2026-10-13 23:59:59",
+          "deadline": "2026-10-22 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
@@ -61813,9 +61839,9 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
-          "comment": ""
+          "deadline": "2027-03-01 23:59:59",
+          "abstract_deadline": "2027-02-22 23:59:59",
+          "comment": "Research Papers"
         }
       ]
     },
