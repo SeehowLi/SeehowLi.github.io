@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-15T05:37:52.222564+00:00",
+  "fetched_at": "2026-10-16T05:33:31.888312+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -50449,6 +50449,32 @@
           "deadline": "2026-03-30 23:59:59",
           "abstract_deadline": "2026-03-23 23:59:59",
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ER",
+      "description": "International Conference on Conceptual Modeling",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "er",
+      "year": 2026,
+      "id": "er26",
+      "link": "https://www.er2026.org/",
+      "date": "October 6-8, 2026",
+      "place": "St. John's, NL, Canada",
+      "country": "Canada",
+      "region": "St. John's, NL",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-05-19 23:59:59",
+          "abstract_deadline": "2026-05-12 23:59:59",
+          "comment": "Main conference full and short papers; extended deadlines; abstract mandatory"
         }
       ]
     },
