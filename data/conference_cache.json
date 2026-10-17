@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T05:33:31.888312+00:00",
+  "fetched_at": "2026-10-17T05:22:31.522128+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -54228,6 +54228,32 @@
       ]
     },
     {
+      "title": "MDM",
+      "description": "IEEE International Conference on Mobile Data Management",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "mdm",
+      "year": 2026,
+      "id": "mdm26",
+      "link": "https://mdm-2026.github.io/index.html",
+      "date": "June 30 - July 2, 2026",
+      "place": "Athens, Greece",
+      "country": "Greece",
+      "region": "Athens",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-03-06 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Research track regular and short papers; extended deadline"
+        }
+      ]
+    },
+    {
       "title": "MICCAI",
       "description": "International Conference on Medical Image Computing and Computer Assisted Intervention",
       "sub": "MX",
@@ -59951,6 +59977,32 @@
         {
           "deadline": "2026-10-16 23:59:59",
           "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ICCCN",
+      "description": "IEEE International Conference on Computer Communications and Networks",
+      "sub": "NW",
+      "sub_name": "计算机网络",
+      "sub_name_en": "Network System",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "icccn",
+      "year": 2027,
+      "id": "icccn27",
+      "link": "http://www.icccn.org/ICCCN27/",
+      "date": "July 12-15, 2027",
+      "place": "Rome, Italy",
+      "country": "Italy",
+      "region": "Rome",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-02-19 23:59:59",
+          "abstract_deadline": "2027-02-12 23:59:59",
           "comment": ""
         }
       ]
