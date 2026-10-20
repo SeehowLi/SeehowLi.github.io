@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T05:49:51.385019+00:00",
+  "fetched_at": "2026-10-20T05:43:24.827414+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -59975,7 +59975,7 @@
       "timezone": "UTC-7",
       "timeline": [
         {
-          "deadline": "2026-10-16 23:59:59",
+          "deadline": "2026-10-30 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
@@ -60803,17 +60803,22 @@
       "dblp": "imc",
       "year": 2027,
       "id": "imc27",
-      "link": "https://www.sigcomm.org/news/november-2025-sigcomm-newsletter",
-      "date": "TBD",
+      "link": "https://conferences.sigcomm.org/imc/2027/",
+      "date": "Oct 25-29, 2027",
       "place": "Atlanta, GA, USA",
       "country": "USA",
       "region": "Atlanta, GA",
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
-          "comment": ""
+          "deadline": "2026-11-17 23:59:59",
+          "abstract_deadline": "2026-11-10 23:59:59",
+          "comment": "Cycle 1; rebuttal period January 26-February 2, 2027"
+        },
+        {
+          "deadline": "2027-04-07 23:59:59",
+          "abstract_deadline": "2027-03-31 23:59:59",
+          "comment": "Cycle 2"
         }
       ]
     },
