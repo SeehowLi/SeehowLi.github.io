@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-20T05:43:24.827414+00:00",
+  "fetched_at": "2026-10-21T05:46:37.930710+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -60320,10 +60320,10 @@
       "place": "Xiamen, China",
       "country": "China",
       "region": "Xiamen",
-      "timezone": "AoE",
+      "timezone": "UTC-12",
       "timeline": [
         {
-          "deadline": "TBD",
+          "deadline": "2026-12-30 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
