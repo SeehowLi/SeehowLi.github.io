@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T05:28:51.296687+00:00",
+  "fetched_at": "2026-10-25T05:46:58.409983+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -48530,7 +48530,7 @@
       "year": 2026,
       "id": "acml26",
       "link": "https://www.acml-conf.org/2026/",
-      "date": "TBD",
+      "date": "December 1-4, 2026",
       "place": "Melbourne, Australia",
       "country": "Australia",
       "region": "Melbourne",
@@ -59275,7 +59275,7 @@
           "comment": "Round 1"
         },
         {
-          "deadline": "2026-10-01 23:59:59",
+          "deadline": "2026-11-01 23:59:59",
           "abstract_deadline": null,
           "comment": "Round 2"
         }
