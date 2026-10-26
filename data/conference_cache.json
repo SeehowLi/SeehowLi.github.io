@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-25T05:46:58.409983+00:00",
+  "fetched_at": "2026-10-26T05:49:53.924303+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -59066,9 +59066,9 @@
       "year": 2027,
       "id": "coling27",
       "link": "https://2027.coling-iccl.org/",
-      "date": "May 9-14, 2027",
-      "place": "Macau SAR, China",
-      "country": "China",
+      "date": "May 9-14 (in-person) and 6-7 (virtual), 2027",
+      "place": "Macau SAR, China / Online",
+      "country": "China / Online",
       "region": "Macau SAR",
       "timezone": "UTC-12",
       "timeline": [
@@ -59302,7 +59302,7 @@
       "timeline": [
         {
           "deadline": "2026-10-26 23:59:59",
-          "abstract_deadline": "2026-10-23 23:59:59",
+          "abstract_deadline": "2026-10-26 23:59:59",
           "comment": ""
         }
       ]
@@ -62602,6 +62602,11 @@
       "region": "Busan",
       "timezone": "AoE",
       "timeline": [
+        {
+          "deadline": "2026-09-08 23:59:59",
+          "abstract_deadline": "2026-09-01 23:59:59",
+          "comment": "Journal track"
+        },
         {
           "deadline": "2026-11-09 23:59:59",
           "abstract_deadline": "2026-11-02 23:59:59",
