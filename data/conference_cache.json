@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-26T05:49:53.924303+00:00",
+  "fetched_at": "2026-10-27T06:02:32.987072+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -59104,9 +59104,9 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
+          "deadline": "2027-01-29 23:59:59",
           "abstract_deadline": null,
-          "comment": ""
+          "comment": "Expected rebuttal March 29 - April 2; author notification on or before May 3."
         }
       ]
     },
@@ -59156,8 +59156,8 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-12-05 23:59:59",
-          "abstract_deadline": "2026-11-23 23:59:59",
+          "deadline": "2026-11-25 23:59:59",
+          "abstract_deadline": "2026-11-13 23:59:59",
           "comment": ""
         }
       ]
@@ -63853,6 +63853,32 @@
         {
           "deadline": "TBD",
           "abstract_deadline": "TBD",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "NSDI",
+      "description": "USENIX Symposium on Networked Systems Design and Implementation",
+      "sub": "NW",
+      "sub_name": "计算机网络",
+      "sub_name_en": "Network System",
+      "ccf_rank": "A",
+      "core_rank": "N",
+      "thcpl_rank": "A",
+      "dblp": "nsdi",
+      "year": 2028,
+      "id": "nsdi28",
+      "link": "https://www.usenix.org/conferences/byname/178",
+      "date": "May 9-11, 2028",
+      "place": "Santa Clara, CA, USA",
+      "country": "USA",
+      "region": "Santa Clara, CA",
+      "timezone": "UTC-7",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
           "comment": ""
         }
       ]
