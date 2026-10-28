@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-27T06:02:32.987072+00:00",
+  "fetched_at": "2026-10-28T06:41:00.285246+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -59075,12 +59075,7 @@
         {
           "deadline": "2026-10-12 23:59:59",
           "abstract_deadline": null,
-          "comment": "ARR Submission"
-        },
-        {
-          "deadline": "2026-12-23 23:59:59",
-          "abstract_deadline": null,
-          "comment": "COLING commitment after ARR meta-reviews; reviewed papers only"
+          "comment": ""
         }
       ]
     },
@@ -60360,8 +60355,8 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
+          "deadline": "2027-01-25 23:59:59",
+          "abstract_deadline": "2027-01-18 23:59:59",
           "comment": ""
         }
       ]
@@ -60809,12 +60804,12 @@
         {
           "deadline": "2026-06-11 17:00:00",
           "abstract_deadline": null,
-          "comment": "first round"
+          "comment": "first round; notification date is approximate"
         },
         {
           "deadline": "2026-11-11 17:00:00",
           "abstract_deadline": null,
-          "comment": "second round"
+          "comment": "second round; notification date is approximate"
         }
       ]
     },
@@ -61468,6 +61463,32 @@
       ]
     },
     {
+      "title": "IJCB",
+      "description": "International Joint Conference on Biometrics",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "icb",
+      "year": 2027,
+      "id": "ijcb2027",
+      "link": "https://ijcb2027.ieee-biometrics.org/",
+      "date": "September 13-17, 2027",
+      "place": "Foz do Iguaçu, Brazil",
+      "country": "Brazil",
+      "region": "Foz do Iguaçu",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-04-10 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "IJCNN",
       "description": "International Joint Conference on Neural Networks",
       "sub": "AI",
@@ -61651,6 +61672,11 @@
           "deadline": "2026-11-16 23:59:59",
           "abstract_deadline": "2026-11-09 23:59:59",
           "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
+        },
+        {
+          "deadline": "2026-12-13 23:59:59",
+          "abstract_deadline": "2026-12-06 23:59:59",
+          "comment": "Industry Track; rebuttal period: February 15-26, 2027"
         }
       ]
     },
@@ -63750,6 +63776,11 @@
           "deadline": "2026-08-24 23:59:59",
           "abstract_deadline": "2026-08-17 23:59:59",
           "comment": "Full Paper"
+        },
+        {
+          "deadline": "2026-11-17 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Short Paper"
         }
       ]
     },
