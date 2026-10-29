@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-28T06:41:00.285246+00:00",
+  "fetched_at": "2026-10-29T06:48:16.593385+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -59177,9 +59177,9 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-10-31 23:59:59",
+          "deadline": "2026-11-30 23:59:59",
           "abstract_deadline": null,
-          "comment": ""
+          "comment": "Paper submission due (extended)"
         }
       ]
     },
@@ -59763,7 +59763,7 @@
       "timezone": "UTC-8",
       "timeline": [
         {
-          "deadline": "2026-11-18 23:59:59",
+          "deadline": "2026-11-19 03:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
