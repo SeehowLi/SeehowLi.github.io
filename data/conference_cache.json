@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T06:48:16.593385+00:00",
+  "fetched_at": "2026-10-30T06:51:32.641766+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -59924,7 +59924,7 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-11-01 23:59:59",
+          "deadline": "2026-11-16 23:59:59",
           "abstract_deadline": null,
           "comment": "Full papers"
         }
@@ -60059,7 +60059,7 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-11-01 23:59:59",
+          "deadline": "2026-11-16 23:59:59",
           "abstract_deadline": null,
           "comment": "Full papers"
         }
@@ -60085,7 +60085,7 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-11-01 23:59:59",
+          "deadline": "2026-11-16 23:59:59",
           "abstract_deadline": null,
           "comment": "Full papers"
         }
@@ -60111,7 +60111,7 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-11-01 23:59:59",
+          "deadline": "2026-11-16 23:59:59",
           "abstract_deadline": null,
           "comment": "Full papers"
         }
@@ -62792,7 +62792,7 @@
         {
           "deadline": "2026-11-05 23:59:59",
           "abstract_deadline": null,
-          "comment": "Submission Deadline (Firm)"
+          "comment": "Submission Deadline (Firm); Author notification date is tentative."
         }
       ]
     },
@@ -62904,7 +62904,7 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-10-01 23:59:59",
+          "deadline": "2026-11-01 23:59:59",
           "abstract_deadline": null,
           "comment": "Round 1"
         },
