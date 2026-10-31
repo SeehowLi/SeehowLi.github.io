@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-30T06:51:32.641766+00:00",
+  "fetched_at": "2026-10-31T06:43:50.740113+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -59154,6 +59154,32 @@
           "deadline": "2026-11-25 23:59:59",
           "abstract_deadline": "2026-11-13 23:59:59",
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "CSCW",
+      "description": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
+      "sub": "HI",
+      "sub_name": "人机交互与普适计算",
+      "sub_name_en": "Computer-Human Interaction",
+      "ccf_rank": "A",
+      "core_rank": "A",
+      "thcpl_rank": "A",
+      "dblp": "cscw",
+      "year": 2027,
+      "id": "cscw27",
+      "link": "https://cscw.acm.org/2027/",
+      "date": "October 16-20, 2027",
+      "place": "Philadelphia, USA",
+      "country": "USA",
+      "region": "Philadelphia",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "There is no secret deadline! If your paper is accepted before the program is set, you'll be invited to present at CSCW 2027."
         }
       ]
     },
