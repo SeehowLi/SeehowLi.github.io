@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-01T07:11:41.027089+00:00",
+  "fetched_at": "2026-11-02T07:23:24.859117+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -55413,7 +55413,7 @@
         {
           "deadline": "2026-06-20 23:59:59",
           "abstract_deadline": null,
-          "comment": ""
+          "comment": "Notification expected to be unchanged"
         }
       ]
     },
@@ -55572,8 +55572,8 @@
       "timezone": "UTC+0",
       "timeline": [
         {
-          "deadline": "2026-05-07 11:59:00",
-          "abstract_deadline": "2026-05-05 11:59:00",
+          "deadline": "2026-05-07 11:59:59",
+          "abstract_deadline": "2026-05-05 11:59:59",
           "comment": ""
         }
       ]
@@ -58876,7 +58876,7 @@
       "timezone": "UTC",
       "timeline": [
         {
-          "deadline": "2027-04-20 23:59:59",
+          "deadline": "2027-04-21 11:59:59",
           "abstract_deadline": null,
           "comment": "Regular conference papers (LNCS proceedings track)"
         }
@@ -61456,7 +61456,7 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-10-10 23:59:59",
+          "deadline": "2026-10-25 23:59:59",
           "abstract_deadline": null,
           "comment": "Submission Deadline"
         }
@@ -61482,8 +61482,8 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2027-01-11 23:59:00",
-          "abstract_deadline": "2027-01-04 23:59:00",
+          "deadline": "2027-01-11 23:59:59",
+          "abstract_deadline": "2027-01-04 23:59:59",
           "comment": "Separate satellite event: August 15-17, 2027, Hengqin, China"
         }
       ]
@@ -61662,7 +61662,7 @@
       "year": 2027,
       "id": "iros27",
       "link": "https://2027.ieee-iros.org/",
-      "date": "September 26 - October 1, 2027",
+      "date": "September 27 - October 1, 2027",
       "place": "Florence, Italy",
       "country": "Italy",
       "region": "Florence",
@@ -62012,7 +62012,7 @@
       "timezone": "UTC",
       "timeline": [
         {
-          "deadline": "2026-10-30 20:00:00",
+          "deadline": "2026-10-30 21:00:00",
           "abstract_deadline": null,
           "comment": ""
         }
@@ -62258,12 +62258,12 @@
         {
           "deadline": "2026-05-06 23:59:59",
           "abstract_deadline": null,
-          "comment": "Summer"
+          "comment": "Summer; author rebuttal date tentative; decision is final major-revision notification"
         },
         {
           "deadline": "2026-08-19 23:59:59",
           "abstract_deadline": null,
-          "comment": "Fall"
+          "comment": "Fall; decision is final major-revision notification"
         }
       ]
     },
@@ -62899,7 +62899,7 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-10-30 23:59:59",
+          "deadline": "2026-11-04 23:59:59",
           "abstract_deadline": null,
           "comment": "First Cycle"
         },
