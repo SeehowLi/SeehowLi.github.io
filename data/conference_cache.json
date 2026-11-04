@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-03T07:39:58.098344+00:00",
+  "fetched_at": "2026-11-04T07:18:43.174962+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -48434,7 +48434,7 @@
       "timeline": [
         {
           "deadline": "2026-04-01 23:59:59",
-          "abstract_deadline": "2026-03-25 23:59:59",
+          "abstract_deadline": "2026-03-25 23:59:00",
           "comment": ""
         }
       ]
@@ -60781,8 +60781,8 @@
           "comment": "Journal track; initial decision Jan 15, revised submission Apr 1"
         },
         {
-          "deadline": "2027-02-20 23:59:59",
-          "abstract_deadline": "2027-01-31 23:59:59",
+          "deadline": "2027-03-02 23:59:59",
+          "abstract_deadline": "2027-02-23 23:59:59",
           "comment": "Conference track"
         }
       ]
@@ -61939,9 +61939,9 @@
       "timezone": "UTC+0",
       "timeline": [
         {
-          "deadline": "2027-02-09 23:59:59",
+          "deadline": "2027-02-10 11:59:59",
           "abstract_deadline": null,
-          "comment": ""
+          "comment": "Regular papers; rebuttal April 13-20. Date-only milestones use AoE end-of-day convention, converted to UTC."
         }
       ]
     },
@@ -63063,16 +63063,16 @@
       "year": 2027,
       "id": "sec27",
       "link": "https://ifipsec.org/",
-      "date": "TBD",
-      "place": "Linköping, Sweden",
+      "date": "June 14-16, 2027",
+      "place": "Linköping University, Linköping, Sweden",
       "country": "Sweden",
-      "region": "Linköping",
+      "region": "Linköping University, Linköping",
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
+          "deadline": "2026-12-15 23:59:59",
           "abstract_deadline": null,
-          "comment": ""
+          "comment": "Full papers"
         }
       ]
     },
