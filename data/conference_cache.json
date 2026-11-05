@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-04T07:18:43.174962+00:00",
+  "fetched_at": "2026-11-05T07:45:13.410890+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -55573,7 +55573,7 @@
       "timeline": [
         {
           "deadline": "2026-05-07 11:59:59",
-          "abstract_deadline": "2026-05-05 11:59:59",
+          "abstract_deadline": "2026-05-05 11:59:00",
           "comment": ""
         }
       ]
@@ -57254,7 +57254,7 @@
       "timeline": [
         {
           "deadline": "2026-07-01 23:59:59",
-          "abstract_deadline": "2026-06-24 23:59:59",
+          "abstract_deadline": "2026-06-24 23:59:00",
           "comment": "Abstract registration / full paper"
         }
       ]
@@ -58458,7 +58458,7 @@
       "dblp": "siggrapha",
       "year": 2027,
       "id": "siggrapha27",
-      "link": "https://asia.siggraph.org/2027/",
+      "link": "https://asia.siggraph.org/2026/about-the-event/siggraph-asia-2027/",
       "date": "November 30 - December 3, 2027",
       "place": "Tokyo International Forum, Tokyo, Japan",
       "country": "Japan",
@@ -59296,7 +59296,7 @@
           "comment": "Round 1"
         },
         {
-          "deadline": "2026-11-01 23:59:59",
+          "deadline": "2026-11-15 23:59:59",
           "abstract_deadline": null,
           "comment": "Round 2"
         }
@@ -60543,8 +60543,8 @@
       "timeline": [
         {
           "deadline": "2026-11-05 23:59:59",
-          "abstract_deadline": "2026-10-29 23:59:59",
-          "comment": ""
+          "abstract_deadline": "2026-11-05 23:59:59",
+          "comment": "Regular papers; papers submitted by the deadline may be updated until November 6, 2026 23:59:59 AoE"
         }
       ]
     },
@@ -63326,7 +63326,7 @@
       "place": "Singapore",
       "country": "Singapore",
       "region": "Singapore",
-      "timezone": "UTC",
+      "timezone": "AoE",
       "timeline": [
         {
           "deadline": "2027-03-08 23:59:59",
