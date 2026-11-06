@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-05T07:45:13.410890+00:00",
+  "fetched_at": "2026-11-06T07:44:39.925931+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -58556,6 +58556,37 @@
       ]
     },
     {
+      "title": "APWeb-WAIM",
+      "description": "APWeb-WAIM joint international conference on Web and Big Data",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "C",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "APWeb",
+      "year": 2027,
+      "id": "apweb27",
+      "link": "https://conferences.sigappfr.org/apweb2027/",
+      "date": "August 29-31, 2027",
+      "place": "Guiyang, China / Online",
+      "country": "China / Online",
+      "region": "Guiyang",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-03-07 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        },
+        {
+          "deadline": "2027-05-14 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "ASP-DAC",
       "description": "Asia and South Pacific Design Automation Conference",
       "sub": "DS",
@@ -58739,7 +58770,7 @@
       "year": 2027,
       "id": "cav27",
       "link": "https://conferences.i-cav.org/2027/",
-      "date": "July 19-23, 2027",
+      "date": "July 21-23, 2027",
       "place": "KIT, Amsterdam, The Netherlands",
       "country": "The Netherlands",
       "region": "KIT, Amsterdam",
@@ -59132,6 +59163,32 @@
       ]
     },
     {
+      "title": "CONCUR",
+      "description": "International Conference on Concurrency Theory",
+      "sub": "CT",
+      "sub_name": "计算机科学理论",
+      "sub_name_en": "Computing Theory",
+      "ccf_rank": "B",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "concur",
+      "year": 2027,
+      "id": "concur27",
+      "link": "https://www.cs.vu.nl/~wanf/profactivities.html",
+      "date": "September 6-10, 2027",
+      "place": "Lucca, Italy",
+      "country": "Italy",
+      "region": "Lucca",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Part of CONQEST 2027"
+        }
+      ]
+    },
+    {
       "title": "CPAL",
       "description": "The Conference on Parsimony and Learning",
       "sub": "AI",
@@ -59382,6 +59439,32 @@
           "deadline": "2027-06-04 23:59:59",
           "abstract_deadline": "2027-05-28 23:59:59",
           "comment": "June Cycle"
+        }
+      ]
+    },
+    {
+      "title": "CogSci",
+      "description": "Annual Meeting of the Cognitive Science Society",
+      "sub": "MX",
+      "sub_name": "交叉/综合/新兴",
+      "sub_name_en": "Interdiscipline/Mixture/Emerging",
+      "ccf_rank": "B",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "cogsci",
+      "year": 2027,
+      "id": "cogsci27",
+      "link": "https://cognitivesciencesociety.org/cogsci-2027/",
+      "date": "July 28-31, 2027",
+      "place": "Euskalduna Bilbao Convention Centre, Bilbao, Spain",
+      "country": "Spain",
+      "region": "Euskalduna Bilbao Convention Centre, Bilbao",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": ""
         }
       ]
     },
@@ -59764,6 +59847,32 @@
         },
         {
           "deadline": "2026-10-07 12:00:00",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "EGSR",
+      "description": "Eurographics Symposium on Rendering",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "B",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "rt",
+      "year": 2027,
+      "id": "egsr2027",
+      "link": "https://www.egsr2027.usi.ch/",
+      "date": "July 5-7, 2027",
+      "place": "Università della Svizzera italiana, Lugano, Switzerland",
+      "country": "Switzerland",
+      "region": "Università della Svizzera italiana, Lugano",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
           "abstract_deadline": null,
           "comment": ""
         }
@@ -61894,6 +62003,32 @@
       ]
     },
     {
+      "title": "ISWC",
+      "description": "International Semantic Web Conference",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "semweb",
+      "year": 2027,
+      "id": "iswc27",
+      "link": "https://iswc2027.semanticweb.org/",
+      "date": "October 24-28, 2027",
+      "place": "Montevideo, Uruguay",
+      "country": "Uruguay",
+      "region": "Montevideo",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "IUI",
       "description": "ACM Conference on Intelligent User Interfaces",
       "sub": "HI",
@@ -61992,6 +62127,32 @@
       "timeline": [
         {
           "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "MDM",
+      "description": "IEEE International Conference on Mobile Data Management",
+      "sub": "DB",
+      "sub_name": "数据库/数据挖掘/内容检索",
+      "sub_name_en": "Database/Data Mining/Information Retrieval",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "mdm",
+      "year": 2027,
+      "id": "mdm27",
+      "link": "https://mdm2027.github.io/index.html",
+      "date": "June 28 - July 1, 2027",
+      "place": "Hamilton, New Zealand",
+      "country": "New Zealand",
+      "region": "Hamilton",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-01-25 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
@@ -63888,6 +64049,32 @@
       "timeline": [
         {
           "deadline": "2026-12-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "FAST",
+      "description": "USENIX Conference on File and Storage Technologies",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "A",
+      "core_rank": "A",
+      "thcpl_rank": "A",
+      "dblp": "fast",
+      "year": 2028,
+      "id": "fast28",
+      "link": "https://www.usenix.org/conference/fast28",
+      "date": "February 28-March 1, 2028",
+      "place": "Seattle, WA, USA",
+      "country": "USA",
+      "region": "Seattle, WA",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
           "abstract_deadline": null,
           "comment": ""
         }
