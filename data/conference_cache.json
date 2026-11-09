@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-08T06:58:03.680776+00:00",
+  "fetched_at": "2026-11-09T07:42:33.871462+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -12740,7 +12740,7 @@
       "dblp": "fccm",
       "year": 2022,
       "id": "fccm22",
-      "link": "https://www.fccm.org/",
+      "link": "https://www.fccm.org/past/2022/",
       "date": "May 16-17, 2022",
       "place": "New York City, USA",
       "country": "USA",
@@ -31832,7 +31832,7 @@
       "dblp": "fccm",
       "year": 2024,
       "id": "fccm24",
-      "link": "https://www.fccm.org/",
+      "link": "https://www.fccm.org/past/2024/",
       "date": "May 5-7, 2024",
       "place": "Orlando, USA",
       "country": "USA",
@@ -41688,7 +41688,7 @@
       "dblp": "fccm",
       "year": 2025,
       "id": "fccm25",
-      "link": "https://www.fccm.org/",
+      "link": "https://www.fccm.org/past/2025/",
       "date": "May 4-6, 2025",
       "place": "Fayetteville, Arkansas, USA",
       "country": "USA",
@@ -53867,7 +53867,7 @@
       "year": 2026,
       "id": "ijcnlp2026",
       "link": "https://2026.aaclnet.org/",
-      "date": "Nov 6-10, 2026",
+      "date": "Nov 6-8, 2026",
       "place": "Hengqin, Zhuhai, China (Hybrid)",
       "country": "China (Hybrid)",
       "region": "Hengqin, Zhuhai",
@@ -58758,6 +58758,32 @@
       ]
     },
     {
+      "title": "CASA",
+      "description": "International Conference on Computer Animation and Social Agents",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "ca",
+      "year": 2027,
+      "id": "casa2027",
+      "link": "https://www.cgs-network.org/casaxr27/",
+      "date": "June 4-6, 2027",
+      "place": "Xi'an, China",
+      "country": "China",
+      "region": "Xi'an",
+      "timezone": "UTC+0",
+      "timeline": [
+        {
+          "deadline": "2027-02-04 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "CAV",
       "description": "International Conference on Computer-Aided Verification",
       "sub": "CT",
@@ -59532,7 +59558,7 @@
       "dblp": "date",
       "year": 2027,
       "id": "date2027",
-      "link": "https://www.date-conference.com/date-2027-call-papers",
+      "link": "https://www.date-conference.com/call-for-papers",
       "date": "March 22-24, 2027",
       "place": "Dresden, Germany",
       "country": "Germany",
@@ -59540,8 +59566,8 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-09-20 23:59:59",
-          "abstract_deadline": "2026-09-13 23:59:59",
+          "deadline": "2026-09-20 23:59:00",
+          "abstract_deadline": "2026-09-13 23:59:00",
           "comment": ""
         }
       ]
@@ -60310,6 +60336,32 @@
       ]
     },
     {
+      "title": "FCCM",
+      "description": "IEEE Symposium on Field-Programmable Custom Computing Machines",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "fccm",
+      "year": 2027,
+      "id": "fccm27",
+      "link": "https://www.fccm.org/",
+      "date": "May 10-11, 2027",
+      "place": "Provo, Utah, USA",
+      "country": "USA",
+      "region": "Provo, Utah",
+      "timezone": "UTC-12",
+      "timeline": [
+        {
+          "deadline": "2027-01-17 23:59:59",
+          "abstract_deadline": "2027-01-10 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "FG",
       "description": "International Conference on Automatic Face and Gesture Recognition",
       "sub": "AI",
@@ -60407,8 +60459,8 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
+          "deadline": "2027-04-26 23:59:59",
+          "abstract_deadline": "2027-04-19 23:59:59",
           "comment": ""
         }
       ]
@@ -60852,7 +60904,7 @@
       "year": 2027,
       "id": "iccv27",
       "link": "https://iccv.thecvf.com/Conferences/2027",
-      "date": "October 2-8, 2027",
+      "date": "October 5-7, 2027",
       "place": "Hong Kong, China",
       "country": "China",
       "region": "Hong Kong",
@@ -61179,7 +61231,7 @@
       "year": 2027,
       "id": "icml27",
       "link": "https://icml.cc/Conferences/2027",
-      "date": "July 31 - August 6, 2027",
+      "date": "August 2-4, 2027",
       "place": "Riocentro, Rio de Janeiro, Brazil",
       "country": "Brazil",
       "region": "Riocentro, Rio de Janeiro",
@@ -61189,6 +61241,32 @@
           "deadline": "TBD",
           "abstract_deadline": null,
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "ICMLA",
+      "description": "International Conference on Machine Learning and Applications",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "N",
+      "core_rank": "C",
+      "thcpl_rank": "N",
+      "dblp": "icmla",
+      "year": 2027,
+      "id": "icmla27",
+      "link": "https://www.icmla-conference.org/icmla27/",
+      "date": "December 14-16, 2027",
+      "place": "University of Miami, Coral Gables Campus, Miami, Florida, USA",
+      "country": "USA",
+      "region": "University of Miami, Coral Gables Campus, Miami, Florida",
+      "timezone": "PT",
+      "timeline": [
+        {
+          "deadline": "2027-05-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Main Conference Papers DDL."
         }
       ]
     },
@@ -63901,7 +63979,7 @@
       "year": 2027,
       "id": "wacv27",
       "link": "https://wacv.thecvf.com/",
-      "date": "Jan 4 - 8, 2027",
+      "date": "Jan 6 - 8, 2027",
       "place": "Disney Springs, Buena Vista, FL, USA",
       "country": "USA",
       "region": "Disney Springs, Buena Vista, FL",
