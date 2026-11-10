@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-09T07:42:33.871462+00:00",
+  "fetched_at": "2026-11-10T08:03:13.603423+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -58694,7 +58694,7 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2027-01-11 23:59:59",
+          "deadline": "2027-01-10 23:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
@@ -61179,7 +61179,7 @@
       "year": 2027,
       "id": "iclr27",
       "link": "https://iclr.cc/Conferences/2027",
-      "date": "April 26-30, 2027",
+      "date": "April 26-28, 2027",
       "place": "San Francisco, CA, USA",
       "country": "USA",
       "region": "San Francisco, CA",
