@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-10T08:03:13.603423+00:00",
+  "fetched_at": "2026-11-11T07:33:01.569818+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -58359,7 +58359,12 @@
         {
           "deadline": "2026-10-08 23:59:59",
           "abstract_deadline": "2026-10-01 23:59:59",
-          "comment": ""
+          "comment": "Main track"
+        },
+        {
+          "deadline": "2026-12-11 23:59:59",
+          "abstract_deadline": null,
+          "comment": "AAAI fast track; eligible AAAI-27 Main Technical Track resubmissions only"
         }
       ]
     },
@@ -58407,7 +58412,7 @@
       "year": 2027,
       "id": "acl27",
       "link": "https://2027.aclweb.org/",
-      "date": "August 17-22, 2027",
+      "date": "August 20-22, 2027",
       "place": "Kyoto, Japan",
       "country": "Japan",
       "region": "Kyoto",
@@ -59424,7 +59429,7 @@
       "year": 2027,
       "id": "cvpr27",
       "link": "https://cvpr.thecvf.com/Conferences/2027",
-      "date": "June 20-25, 2027",
+      "date": "June 22-25, 2027",
       "place": "Seattle, WA, United States",
       "country": "United States",
       "region": "Seattle, WA",
@@ -60374,15 +60379,15 @@
       "year": 2027,
       "id": "fg27",
       "link": "https://fg2027.ieee-biometrics.org/",
-      "date": "April 26-30, 2027",
+      "date": "April 27-29, 2027",
       "place": "Marrakesh, Morocco",
       "country": "Morocco",
       "region": "Marrakesh",
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-10-16 23:59:59",
-          "abstract_deadline": "2026-10-09 23:59:59",
+          "deadline": "2026-10-30 23:59:59",
+          "abstract_deadline": "2026-10-23 23:59:59",
           "comment": ""
         }
       ]
