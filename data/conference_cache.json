@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-11T07:33:01.569818+00:00",
+  "fetched_at": "2026-11-12T08:00:02.195372+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -59239,8 +59239,8 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2026-11-25 23:59:59",
-          "abstract_deadline": "2026-11-13 23:59:59",
+          "deadline": "2026-12-05 23:59:59",
+          "abstract_deadline": null,
           "comment": ""
         }
       ]
@@ -61391,8 +61391,8 @@
       "dblp": "ics",
       "year": 2027,
       "id": "ics27",
-      "link": "https://ics-conference.org/index.html",
-      "date": "TBD",
+      "link": "https://klab-ai3.github.io/ics2027/",
+      "date": "June 5-11, 2027",
       "place": "Atlanta, Georgia, USA",
       "country": "USA",
       "region": "Atlanta, Georgia",
