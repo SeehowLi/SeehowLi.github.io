@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-12T08:00:02.195372+00:00",
+  "fetched_at": "2026-11-13T07:39:24.125451+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -59929,7 +59929,7 @@
       "timezone": "UTC-8",
       "timeline": [
         {
-          "deadline": "2026-11-19 03:59:59",
+          "deadline": "2026-11-26 03:59:59",
           "abstract_deadline": null,
           "comment": ""
         }
@@ -62134,6 +62134,37 @@
           "deadline": "2026-08-20 23:59:59",
           "abstract_deadline": "2026-08-13 23:59:59",
           "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "IntelliSys",
+      "description": "Intelligent Systems Conference",
+      "sub": "AI",
+      "sub_name": "人工智能",
+      "sub_name_en": "Artificial Intelligence",
+      "ccf_rank": "N",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "intellisys",
+      "year": 2027,
+      "id": "intellisys27",
+      "link": "https://saiconference.com/IntelliSys",
+      "date": "September 2-3, 2027",
+      "place": "Amsterdam, Netherlands",
+      "country": "Netherlands",
+      "region": "Amsterdam",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-11-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Round 1"
+        },
+        {
+          "deadline": "2026-12-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Round 2"
         }
       ]
     },
