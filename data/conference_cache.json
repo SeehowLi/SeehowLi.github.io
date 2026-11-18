@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-17T08:52:56.306357+00:00",
+  "fetched_at": "2026-11-18T08:16:35.705148+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -58426,6 +58426,32 @@
       ]
     },
     {
+      "title": "ACM MM",
+      "description": "ACM International Conference on Multimedia",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "A",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "mm",
+      "year": 2027,
+      "id": "mm27",
+      "link": "https://2027.acmmm.org/",
+      "date": "November 8-12, 2027",
+      "place": "Hong Kong SAR, China",
+      "country": "China",
+      "region": "Hong Kong SAR",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "ACM SIGGRAPH",
       "description": "ACM SIGGRAPH Annual Conference",
       "sub": "CG",
@@ -63638,6 +63664,32 @@
           "deadline": "2026-10-17 23:59:59",
           "abstract_deadline": "2026-10-10 23:59:59",
           "comment": "round 4"
+        }
+      ]
+    },
+    {
+      "title": "SIGOPS ATC",
+      "description": "ACM SIGOPS Annual Technical Conference",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "A",
+      "core_rank": "A",
+      "thcpl_rank": "A",
+      "dblp": "usenix",
+      "year": 2027,
+      "id": "atc2027",
+      "link": "https://atc.sigops.org/2027/",
+      "date": "June 28-July 1, 2027",
+      "place": "Rennes, France",
+      "country": "France",
+      "region": "Rennes",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-01-19 23:59:59",
+          "abstract_deadline": null,
+          "comment": ""
         }
       ]
     },
