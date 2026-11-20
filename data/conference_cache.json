@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-19T08:28:19.560046+00:00",
+  "fetched_at": "2026-11-20T08:10:01.568400+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -59023,6 +59023,32 @@
       ]
     },
     {
+      "title": "CF",
+      "description": "ACM International Conference on Computing Frontiers",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "C",
+      "core_rank": "N",
+      "thcpl_rank": "N",
+      "dblp": "cf",
+      "year": 2027,
+      "id": "cf2027",
+      "link": "https://www.computingfrontiers.org/2027/",
+      "date": "May 25-27, 2027",
+      "place": "Trento, Italy",
+      "country": "Italy",
+      "region": "Trento",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-01-25 23:59:59",
+          "abstract_deadline": "2027-01-18 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "CGI",
       "description": "Computer Graphics International",
       "sub": "CG",
@@ -59983,6 +60009,32 @@
       ]
     },
     {
+      "title": "ECSCW",
+      "description": "European Conference on Computer Supported Cooperative Work",
+      "sub": "HI",
+      "sub_name": "人机交互与普适计算",
+      "sub_name_en": "Computer-Human Interaction",
+      "ccf_rank": "B",
+      "core_rank": "B",
+      "thcpl_rank": "N",
+      "dblp": "ecscw",
+      "year": 2027,
+      "id": "ecscw27",
+      "link": "https://ecscw.eusset.eu/2027/",
+      "date": "July 5-9, 2027",
+      "place": "Limassol, Cyprus",
+      "country": "Cyprus",
+      "region": "Limassol",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "EDBT",
       "description": "International Conference on Extending Database Technology",
       "sub": "DB",
@@ -60824,6 +60876,32 @@
       ]
     },
     {
+      "title": "HPDC",
+      "description": "ACM Symposium on High-Performance Parallel and Distributed Computing",
+      "sub": "DS",
+      "sub_name": "计算机体系结构/并行与分布计算/存储系统",
+      "sub_name_en": "Computer Architecture/Parallel Programming/Storage Technology",
+      "ccf_rank": "A",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "hpdc",
+      "year": 2027,
+      "id": "hpdc2027",
+      "link": "https://hpdc.sci.utah.edu/2027/",
+      "date": "June 7-9, 2027",
+      "place": "Atlanta, GA, USA",
+      "country": "USA",
+      "region": "Atlanta, GA",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-01-18 23:59:59",
+          "abstract_deadline": "2027-01-11 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "HSCC",
       "description": "International Conference on Hybrid Systems: Computation and Control",
       "sub": "CT",
@@ -61638,8 +61716,8 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2027-03-05 23:59:59",
-          "abstract_deadline": null,
+          "deadline": "2027-02-26 23:59:59",
+          "abstract_deadline": "2027-02-19 23:59:59",
           "comment": "Research Papers Track"
         }
       ]
@@ -62169,6 +62247,32 @@
       ]
     },
     {
+      "title": "ISMAR",
+      "description": "International Symposium on Mixed and Augmented Reality",
+      "sub": "CG",
+      "sub_name": "计算机图形学与多媒体",
+      "sub_name_en": "Graphics",
+      "ccf_rank": "B",
+      "core_rank": "A*",
+      "thcpl_rank": "B",
+      "dblp": "ismar",
+      "year": 2027,
+      "id": "ismar2027",
+      "link": "https://www.ieeeismar.net/2027/",
+      "date": "TBD",
+      "place": "Kobe, Japan",
+      "country": "Japan",
+      "region": "Kobe",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "ISMB",
       "description": "International Conference on Intelligent Systems for Molecular Biology",
       "sub": "MX",
@@ -62191,6 +62295,32 @@
           "deadline": "2027-01-14 23:59:00",
           "abstract_deadline": null,
           "comment": "Proceedings; conditional acceptance: March 2, 2027; revised papers due: March 18, 2027, 23:59 AoE; no extensions to submission or revision deadlines"
+        }
+      ]
+    },
+    {
+      "title": "ISPASS",
+      "description": "International Symposium on Performance Analysis of Systems and Software",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "ispass",
+      "year": 2027,
+      "id": "ispass27",
+      "link": "https://ispass.org/2027/",
+      "date": "May 9-11, 2027",
+      "place": "New York City, USA",
+      "country": "USA",
+      "region": "New York City",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2026-12-18 23:59:59",
+          "abstract_deadline": "2026-12-11 23:59:59",
+          "comment": ""
         }
       ]
     },
@@ -62427,8 +62557,8 @@
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
+          "deadline": "2027-01-21 23:59:59",
+          "abstract_deadline": "2027-01-14 23:59:59",
           "comment": ""
         }
       ]
@@ -62870,6 +63000,32 @@
         {
           "deadline": "2026-09-17 23:59:59",
           "abstract_deadline": "2026-09-10 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "title": "Networking",
+      "description": "IFIP International Conference on Networking",
+      "sub": "NW",
+      "sub_name": "计算机网络",
+      "sub_name_en": "Network System",
+      "ccf_rank": "C",
+      "core_rank": "B",
+      "thcpl_rank": "B",
+      "dblp": "networking",
+      "year": 2027,
+      "id": "networking27",
+      "link": "https://networking.ifip.org/2027/",
+      "date": "June 13-16, 2027",
+      "place": "Dublin, Ireland",
+      "country": "Ireland",
+      "region": "Dublin",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-01-22 23:59:59",
+          "abstract_deadline": "2027-01-15 23:59:59",
           "comment": ""
         }
       ]
@@ -63686,7 +63842,7 @@
       "year": 2027,
       "id": "sigir27",
       "link": "https://sigir2027.org/",
-      "date": "July 18-24, 2027",
+      "date": "July 20-22, 2027",
       "place": "San Jose, California, USA",
       "country": "USA",
       "region": "San Jose, California",
@@ -64074,6 +64230,32 @@
           "deadline": "2026-11-05 23:59:59",
           "abstract_deadline": "2026-10-29 23:59:59",
           "comment": "2nd deadline"
+        }
+      ]
+    },
+    {
+      "title": "UIST",
+      "description": "ACM Symposium on User Interface Software and Technology",
+      "sub": "HI",
+      "sub_name": "人机交互与普适计算",
+      "sub_name_en": "Computer-Human Interaction",
+      "ccf_rank": "A",
+      "core_rank": "A*",
+      "thcpl_rank": "A",
+      "dblp": "uist",
+      "year": 2027,
+      "id": "uist2027",
+      "link": "https://uist.acm.org/2027/",
+      "date": "October 27-29, 2027",
+      "place": "VIECON - Vienna Congress & Convention Center, Vienna, Austria",
+      "country": "Austria",
+      "region": "VIECON - Vienna Congress & Convention Center, Vienna",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-04-07 23:59:59",
+          "abstract_deadline": "2027-03-31 23:59:59",
+          "comment": ""
         }
       ]
     },
