@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-20T08:10:01.568400+00:00",
+  "fetched_at": "2026-11-21T08:03:37.717494+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -58709,9 +58709,9 @@
       "id": "asplos27",
       "link": "https://www.asplos-conference.org/asplos2027/cfp/",
       "date": "April 11-15, 2027",
-      "place": "Crete, Greece",
+      "place": "Heraklion, Crete, Greece",
       "country": "Greece",
-      "region": "Crete",
+      "region": "Heraklion, Crete",
       "timezone": "AoE",
       "timeline": [
         {
@@ -59912,7 +59912,7 @@
       "year": 2027,
       "id": "ecai27",
       "link": "https://ecai2027.org/",
-      "date": "October 2-7, 2027",
+      "date": "October 4-7, 2027",
       "place": "Athens, Greece",
       "country": "Greece",
       "region": "Athens",
@@ -59964,7 +59964,7 @@
       "year": 2027,
       "id": "ecmlpkdd2027",
       "link": "https://ecmlpkdd.org/2027/",
-      "date": "September 20-24, 2027",
+      "date": "August 30 - September 3, 2027",
       "place": "Eindhoven, The Netherlands",
       "country": "The Netherlands",
       "region": "Eindhoven",
@@ -61044,7 +61044,7 @@
       "year": 2027,
       "id": "icaps27",
       "link": "https://icaps27.icaps-conference.org/",
-      "date": "June 27 - July 2, 2027",
+      "date": "June 30 - July 2, 2027",
       "place": "Columbia, SC, USA",
       "country": "USA",
       "region": "Columbia, SC",
@@ -62782,6 +62782,32 @@
       ]
     },
     {
+      "title": "MoDELS",
+      "description": "International Conference on Model Driven Engineering Languages and Systems",
+      "sub": "SE",
+      "sub_name": "软件工程/系统软件/程序设计语言",
+      "sub_name_en": "Software Engineering/Operating System/Programming Language Design",
+      "ccf_rank": "B",
+      "core_rank": "A",
+      "thcpl_rank": "B",
+      "dblp": "models",
+      "year": 2027,
+      "id": "models27",
+      "link": "https://conf.researchr.org/home/models-2027",
+      "date": "TBD",
+      "place": "Budapest, Hungary",
+      "country": "Hungary",
+      "region": "Budapest",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "deadline": "2027-03-19 23:59:59",
+          "abstract_deadline": "2027-03-12 23:59:59",
+          "comment": ""
+        }
+      ]
+    },
+    {
       "title": "MobiCom",
       "description": "ACM Annual International Conference On Mobile Computing And Networking",
       "sub": "NW",
@@ -63894,7 +63920,7 @@
       "year": 2027,
       "id": "sigmetrics27",
       "link": "https://www.sigmetrics.org/sigmetrics2027/",
-      "date": "June 7-11, 2027",
+      "date": "June 7-10, 2027",
       "place": "Atlanta, Georgia, USA",
       "country": "USA",
       "region": "Atlanta, Georgia",
@@ -64498,15 +64524,15 @@
       "year": 2027,
       "id": "whc27",
       "link": "https://2027.worldhaptics.org/",
-      "date": "July 12-15, 2027",
+      "date": "July 13-16, 2027",
       "place": "Boston, Massachusetts, USA",
       "country": "USA",
       "region": "Boston, Massachusetts",
       "timezone": "AoE",
       "timeline": [
         {
-          "deadline": "2027-01-29 23:59:59",
-          "abstract_deadline": null,
+          "deadline": "2027-02-05 23:59:59",
+          "abstract_deadline": "2027-01-29 23:59:59",
           "comment": ""
         }
       ]
@@ -64524,7 +64550,7 @@
       "year": 2027,
       "id": "wsdm27",
       "link": "https://wsdm-conference.org/2027/",
-      "date": "February 15 - 19, 2027",
+      "date": "February 16 - 18, 2027",
       "place": "Cordis, Hong Kong SAR, China",
       "country": "China",
       "region": "Cordis, Hong Kong SAR",
