@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T08:03:37.717494+00:00",
+  "fetched_at": "2026-11-22T07:50:05.408431+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -55625,7 +55625,7 @@
       "timeline": [
         {
           "deadline": "2026-05-07 11:59:59",
-          "abstract_deadline": "2026-05-05 11:59:00",
+          "abstract_deadline": "2026-05-05 11:59:59",
           "comment": ""
         }
       ]
@@ -58939,8 +58939,8 @@
       "timeline": [
         {
           "deadline": "2026-12-03 23:59:59",
-          "abstract_deadline": "2026-12-01 23:59:59",
-          "comment": ""
+          "abstract_deadline": null,
+          "comment": "Optional abstract registration: December 1, 2026 (AoE)"
         }
       ]
     },
@@ -59418,7 +59418,7 @@
       "dblp": "cscwd",
       "year": 2027,
       "id": "cscwd27",
-      "link": "http://2027.cscwd.org",
+      "link": "https://cscwd2027.dailyeliteevents.com.au/",
       "date": "May 26-28, 2027",
       "place": "Brisbane, Australia",
       "country": "Australia",
