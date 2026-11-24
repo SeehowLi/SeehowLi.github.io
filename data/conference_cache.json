@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-23T08:39:31.952048+00:00",
+  "fetched_at": "2026-11-24T10:43:02.262046+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "categories": {
     "DS": {
@@ -59519,7 +59519,7 @@
           "comment": "Round 1"
         },
         {
-          "deadline": "2026-11-15 23:59:59",
+          "deadline": "2026-12-01 23:59:59",
           "abstract_deadline": null,
           "comment": "Round 2"
         }
@@ -59564,7 +59564,7 @@
       "year": 2027,
       "id": "cvpr27",
       "link": "https://cvpr.thecvf.com/Conferences/2027",
-      "date": "June 22-25, 2027",
+      "date": "June 22-24, 2027",
       "place": "Seattle, WA, United States",
       "country": "United States",
       "region": "Seattle, WA",
